@@ -4,7 +4,7 @@
 
 void ConfigTMODE3Disable(FIFO *Fifo)
 {
-  BYTE ubx_cfg_tmode3[] = {
+  uint8_t ubx_cfg_tmode3[] = {
     0xB5, 0x62, 0x06, 0x71, 0x28, 0x00,
     0x00, 0x00,             // Version=0, Reserved1
     0x00, 0x00,             // 0=Disable
@@ -25,7 +25,7 @@ void ConfigTMODE3Disable(FIFO *Fifo)
 
 void ConfigTMODE3SurveyIn(FIFO *Fifo)
 {
-  BYTE ubx_cfg_tmode3[] = {
+  uint8_t ubx_cfg_tmode3[] = {
     0xB5,0x62,0x06,0x71,0x28,0x00,
     0x00,0x00,           // Version=0, Reserved1
     0x01,0x00,           // 1=Survey In
@@ -46,7 +46,7 @@ void ConfigTMODE3SurveyIn(FIFO *Fifo)
 
 void ConfigTMODE3LLA(FIFO *Fifo, double lat, double lon, double alt)
 {
-  BYTE ubx_cfg_tmode3[] = { // sourcer32@gmail.com
+  uint8_t ubx_cfg_tmode3[] = { // sourcer32@gmail.com
     0xB5, 0x62, 0x06, 0x71, 0x28, 0x00,
     0x00, 0x00,             // Version=0, Reserved1
     0x02, 0x01,             // 2=Fixed, 1=Lat/Lot/Alt
@@ -96,4 +96,3 @@ void ConfigTMODE3LLA(FIFO *Fifo, double lat, double lon, double alt)
 }
 
 //****************************************************************************
-
