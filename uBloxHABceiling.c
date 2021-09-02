@@ -2,9 +2,9 @@
 // https://portal.u-blox.com/s/question/0D52p00009AaEleCAF/-gps-setting-querying-settings-for-airborne-mode
 //****************************************************************************
 
-// If you happen into the lads from Uputronics or Bodnar Electronics tell them Clive say hello..
+// If you happen into the lads from Uputronics or Bodnar Electronics tell them Clive says Hello..
 
-// Setting AIRBOURNE 1G (DYNAMIC=6),  80 KM VERTICAL, 100 M/S HORIZONTAL DYNAMICS uBlox Series 7 and 8
+// Setting AIRBOURNE 1G (DYNAMIC=6), 80 KM VERTICAL, 100 M/S HORIZONTAL DYNAMICS uBlox Series 7 and 8
 
 uint8_t ubx_cfg_nav5[] = { // CFG-NAV5
 0xB5,0x62,0x06,0x24,0x24,0x00,
