@@ -1,4 +1,4 @@
-/* UBX-NAV-PVAT (01 17) and NAV2-PVAT (29 17)
+/* UBX-NAV-PVAT (01 17) and NAV2-PVAT (29 17) Position Velocity Attitude and Time
 +0 U4 iTow
 +4 U1 version
 +5 X1 valid
