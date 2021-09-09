@@ -1,0 +1,1364 @@
+
+00                      10010001 CFG-001-001                                         0      FALSE
+00                      10010101 CFG-001-101                                         0      FALSE
+00                      10040009 CFG-004-009                                         0      FALSE
+01                      10050007 CFG-TP-TP1_ENA                                      1       TRUE
+01                      10050008 CFG-TP-SYNC_GNSS_TP1                                1       TRUE
+01                      10050009 CFG-TP-USE_LOCKED_TP1                               1       TRUE
+01                      1005000A CFG-TP-ALIGN_TO_TOW_TP1                             1       TRUE
+01                      1005000B CFG-TP-POL_TP1                                      1       TRUE
+
+01                      10050033 CFG-TP-033_TP1                                      1       TRUE
+00                      10110012 CFG-NAVSPG-012                                      0      FALSE
+00                      10110013 CFG-NAVSPG-INIFIX3D                                 0      FALSE
+01                      10110014 CFG-NAVSPG-014                                      1       TRUE
+01                      10110015 CFG-NAVSPG-015                                      1       TRUE
+01                      10110016 CFG-NAVSPG-016                                      1       TRUE
+01                      10110018 CFG-NAVSPG-018                                      1       TRUE
+00                      1011001B CFG-NAVSPG-01B                                      0      FALSE
+
+01                      10110025 CFG-NAVSPG-ACKAIDING                                1       TRUE
+01                      10110046 CFG-NAVSPG-046                                      1       TRUE
+00                      10110052 CFG-NAVSPG-052                                      0      FALSE
+00                      10110053 CFG-NAVSPG-053                                      0      FALSE
+00                      10110061 CFG-NAVSPG-USE_USRDAT                               0      FALSE
+00                      10110081 CFG-NAVSPG-081                                      0      FALSE
+00                      10110082 CFG-NAVSPG-082                                      0      FALSE
+00                      10110083 CFG-NAVSPG-083                                      0      FALSE
+
+00                      10140051 CFG-NAVHPG-051                                      0      FALSE
+00                      10140052 CFG-NAVHPG-052                                      0      FALSE
+00                      10140053 CFG-NAVHPG-053                                      0      FALSE
+00                      10210005 CFG-RATE-005                                        0      FALSE
+00                      10220001 CFG-ODO-USE_ODO                                     0      FALSE
+00                      10220002 CFG-ODO-USE_COG                                     0      FALSE
+00                      10220003 CFG-ODO-OUTLPVEL                                    0      FALSE
+00                      10220004 CFG-ODO-OUTLPCOG                                    0      FALSE
+
+00                      10240012 CFG-GEOFENCE-USE_PIO                                0      FALSE
+00                      10240020 CFG-GEOFENCE-USE_FENCE1                             0      FALSE
+00                      10240030 CFG-GEOFENCE-USE_FENCE2                             0      FALSE
+00                      10240040 CFG-GEOFENCE-USE_FENCE3                             0      FALSE
+00                      10240050 CFG-GEOFENCE-USE_FENCE4                             0      FALSE
+01                      10250001 CFG-MOT-001                                         1       TRUE
+01                      10310001 CFG-SIGNAL-GPS_L1CA_ENA                             1       TRUE
+01                      10310003 CFG-SIGNAL-GPS_L2C_ENA                              1       TRUE
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                            0      FALSE
+01                      10310007 CFG-SIGNAL-GAL_E1_ENA                               1       TRUE
+01                      1031000A CFG-SIGNAL-GAL_E5B_ENA                              1       TRUE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                               0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                               0      FALSE
+01                      10310012 CFG-SIGNAL-QZSS_L1CA_ENA                            1       TRUE
+00                      10310014 CFG-SIGNAL-QZSS_L1S_ENA                             0      FALSE
+01                      10310015 CFG-SIGNAL-QZSS_L2C_ENA                             1       TRUE
+
+01                      10310018 CFG-SIGNAL-GLO_L1_ENA                               1       TRUE
+01                      1031001A CFG-SIGNAL-GLO_L2_ENA                               1       TRUE
+01                      1031001F CFG-SIGNAL-GPS_ENA                                  1       TRUE
+01                      10310020 CFG-SIGNAL-SBAS_ENA                                 1       TRUE
+01                      10310021 CFG-SIGNAL-GAL_ENA                                  1       TRUE
+01                      10310022 CFG-SIGNAL-BDS_ENA                                  1       TRUE
+01                      10310024 CFG-SIGNAL-QZSS_ENA                                 1       TRUE
+01                      10310025 CFG-SIGNAL-GLO_ENA                                  1       TRUE
+
+01                      10310027 CFG-SIGNAL-027_ENA                                  1       TRUE
+00                      10330001 CFG-033-001                                         0      FALSE
+00                      10330002 CFG-033-002                                         0      FALSE
+00                      10330003 CFG-033-003                                         0      FALSE
+00                      10330011 CFG-033-011                                         0      FALSE
+00                      10340001 CFG-BDS-001                                         0      FALSE
+00                      10340002 CFG-BDS-002                                         0      FALSE
+01                      10340003 CFG-BDS-003                                         1       TRUE
+
+00                      10340004 CFG-BDS-004                                         0      FALSE
+00                      10340011 CFG-BDS-011                                         0      FALSE
+00                      10340014 CFG-BDS-USE_PRN_1_TO_5                              0      FALSE
+00                      10350001 CFG-035-001                                         0      FALSE
+00                      10350002 CFG-035-002                                         0      FALSE
+00                      10350003 CFG-035-003                                         0      FALSE
+00                      10350004 CFG-035-004                                         0      FALSE
+00                      10360002 CFG-SBAS-USE_TESTMODE                               0      FALSE
+
+01                      10360003 CFG-SBAS-USE_RANGING                                1       TRUE
+01                      10360004 CFG-SBAS-USE_DIFFCORR                               1       TRUE
+00                      10360005 CFG-SBAS-USE_INTEGRITY                              0      FALSE
+00                      10370002 CFG-QZSS-002                                        0      FALSE
+00                      10370003 CFG-QZSS-003                                        0      FALSE
+01                      10370005 CFG-QZSS-USE_SLAS_DGNSS                             1       TRUE
+00                      10370006 CFG-QZSS-USE_SLAS_TESTMODE                          0      FALSE
+00                      10370007 CFG-QZSS-USE_SLAS_RAIM_UNCORR                       0      FALSE
+
+01                      10410007 CFG-ITFM-007                                        1       TRUE
+01                      10410009 CFG-ITFM-009                                        1       TRUE
+01                      1041000A CFG-ITFM-00A                                        1       TRUE
+00                      1041000B CFG-ITFM-00B                                        0      FALSE
+01                      1041000C CFG-ITFM-00C                                        1       TRUE
+00                      1041000D CFG-ITFM-ENABLE                                     0      FALSE
+00                      10410013 CFG-ITFM-ENABLE_AUX                                 0      FALSE
+00                      10510002 CFG-I2C-EXTENDEDTIMEOUT                             0      FALSE
+
+01                      10510003 CFG-I2C-ENABLED                                     1       TRUE
+01                      10520005 CFG-UART1-ENABLED                                   1       TRUE
+00                      10520006 CFG-UART1-REMAP                                     0      FALSE
+00                      10520007 CFG-UART1-007                                       0      FALSE
+01                      10530005 CFG-UART2-ENABLED                                   1       TRUE
+00                      10530006 CFG-UART2-REMAP                                     0      FALSE
+00                      10530007 CFG-UART2-007                                       0      FALSE
+00                      10640002 CFG-SPI-CPOLARITY                                   0      FALSE
+
+00                      10640003 CFG-SPI-CPHASE                                      0      FALSE
+00                      10640004 CFG-SPI-004                                         0      FALSE
+00                      10640005 CFG-SPI-EXTENDEDTIMEOUT                             0      FALSE
+00                      10640006 CFG-SPI-ENABLED                                     0      FALSE
+00                      10640007 CFG-SPI-007                                         0      FALSE
+01                      10650001 CFG-USB-ENABLED                                     1       TRUE
+01                      10650002 CFG-USB-SELFPOW                                     1       TRUE
+00                      10650003 CFG-USB-003                                         0      FALSE
+
+00                      10650005 CFG-USB-005                                         0      FALSE
+00                      10650006 CFG-USB-006                                         0      FALSE
+00                      10650007 CFG-USB-007                                         0      FALSE
+00                      10650008 CFG-USB-008                                         0      FALSE
+00                      10650009 CFG-USB-009                                         0      FALSE
+01                      10710001 CFG-I2CINPROT-UBX                                   1       TRUE
+01                      10710002 CFG-I2CINPROT-NMEA                                  1       TRUE
+01                      10710004 CFG-I2CINPROT-RTCM3X                                1       TRUE
+
+01                      10720001 CFG-I2COUTPROT-UBX                                  1       TRUE
+01                      10720002 CFG-I2COUTPROT-NMEA                                 1       TRUE
+01                      10720004 CFG-I2COUTPROT-RTCM3X                               1       TRUE
+01                      10730001 CFG-UART1INPROT-UBX                                 1       TRUE
+01                      10730002 CFG-UART1INPROT-NMEA                                1       TRUE
+01                      10730004 CFG-UART1INPROT-RTCM3X                              1       TRUE
+01                      10740001 CFG-UART1OUTPROT-UBX                                1       TRUE
+01                      10740002 CFG-UART1OUTPROT-NMEA                               1       TRUE
+
+01                      10740004 CFG-UART1OUTPROT-RTCM3X                             1       TRUE
+00                      10750001 CFG-UART2INPROT-UBX                                 0      FALSE
+00                      10750002 CFG-UART2INPROT-NMEA                                0      FALSE
+01                      10750004 CFG-UART2INPROT-RTCM3X                              1       TRUE
+00                      10760001 CFG-UART2OUTPROT-UBX                                0      FALSE
+00                      10760002 CFG-UART2OUTPROT-NMEA                               0      FALSE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                             0      FALSE
+01                      10770001 CFG-USBINPROT-UBX                                   1       TRUE
+
+01                      10770002 CFG-USBINPROT-NMEA                                  1       TRUE
+01                      10770004 CFG-USBINPROT-RTCM3X                                1       TRUE
+01                      10780001 CFG-USBOUTPROT-UBX                                  1       TRUE
+01                      10780002 CFG-USBOUTPROT-NMEA                                 1       TRUE
+01                      10780004 CFG-USBOUTPROT-RTCM3X                               1       TRUE
+01                      10790001 CFG-SPIINPROT-UBX                                   1       TRUE
+01                      10790002 CFG-SPIINPROT-NMEA                                  1       TRUE
+01                      10790004 CFG-SPIINPROT-RTCM3X                                1       TRUE
+
+01                      107A0001 CFG-SPIOUTPROT-UBX                                  1       TRUE
+01                      107A0002 CFG-SPIOUTPROT-NMEA                                 1       TRUE
+01                      107A0004 CFG-SPIOUTPROT-RTCM3X                               1       TRUE
+00                      10810001 CFG-081-001                                         0      FALSE
+00                      10810002 CFG-081-002                                         0      FALSE
+00                      10810003 CFG-081-003                                         0      FALSE
+00                      10810004 CFG-081-004                                         0      FALSE
+00                      10810005 CFG-081-005                                         0      FALSE
+
+00                      10820001 CFG-082-001                                         0      FALSE
+00                      10820002 CFG-082-002                                         0      FALSE
+00                      10820003 CFG-082-003                                         0      FALSE
+00                      10820004 CFG-082-004                                         0      FALSE
+00                      10820005 CFG-082-005                                         0      FALSE
+00                      10830001 CFG-083-001                                         0      FALSE
+00                      10830002 CFG-083-002                                         0      FALSE
+00                      10830003 CFG-083-003                                         0      FALSE
+
+00                      10830004 CFG-083-004                                         0      FALSE
+00                      10830005 CFG-083-005                                         0      FALSE
+00                      10840001 CFG-084-001                                         0      FALSE
+00                      10840002 CFG-084-002                                         0      FALSE
+00                      10840003 CFG-084-003                                         0      FALSE
+00                      10840004 CFG-084-004                                         0      FALSE
+00                      10840005 CFG-084-005                                         0      FALSE
+00                      10850001 CFG-085-001                                         0      FALSE
+
+00                      10850002 CFG-085-002                                         0      FALSE
+00                      10850003 CFG-085-003                                         0      FALSE
+00                      10850004 CFG-085-004                                         0      FALSE
+00                      10850005 CFG-085-005                                         0      FALSE
+00                      10930003 CFG-NMEA-COMPAT                                     0      FALSE
+01                      10930004 CFG-NMEA-CONSIDER                                   1       TRUE
+00                      10930005 CFG-NMEA-LIMIT82                                    0      FALSE
+00                      10930006 CFG-NMEA-HIGHPREC                                   0      FALSE
+
+00                      10930011 CFG-NMEA-FILT_GPS                                   0      FALSE
+00                      10930012 CFG-NMEA-FILT_SBAS                                  0      FALSE
+00                      10930013 CFG-NMEA-FILT_GAL                                   0      FALSE
+00                      10930015 CFG-NMEA-FILT_QZSS                                  0      FALSE
+00                      10930016 CFG-NMEA-FILT_GLO                                   0      FALSE
+00                      10930017 CFG-NMEA-FILT_BDS                                   0      FALSE
+00                      10930021 CFG-NMEA-OUT_INVFIX                                 0      FALSE
+00                      10930022 CFG-NMEA-OUT_MSKFIX                                 0      FALSE
+
+00                      10930023 CFG-NMEA-OUT_INVTIME                                0      FALSE
+00                      10930024 CFG-NMEA-OUT_INVDATE                                0      FALSE
+00                      10930025 CFG-NMEA-OUT_ONLYGPS                                0      FALSE
+00                      10930026 CFG-NMEA-OUT_FROZENCOG                              0      FALSE
+00                      10A10001 CFG-0A1-001                                         0      FALSE
+00                      10A10002 CFG-0A1-002                                         0      FALSE
+01                      10A10003 CFG-0A1-003                                         1       TRUE
+00                      10A20001 CFG-TXREADY-001                                     0      FALSE
+
+00                      10A20002 CFG-TXREADY-002                                     0      FALSE
+01                      10A30002 CFG-HW-002                                          1       TRUE
+00                      10A30007 CFG-HW-007                                          0      FALSE
+01                      10A30008 CFG-HW-008                                          1       TRUE
+01                      10A30009 CFG-HW-009_PF_RAW                                   1       TRUE
+00                      10A3000A CFG-HW-00A                                          0      FALSE
+00                      10A3000B CFG-HW-00B                                          0      FALSE
+00                      10A3000C CFG-HW-00C                                          0      FALSE
+
+00                      10A3000D CFG-HW-00D                                          0      FALSE
+01                      10A3000E CFG-HW-00E                                          1       TRUE
+00                      10A30010 CFG-HW-010                                          0      FALSE
+01                      10A30011 CFG-HW-011                                          1       TRUE
+00                      10A30018 CFG-HW-DCDC_DIS                                     0      FALSE
+00                      10A30019 CFG-HW-SINGLE_CLK                                   0      FALSE
+00                      10A30029 CFG-HW-CLK_OFFSET_VALID                             0      FALSE
+00                      10A3002C CFG-HW-CLK_MAX_CALIB_DEV_VALID                      0      FALSE
+
+00                      10A3002E CFG-HW-ANT_CFG_VOLTCTRL                             0      FALSE
+00                      10A3002F CFG-HW-ANT_CFG_SHORTDET                             0      FALSE
+01                      10A30030 CFG-HW-ANT_CFG_SHORTDET_POL                         1       TRUE
+00                      10A30031 CFG-HW-ANT_CFG_OPENDET                              0      FALSE
+01                      10A30032 CFG-HW-ANT_CFG_OPENDET_POL                          1       TRUE
+00                      10A30033 CFG-HW-ANT_CFG_PWRDOWN                              0      FALSE
+01                      10A30034 CFG-HW-ANT_CFG_PWRDOWN_POL                          1       TRUE
+00                      10A30035 CFG-HW-ANT_CFG_RECOVER                              0      FALSE
+
+01                      10A30047 CFG-HW-047                                          1       TRUE
+00                      10A30056 CFG-HW-056                                          0      FALSE
+00                      10A30058 CFG-HW-058                                          0      FALSE
+00                      10A30059 CFG-HW-059                                          0      FALSE
+01                      10A3005A CFG-HW-05A                                          1       TRUE
+00                      10A3005B CFG-HW-05B                                          0      FALSE
+00                      10A3005C CFG-HW-05C                                          0      FALSE
+01                      10A3005D CFG-HW-05D                                          1       TRUE
+
+00                      10A50004 CFG-0A5-004                                         0      FALSE
+00                      10C60002 CFG-0C6-002                                         0      FALSE
+00                      10C70001 CFG-RINV-DUMP                                       0      FALSE
+00                      10C70002 CFG-RINV-BINARY                                     0      FALSE
+00                      10DE0002 CFG-LOGFILTER-RECORD_ENA                            0      FALSE
+00                      10DE0003 CFG-LOGFILTER-ONCE_PER_WAKE_UP_ENA                  0      FALSE
+00                      10DE0004 CFG-LOGFILTER-APPLY_ALL_FILTERS                     0      FALSE
+00                      10F60009 CFG-SEC-CFG_LOCK                                    0      FALSE
+
+00                      20010011 CFG-001-011                                        00          0
+00                      20010021 CFG-001-021                                        00          0
+00                      20010031 CFG-001-031                                        00          0
+00                      20010041 CFG-001-041                                        00          0
+00                      20010051 CFG-001-051                                        00          0
+00                      20010061 CFG-001-061                                        00          0
+00                      20010071 CFG-001-071                                        00          0
+00                      20010081 CFG-001-081                                        00          0
+
+00                      20010091 CFG-001-091                                        00          0
+00                      200100A1 CFG-001-0A1                                        00          0
+00                      200100B1 CFG-001-0B1                                        00          0
+00                      200100C1 CFG-001-0C1                                        00          0
+00                      200100D1 CFG-001-0D1                                        00          0
+00                      200100E1 CFG-001-0E1                                        00          0
+00                      20010111 CFG-001-111                                        00          0
+00                      20010121 CFG-001-121                                        00          0
+
+00                      20010131 CFG-001-131                                        00          0
+00                      20010141 CFG-001-141                                        00          0
+00                      20010151 CFG-001-151                                        00          0
+00                      20010161 CFG-001-161                                        00          0
+00                      20010171 CFG-001-171                                        00          0
+00                      20010181 CFG-001-181                                        00          0
+00                      20010191 CFG-001-191                                        00          0
+00                      200101A1 CFG-001-1A1                                        00          0
+
+00                      200101B1 CFG-001-1B1                                        00          0
+00                      200101C1 CFG-001-1C1                                        00          0
+00                      200101D1 CFG-001-1D1                                        00          0
+00                      200101E1 CFG-001-1E1                                        00          0
+00                      20030001 CFG-TMODE-MODE                                     00          0
+00                      20030002 CFG-TMODE-POS_TYPE                                 00          0
+00                      20030006 CFG-TMODE-ECEF_X_HP                                00          0
+00                      20030007 CFG-TMODE-ECEF_Y_HP                                00          0
+
+00                      20030008 CFG-TMODE-ECEF_Z_HP                                00          0
+00                      2003000C CFG-TMODE-LAT_HP                                   00          0
+00                      2003000D CFG-TMODE-LON_HP                                   00          0
+00                      2003000E CFG-TMODE-HEIGHT_HP                                00          0
+00                      2005000C CFG-TP-TIMEGRID_TP1                                00          0
+00                      20050023 CFG-TP-PULSE_DEF                                   00          0
+01                      20050030 CFG-TP-PULSE_LENGTH_DEF                            01          1
+16                      20090002 CFG-RTCM-002                                       16         22
+
+17                      20090003 CFG-RTCM-003                                       17         23
+18                      20090004 CFG-RTCM-004                                       18         24
+1E                      20090005 CFG-RTCM-005                                       1E         30
+1F                      20090006 CFG-RTCM-006                                       1F         31
+20                      20090007 CFG-RTCM-007                                       20         32
+00                      20090009 CFG-RTCM_DF003_IN_FILTER                           00          0
+03                      20110011 CFG-NAVSPG-FIXMODE                                 03          3
+12                      2011001A CFG-NAVSPG-01A                                     12         18
+
+00                      2011001C CFG-NAVSPG-UTCSTANDARD                             00          0
+64                      20110020 CFG-NAVSPG-020                                     64        100
+00                      20110021 CFG-NAVSPG-DYNMODEL                                00          0
+00                      20110022 CFG-NAVSPG-022                                     00          0
+00                      20110023 CFG-NAVSPG-023                                     00          0
+01                      20110024 CFG-NAVSPG-024                                     01          1
+00                      20110026 CFG-NAVSPG-026                                     00          0
+02                      20110042 CFG-NAVSPG-042                                     02          2
+
+03                      20110043 CFG-NAVSPG-043                                     03          3
+01                      20110044 CFG-NAVSPG-044                                     01          1
+01                      20110045 CFG-NAVSPG-045                                     01          1
+00                      20110051 CFG-NAVSPG-051                                     00          0
+03                      201100A1 CFG-NAVSPG-INFIL_MINSVS                            03          3
+20                      201100A2 CFG-NAVSPG-INFIL_MAXSVS                            20         32
+06                      201100A3 CFG-NAVSPG-INFIL_MINCNO                            06          6
+0A                      201100A4 CFG-NAVSPG-INFIL_MINELEV                           0A         10
+
+00                      201100AA CFG-NAVSPG-INFIL_NCNOTHRS                          00          0
+00                      201100AB CFG-NAVSPG-INFIL_CNOTHRS                           00          0
+3C                      201100C4 CFG-NAVSPG-CONSTR_DGNSSTO                          3C         60
+00                      201100D5 CFG-NAVSPG-0D5                                     00          0
+03                      20140011 CFG-NAVHPG-DGNSSMODE                               03          3
+01                      20140054 CFG-NAVHPG-054                                     01          1
+01                      20210003 CFG-RATE-TIMEREF                                   01          1
+00                      20220005 CFG-ODO-PROFILE                                    00          0
+
+19                      20220011 CFG-ODO-011                                        19         25
+32                      20220012 CFG-ODO-012                                        32         50
+19                      20220013 CFG-ODO-013                                        19         25
+66                      20220014 CFG-ODO-014                                        66        102
+0A                      20220021 CFG-ODO-COGMAXSPEED                                0A         10
+32                      20220022 CFG-ODO-COGMAXPOSACC                               32         50
+99                      20220031 CFG-ODO-VELLPGAIN                                  99        153
+4C                      20220032 CFG-ODO-COGLPGAIN                                  4C         76
+
+00                      20240011 CFG-GEOFENCE-CONFLVL                               00          0
+00                      20240013 CFG-GEOFENCE-PINPOL                                00          0
+03                      20240014 CFG-GEOFENCE-PIN                                   03          3
+00                      20250038 CFG-MOT-GNSSSPEED_THRS                             00          0
+0A                      20340005 CFG-BDS-005                                        0A         10
+37                      20340007 CFG-BDS-007                                        37         55
+00                      20340021 CFG-BDS-021                                        00          0
+02                      20340022 CFG-BDS-022                                        02          2
+
+03                      20410001 CFG-ITFM-BBTHRESHOLD                               03          3
+0F                      20410002 CFG-ITFM-CWTHRESHOLD                               0F         15
+06                      20410003 CFG-ITFM-003                                       06          6
+0A                      20410004 CFG-ITFM-004                                       0A         10
+02                      20410005 CFG-ITFM-005                                       02          2
+06                      20410006 CFG-ITFM-006                                       06          6
+1E                      2041000E CFG-ITFM-00E                                       1E         30
+03                      2041000F CFG-ITFM-00F                                       03          3
+
+00                      20410010 CFG-ITFM-ANTSETTING                                00          0
+84                      20510001 CFG-I2C-ADDRESS                                    84        132
+01                      20520002 CFG-UART1-STOPBITS                                 01          1
+00                      20520003 CFG-UART1-DATABITS                                 00          0
+00                      20520004 CFG-UART1-PARITY                                   00          0
+00                      20520008 CFG-UART1-008                                      00          0
+01                      20530002 CFG-UART2-STOPBITS                                 01          1
+00                      20530003 CFG-UART2-DATABITS                                 00          0
+
+00                      20530004 CFG-UART2-PARITY                                   00          0
+00                      20530008 CFG-UART2-008                                      00          0
+32                      20640001 CFG-SPI-MAXFF                                      32         50
+00                      20640008 CFG-SPI-008                                        00          0
+00                      20910006 CFG-MSGOUT-UBX_NAV_PVT_I2C                         00          0
+00                      20910007 CFG-MSGOUT-UBX_NAV_PVT_UART1                       00          0
+00                      20910008 CFG-MSGOUT-UBX_NAV_PVT_UART2                       00          0
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                         01          1
+
+00                      2091000A CFG-MSGOUT-UBX_NAV_PVT_SPI                         00          0
+00                      20910010 CFG-MSGOUT-UBX_NAV_ORB_I2C                         00          0
+00                      20910011 CFG-MSGOUT-UBX_NAV_ORB_UART1                       00          0
+00                      20910012 CFG-MSGOUT-UBX_NAV_ORB_UART2                       00          0
+00                      20910013 CFG-MSGOUT-UBX_NAV_ORB_USB                         00          0
+00                      20910014 CFG-MSGOUT-UBX_NAV_ORB_SPI                         00          0
+00                      20910015 CFG-MSGOUT-UBX_NAV_SAT_I2C                         00          0
+00                      20910016 CFG-MSGOUT-UBX_NAV_SAT_UART1                       00          0
+
+00                      20910017 CFG-MSGOUT-UBX_NAV_SAT_UART2                       00          0
+00                      20910018 CFG-MSGOUT-UBX_NAV_SAT_USB                         00          0
+00                      20910019 CFG-MSGOUT-UBX_NAV_SAT_SPI                         00          0
+00                      2091001A CFG-MSGOUT-UBX_NAV_STATUS_I2C                      00          0
+00                      2091001B CFG-MSGOUT-UBX_NAV_STATUS_UART1                    00          0
+00                      2091001C CFG-MSGOUT-UBX_NAV_STATUS_UART2                    00          0
+00                      2091001D CFG-MSGOUT-UBX_NAV_STATUS_USB                      00          0
+00                      2091001E CFG-MSGOUT-UBX_NAV_STATUS_SPI                      00          0
+
+00                      20910024 CFG-MSGOUT-UBX_NAV_POSECEF_I2C                     00          0
+00                      20910025 CFG-MSGOUT-UBX_NAV_POSECEF_UART1                   00          0
+00                      20910026 CFG-MSGOUT-UBX_NAV_POSECEF_UART2                   00          0
+00                      20910027 CFG-MSGOUT-UBX_NAV_POSECEF_USB                     00          0
+00                      20910028 CFG-MSGOUT-UBX_NAV_POSECEF_SPI                     00          0
+00                      20910029 CFG-MSGOUT-UBX_NAV_POSLLH_I2C                      00          0
+00                      2091002A CFG-MSGOUT-UBX_NAV_POSLLH_UART1                    00          0
+00                      2091002B CFG-MSGOUT-UBX_NAV_POSLLH_UART2                    00          0
+
+00                      2091002C CFG-MSGOUT-UBX_NAV_POSLLH_USB                      00          0
+00                      2091002D CFG-MSGOUT-UBX_NAV_POSLLH_SPI                      00          0
+00                      2091002E CFG-MSGOUT-UBX_NAV_HPPOSECEF_I2C                   00          0
+00                      2091002F CFG-MSGOUT-UBX_NAV_HPPOSECEF_UART1                 00          0
+00                      20910030 CFG-MSGOUT-UBX_NAV_HPPOSECEF_UART2                 00          0
+00                      20910031 CFG-MSGOUT-UBX_NAV_HPPOSECEF_USB                   00          0
+00                      20910032 CFG-MSGOUT-UBX_NAV_HPPOSECEF_SPI                   00          0
+00                      20910033 CFG-MSGOUT-UBX_NAV_HPPOSLLH_I2C                    00          0
+
+00                      20910034 CFG-MSGOUT-UBX_NAV_HPPOSLLH_UART1                  00          0
+00                      20910035 CFG-MSGOUT-UBX_NAV_HPPOSLLH_UART2                  00          0
+00                      20910036 CFG-MSGOUT-UBX_NAV_HPPOSLLH_USB                    00          0
+00                      20910037 CFG-MSGOUT-UBX_NAV_HPPOSLLH_SPI                    00          0
+00                      20910038 CFG-MSGOUT-UBX_NAV_DOP_I2C                         00          0
+00                      20910039 CFG-MSGOUT-UBX_NAV_DOP_UART1                       00          0
+00                      2091003A CFG-MSGOUT-UBX_NAV_DOP_UART2                       00          0
+00                      2091003B CFG-MSGOUT-UBX_NAV_DOP_USB                         00          0
+
+00                      2091003C CFG-MSGOUT-UBX_NAV_DOP_SPI                         00          0
+00                      2091003D CFG-MSGOUT-UBX_NAV_VELECEF_I2C                     00          0
+00                      2091003E CFG-MSGOUT-UBX_NAV_VELECEF_UART1                   00          0
+00                      2091003F CFG-MSGOUT-UBX_NAV_VELECEF_UART2                   00          0
+00                      20910040 CFG-MSGOUT-UBX_NAV_VELECEF_USB                     00          0
+00                      20910041 CFG-MSGOUT-UBX_NAV_VELECEF_SPI                     00          0
+00                      20910042 CFG-MSGOUT-UBX_NAV_VELNED_I2C                      00          0
+00                      20910043 CFG-MSGOUT-UBX_NAV_VELNED_UART1                    00          0
+
+00                      20910044 CFG-MSGOUT-UBX_NAV_VELNED_UART2                    00          0
+00                      20910045 CFG-MSGOUT-UBX_NAV_VELNED_USB                      00          0
+00                      20910046 CFG-MSGOUT-UBX_NAV_VELNED_SPI                      00          0
+00                      20910047 CFG-MSGOUT-UBX_NAV_TIMEGPS_I2C                     00          0
+00                      20910048 CFG-MSGOUT-UBX_NAV_TIMEGPS_UART1                   00          0
+00                      20910049 CFG-MSGOUT-UBX_NAV_TIMEGPS_UART2                   00          0
+00                      2091004A CFG-MSGOUT-UBX_NAV_TIMEGPS_USB                     00          0
+00                      2091004B CFG-MSGOUT-UBX_NAV_TIMEGPS_SPI                     00          0
+
+00                      2091004C CFG-MSGOUT-UBX_NAV_TIMEGLO_I2C                     00          0
+00                      2091004D CFG-MSGOUT-UBX_NAV_TIMEGLO_UART1                   00          0
+00                      2091004E CFG-MSGOUT-UBX_NAV_TIMEGLO_UART2                   00          0
+00                      2091004F CFG-MSGOUT-UBX_NAV_TIMEGLO_USB                     00          0
+00                      20910050 CFG-MSGOUT-UBX_NAV_TIMEGLO_SPI                     00          0
+00                      20910051 CFG-MSGOUT-UBX_NAV_TIMEBDS_I2C                     00          0
+00                      20910052 CFG-MSGOUT-UBX_NAV_TIMEBDS_UART1                   00          0
+00                      20910053 CFG-MSGOUT-UBX_NAV_TIMEBDS_UART2                   00          0
+
+00                      20910054 CFG-MSGOUT-UBX_NAV_TIMEBDS_USB                     00          0
+00                      20910055 CFG-MSGOUT-UBX_NAV_TIMEBDS_SPI                     00          0
+00                      20910056 CFG-MSGOUT-UBX_NAV_TIMEGAL_I2C                     00          0
+00                      20910057 CFG-MSGOUT-UBX_NAV_TIMEGAL_UART1                   00          0
+00                      20910058 CFG-MSGOUT-UBX_NAV_TIMEGAL_UART2                   00          0
+00                      20910059 CFG-MSGOUT-UBX_NAV_TIMEGAL_USB                     00          0
+00                      2091005A CFG-MSGOUT-UBX_NAV_TIMEGAL_SPI                     00          0
+00                      2091005B CFG-MSGOUT-UBX_NAV_TIMEUTC_I2C                     00          0
+
+00                      2091005C CFG-MSGOUT-UBX_NAV_TIMEUTC_UART1                   00          0
+00                      2091005D CFG-MSGOUT-UBX_NAV_TIMEUTC_UART2                   00          0
+00                      2091005E CFG-MSGOUT-UBX_NAV_TIMEUTC_USB                     00          0
+00                      2091005F CFG-MSGOUT-UBX_NAV_TIMEUTC_SPI                     00          0
+00                      20910060 CFG-MSGOUT-UBX_NAV_TIMELS_I2C                      00          0
+00                      20910061 CFG-MSGOUT-UBX_NAV_TIMELS_UART1                    00          0
+00                      20910062 CFG-MSGOUT-UBX_NAV_TIMELS_UART2                    00          0
+00                      20910063 CFG-MSGOUT-UBX_NAV_TIMELS_USB                      00          0
+
+00                      20910064 CFG-MSGOUT-UBX_NAV_TIMELS_SPI                      00          0
+00                      20910065 CFG-MSGOUT-UBX_NAV_CLOCK_I2C                       00          0
+00                      20910066 CFG-MSGOUT-UBX_NAV_CLOCK_UART1                     00          0
+00                      20910067 CFG-MSGOUT-UBX_NAV_CLOCK_UART2                     00          0
+00                      20910068 CFG-MSGOUT-UBX_NAV_CLOCK_USB                       00          0
+00                      20910069 CFG-MSGOUT-UBX_NAV_CLOCK_SPI                       00          0
+00                      2091006A CFG-MSGOUT-UBX_NAV_SBAS_I2C                        00          0
+00                      2091006B CFG-MSGOUT-UBX_NAV_SBAS_UART1                      00          0
+
+00                      2091006C CFG-MSGOUT-UBX_NAV_SBAS_UART2                      00          0
+00                      2091006D CFG-MSGOUT-UBX_NAV_SBAS_USB                        00          0
+00                      2091006E CFG-MSGOUT-UBX_NAV_SBAS_SPI                        00          0
+00                      2091007E CFG-MSGOUT-UBX_NAV_ODO_I2C                         00          0
+00                      2091007F CFG-MSGOUT-UBX_NAV_ODO_UART1                       00          0
+00                      20910080 CFG-MSGOUT-UBX_NAV_ODO_UART2                       00          0
+00                      20910081 CFG-MSGOUT-UBX_NAV_ODO_USB                         00          0
+00                      20910082 CFG-MSGOUT-UBX_NAV_ODO_SPI                         00          0
+
+00                      20910083 CFG-MSGOUT-UBX_NAV_COV_I2C                         00          0
+00                      20910084 CFG-MSGOUT-UBX_NAV_COV_UART1                       00          0
+00                      20910085 CFG-MSGOUT-UBX_NAV_COV_UART2                       00          0
+00                      20910086 CFG-MSGOUT-UBX_NAV_COV_USB                         00          0
+00                      20910087 CFG-MSGOUT-UBX_NAV_COV_SPI                         00          0
+00                      20910088 CFG-MSGOUT-UBX_NAV_SVIN_I2C                        00          0
+00                      20910089 CFG-MSGOUT-UBX_NAV_SVIN_UART1                      00          0
+00                      2091008A CFG-MSGOUT-UBX_NAV_SVIN_UART2                      00          0
+
+00                      2091008B CFG-MSGOUT-UBX_NAV_SVIN_USB                        00          0
+00                      2091008C CFG-MSGOUT-UBX_NAV_SVIN_SPI                        00          0
+00                      2091008D CFG-MSGOUT-UBX_NAV_RELPOSNED_I2C                   00          0
+00                      2091008E CFG-MSGOUT-UBX_NAV_RELPOSNED_UART1                 00          0
+00                      2091008F CFG-MSGOUT-UBX_NAV_RELPOSNED_UART2                 00          0
+00                      20910090 CFG-MSGOUT-UBX_NAV_RELPOSNED_USB                   00          0
+00                      20910091 CFG-MSGOUT-UBX_NAV_RELPOSNED_SPI                   00          0
+00                      20910092 CFG-MSGOUT-UBX_TIM_VRFY_I2C                        00          0
+
+00                      20910093 CFG-MSGOUT-UBX_TIM_VRFY_UART1                      00          0
+00                      20910094 CFG-MSGOUT-UBX_TIM_VRFY_UART2                      00          0
+00                      20910095 CFG-MSGOUT-UBX_TIM_VRFY_USB                        00          0
+00                      20910096 CFG-MSGOUT-UBX_TIM_VRFY_SPI                        00          0
+00                      209100A1 CFG-MSGOUT-UBX_NAV_GEOFENCE_I2C                    00          0
+00                      209100A2 CFG-MSGOUT-UBX_NAV_GEOFENCE_UART1                  00          0
+00                      209100A3 CFG-MSGOUT-UBX_NAV_GEOFENCE_UART2                  00          0
+00                      209100A4 CFG-MSGOUT-UBX_NAV_GEOFENCE_USB                    00          0
+
+00                      209100A5 CFG-MSGOUT-UBX_NAV_GEOFENCE_SPI                    00          0
+00                      209100A6 CFG-MSGOUT-NMEA_ID_DTM_I2C                         00          0
+00                      209100A7 CFG-MSGOUT-NMEA_ID_DTM_UART1                       00          0
+00                      209100A8 CFG-MSGOUT-NMEA_ID_DTM_UART2                       00          0
+00                      209100A9 CFG-MSGOUT-NMEA_ID_DTM_USB                         00          0
+00                      209100AA CFG-MSGOUT-NMEA_ID_DTM_SPI                         00          0
+01                      209100AB CFG-MSGOUT-NMEA_ID_RMC_I2C                         01          1
+01                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                       01          1
+
+01                      209100AD CFG-MSGOUT-NMEA_ID_RMC_UART2                       01          1
+01                      209100AE CFG-MSGOUT-NMEA_ID_RMC_USB                         01          1
+01                      209100AF CFG-MSGOUT-NMEA_ID_RMC_SPI                         01          1
+01                      209100B0 CFG-MSGOUT-NMEA_ID_VTG_I2C                         01          1
+01                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                       01          1
+01                      209100B2 CFG-MSGOUT-NMEA_ID_VTG_UART2                       01          1
+01                      209100B3 CFG-MSGOUT-NMEA_ID_VTG_USB                         01          1
+01                      209100B4 CFG-MSGOUT-NMEA_ID_VTG_SPI                         01          1
+
+00                      209100B5 CFG-MSGOUT-NMEA_ID_GNS_I2C                         00          0
+00                      209100B6 CFG-MSGOUT-NMEA_ID_GNS_UART1                       00          0
+00                      209100B7 CFG-MSGOUT-NMEA_ID_GNS_UART2                       00          0
+00                      209100B8 CFG-MSGOUT-NMEA_ID_GNS_USB                         00          0
+00                      209100B9 CFG-MSGOUT-NMEA_ID_GNS_SPI                         00          0
+01                      209100BA CFG-MSGOUT-NMEA_ID_GGA_I2C                         01          1
+01                      209100BB CFG-MSGOUT-NMEA_ID_GGA_UART1                       01          1
+01                      209100BC CFG-MSGOUT-NMEA_ID_GGA_UART2                       01          1
+
+01                      209100BD CFG-MSGOUT-NMEA_ID_GGA_USB                         01          1
+01                      209100BE CFG-MSGOUT-NMEA_ID_GGA_SPI                         01          1
+01                      209100BF CFG-MSGOUT-NMEA_ID_GSA_I2C                         01          1
+01                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                       01          1
+01                      209100C1 CFG-MSGOUT-NMEA_ID_GSA_UART2                       01          1
+01                      209100C2 CFG-MSGOUT-NMEA_ID_GSA_USB                         01          1
+01                      209100C3 CFG-MSGOUT-NMEA_ID_GSA_SPI                         01          1
+00                      209100C4 CFG-MSGOUT-NMEA_ID_GSV_I2C                         00          0
+
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                       00          0
+00                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                       00          0
+01                      209100C7 CFG-MSGOUT-NMEA_ID_GSV_USB                         01          1
+00                      209100C8 CFG-MSGOUT-NMEA_ID_GSV_SPI                         00          0
+01                      209100C9 CFG-MSGOUT-NMEA_ID_GLL_I2C                         01          1
+01                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                       01          1
+01                      209100CB CFG-MSGOUT-NMEA_ID_GLL_UART2                       01          1
+01                      209100CC CFG-MSGOUT-NMEA_ID_GLL_USB                         01          1
+
+01                      209100CD CFG-MSGOUT-NMEA_ID_GLL_SPI                         01          1
+00                      209100CE CFG-MSGOUT-NMEA_ID_GRS_I2C                         00          0
+00                      209100CF CFG-MSGOUT-NMEA_ID_GRS_UART1                       00          0
+00                      209100D0 CFG-MSGOUT-NMEA_ID_GRS_UART2                       00          0
+00                      209100D1 CFG-MSGOUT-NMEA_ID_GRS_USB                         00          0
+00                      209100D2 CFG-MSGOUT-NMEA_ID_GRS_SPI                         00          0
+00                      209100D3 CFG-MSGOUT-NMEA_ID_GST_I2C                         00          0
+00                      209100D4 CFG-MSGOUT-NMEA_ID_GST_UART1                       00          0
+
+00                      209100D5 CFG-MSGOUT-NMEA_ID_GST_UART2                       00          0
+00                      209100D6 CFG-MSGOUT-NMEA_ID_GST_USB                         00          0
+00                      209100D7 CFG-MSGOUT-NMEA_ID_GST_SPI                         00          0
+00                      209100D8 CFG-MSGOUT-NMEA_ID_ZDA_I2C                         00          0
+00                      209100D9 CFG-MSGOUT-NMEA_ID_ZDA_UART1                       00          0
+00                      209100DA CFG-MSGOUT-NMEA_ID_ZDA_UART2                       00          0
+00                      209100DB CFG-MSGOUT-NMEA_ID_ZDA_USB                         00          0
+00                      209100DC CFG-MSGOUT-NMEA_ID_ZDA_SPI                         00          0
+
+00                      209100DD CFG-MSGOUT-NMEA_ID_GBS_I2C                         00          0
+00                      209100DE CFG-MSGOUT-NMEA_ID_GBS_UART1                       00          0
+00                      209100DF CFG-MSGOUT-NMEA_ID_GBS_UART2                       00          0
+00                      209100E0 CFG-MSGOUT-NMEA_ID_GBS_USB                         00          0
+00                      209100E1 CFG-MSGOUT-NMEA_ID_GBS_SPI                         00          0
+00                      209100E7 CFG-MSGOUT-NMEA_ID_VLW_I2C                         00          0
+00                      209100E8 CFG-MSGOUT-NMEA_ID_VLW_UART1                       00          0
+00                      209100E9 CFG-MSGOUT-NMEA_ID_VLW_UART2                       00          0
+
+00                      209100EA CFG-MSGOUT-NMEA_ID_VLW_USB                         00          0
+00                      209100EB CFG-MSGOUT-NMEA_ID_VLW_SPI                         00          0
+00                      209100EC CFG-MSGOUT-PUBX_ID_POLYP_I2C                       00          0
+00                      209100ED CFG-MSGOUT-PUBX_ID_POLYP_UART1                     00          0
+00                      209100EE CFG-MSGOUT-PUBX_ID_POLYP_UART2                     00          0
+00                      209100EF CFG-MSGOUT-PUBX_ID_POLYP_USB                       00          0
+00                      209100F0 CFG-MSGOUT-PUBX_ID_POLYP_SPI                       00          0
+00                      209100F1 CFG-MSGOUT-PUBX_ID_POLYS_I2C                       00          0
+
+00                      209100F2 CFG-MSGOUT-PUBX_ID_POLYS_UART1                     00          0
+00                      209100F3 CFG-MSGOUT-PUBX_ID_POLYS_UART2                     00          0
+00                      209100F4 CFG-MSGOUT-PUBX_ID_POLYS_USB                       00          0
+00                      209100F5 CFG-MSGOUT-PUBX_ID_POLYS_SPI                       00          0
+00                      209100F6 CFG-MSGOUT-PUBX_ID_POLYT_I2C                       00          0
+00                      209100F7 CFG-MSGOUT-PUBX_ID_POLYT_UART1                     00          0
+00                      209100F8 CFG-MSGOUT-PUBX_ID_POLYT_UART2                     00          0
+00                      209100F9 CFG-MSGOUT-PUBX_ID_POLYT_USB                       00          0
+
+00                      209100FA CFG-MSGOUT-PUBX_ID_POLYT_SPI                       00          0
+00                      20910119 CFG-MSGOUT-UBX_DBG_31_I2C                          00          0
+00                      2091011A CFG-MSGOUT-UBX_DBG_31_UART1                        00          0
+00                      2091011B CFG-MSGOUT-UBX_DBG_31_UART2                        00          0
+00                      2091011C CFG-MSGOUT-UBX_DBG_31_USB                          00          0
+00                      2091011D CFG-MSGOUT-UBX_DBG_31_SPI                          00          0
+00                      2091011E CFG-MSGOUT-UBX_DBG_TIP_14_I2C                      00          0
+00                      2091011F CFG-MSGOUT-UBX_DBG_TIP_14_UART1                    00          0
+
+00                      20910120 CFG-MSGOUT-UBX_DBG_TIP_14_UART2                    00          0
+00                      20910121 CFG-MSGOUT-UBX_DBG_TIP_14_USB                      00          0
+00                      20910122 CFG-MSGOUT-UBX_DBG_TIP_14_SPI                      00          0
+00                      20910137 CFG-MSGOUT-UBX_DBG_34_I2C                          00          0
+00                      20910138 CFG-MSGOUT-UBX_DBG_34_UART1                        00          0
+00                      20910139 CFG-MSGOUT-UBX_DBG_34_UART2                        00          0
+00                      2091013A CFG-MSGOUT-UBX_DBG_34_USB                          00          0
+00                      2091013B CFG-MSGOUT-UBX_DBG_34_SPI                          00          0
+
+00                      20910141 CFG-MSGOUT-UBX_DBG_43_I2C                          00          0
+00                      20910142 CFG-MSGOUT-UBX_DBG_43_UART1                        00          0
+00                      20910143 CFG-MSGOUT-UBX_DBG_43_UART2                        00          0
+00                      20910144 CFG-MSGOUT-UBX_DBG_43_USB                          00          0
+00                      20910145 CFG-MSGOUT-UBX_DBG_43_SPI                          00          0
+00                      20910155 CFG-MSGOUT-UBX_RXM_RTC5_I2C                        00          0
+00                      20910156 CFG-MSGOUT-UBX_RXM_RTC5_UART1                      00          0
+00                      20910157 CFG-MSGOUT-UBX_RXM_RTC5_UART2                      00          0
+
+00                      20910158 CFG-MSGOUT-UBX_RXM_RTC5_USB                        00          0
+00                      20910159 CFG-MSGOUT-UBX_RXM_RTC5_SPI                        00          0
+00                      2091015F CFG-MSGOUT-UBX_NAV_EOE_I2C                         00          0
+00                      20910160 CFG-MSGOUT-UBX_NAV_EOE_UART1                       00          0
+00                      20910161 CFG-MSGOUT-UBX_NAV_EOE_UART2                       00          0
+00                      20910162 CFG-MSGOUT-UBX_NAV_EOE_USB                         00          0
+00                      20910163 CFG-MSGOUT-UBX_NAV_EOE_SPI                         00          0
+00                      20910178 CFG-MSGOUT-UBX_TIM_TM2_I2C                         00          0
+
+00                      20910179 CFG-MSGOUT-UBX_TIM_TM2_UART1                       00          0
+00                      2091017A CFG-MSGOUT-UBX_TIM_TM2_UART2                       00          0
+00                      2091017B CFG-MSGOUT-UBX_TIM_TM2_USB                         00          0
+00                      2091017C CFG-MSGOUT-UBX_TIM_TM2_SPI                         00          0
+00                      2091017D CFG-MSGOUT-UBX_TIM_TP_I2C                          00          0
+00                      2091017E CFG-MSGOUT-UBX_TIM_TP_UART1                        00          0
+00                      2091017F CFG-MSGOUT-UBX_TIM_TP_UART2                        00          0
+00                      20910180 CFG-MSGOUT-UBX_TIM_TP_USB                          00          0
+
+00                      20910181 CFG-MSGOUT-UBX_TIM_TP_SPI                          00          0
+00                      20910182 CFG-MSGOUT-UBX_TIM_10_I2C                          00          0
+00                      20910183 CFG-MSGOUT-UBX_TIM_10_UART1                        00          0
+00                      20910184 CFG-MSGOUT-UBX_TIM_10_UART2                        00          0
+00                      20910185 CFG-MSGOUT-UBX_TIM_10_USB                          00          0
+00                      20910186 CFG-MSGOUT-UBX_TIM_10_SPI                          00          0
+00                      20910187 CFG-MSGOUT-UBX_MON_RXR_I2C                         00          0
+00                      20910188 CFG-MSGOUT-UBX_MON_RXR_UART1                       00          0
+
+00                      20910189 CFG-MSGOUT-UBX_MON_RXR_UART2                       00          0
+00                      2091018A CFG-MSGOUT-UBX_MON_RXR_USB                         00          0
+00                      2091018B CFG-MSGOUT-UBX_MON_RXR_SPI                         00          0
+00                      2091018C CFG-MSGOUT-UBX_MON_MEM_I2C                         00          0
+00                      2091018D CFG-MSGOUT-UBX_MON_MEM_UART1                       00          0
+00                      2091018E CFG-MSGOUT-UBX_MON_MEM_UART2                       00          0
+00                      2091018F CFG-MSGOUT-UBX_MON_MEM_USB                         00          0
+00                      20910190 CFG-MSGOUT-UBX_MON_MEM_SPI                         00          0
+
+00                      20910191 CFG-MSGOUT-UBX_MON_TOP_I2C                         00          0
+00                      20910192 CFG-MSGOUT-UBX_MON_TOP_UART1                       00          0
+00                      20910193 CFG-MSGOUT-UBX_MON_TOP_UART2                       00          0
+00                      20910194 CFG-MSGOUT-UBX_MON_TOP_USB                         00          0
+00                      20910195 CFG-MSGOUT-UBX_MON_TOP_SPI                         00          0
+00                      20910196 CFG-MSGOUT-UBX_MON_MSGPP_I2C                       00          0
+00                      20910197 CFG-MSGOUT-UBX_MON_MSGPP_UART1                     00          0
+00                      20910198 CFG-MSGOUT-UBX_MON_MSGPP_UART2                     00          0
+
+00                      20910199 CFG-MSGOUT-UBX_MON_MSGPP_USB                       00          0
+00                      2091019A CFG-MSGOUT-UBX_MON_MSGPP_SPI                       00          0
+00                      2091019B CFG-MSGOUT-UBX_MON_TXBUF_I2C                       00          0
+00                      2091019C CFG-MSGOUT-UBX_MON_TXBUF_UART1                     00          0
+00                      2091019D CFG-MSGOUT-UBX_MON_TXBUF_UART2                     00          0
+00                      2091019E CFG-MSGOUT-UBX_MON_TXBUF_USB                       00          0
+00                      2091019F CFG-MSGOUT-UBX_MON_TXBUF_SPI                       00          0
+00                      209101A0 CFG-MSGOUT-UBX_MON_RXBUF_I2C                       00          0
+
+00                      209101A1 CFG-MSGOUT-UBX_MON_RXBUF_UART1                     00          0
+00                      209101A2 CFG-MSGOUT-UBX_MON_RXBUF_UART2                     00          0
+00                      209101A3 CFG-MSGOUT-UBX_MON_RXBUF_USB                       00          0
+00                      209101A4 CFG-MSGOUT-UBX_MON_RXBUF_SPI                       00          0
+00                      209101A5 CFG-MSGOUT-UBX_MON_IO_I2C                          00          0
+00                      209101A6 CFG-MSGOUT-UBX_MON_IO_UART1                        00          0
+00                      209101A7 CFG-MSGOUT-UBX_MON_IO_UART2                        00          0
+00                      209101A8 CFG-MSGOUT-UBX_MON_IO_USB                          00          0
+
+00                      209101A9 CFG-MSGOUT-UBX_MON_IO_SPI                          00          0
+00                      209101AA CFG-MSGOUT-UBX_MON_SYC_I2C                         00          0
+00                      209101AB CFG-MSGOUT-UBX_MON_SYC_UART1                       00          0
+00                      209101AC CFG-MSGOUT-UBX_MON_SYC_UART2                       00          0
+00                      209101AD CFG-MSGOUT-UBX_MON_SYC_USB                         00          0
+00                      209101AE CFG-MSGOUT-UBX_MON_SYC_SPI                         00          0
+00                      209101AF CFG-MSGOUT-UBX_MON_EXCEPT_I2C                      00          0
+00                      209101B0 CFG-MSGOUT-UBX_MON_EXCEPT_UART1                    00          0
+
+00                      209101B1 CFG-MSGOUT-UBX_MON_EXCEPT_UART2                    00          0
+00                      209101B2 CFG-MSGOUT-UBX_MON_EXCEPT_USB                      00          0
+00                      209101B3 CFG-MSGOUT-UBX_MON_EXCEPT_SPI                      00          0
+00                      209101B4 CFG-MSGOUT-UBX_MON_HW_I2C                          00          0
+00                      209101B5 CFG-MSGOUT-UBX_MON_HW_UART1                        00          0
+00                      209101B6 CFG-MSGOUT-UBX_MON_HW_UART2                        00          0
+00                      209101B7 CFG-MSGOUT-UBX_MON_HW_USB                          00          0
+00                      209101B8 CFG-MSGOUT-UBX_MON_HW_SPI                          00          0
+
+00                      209101B9 CFG-MSGOUT-UBX_MON_HW2_I2C                         00          0
+00                      209101BA CFG-MSGOUT-UBX_MON_HW2_UART1                       00          0
+00                      209101BB CFG-MSGOUT-UBX_MON_HW2_UART2                       00          0
+00                      209101BC CFG-MSGOUT-UBX_MON_HW2_USB                         00          0
+00                      209101BD CFG-MSGOUT-UBX_MON_HW2_SPI                         00          0
+00                      209101C8 CFG-MSGOUT-UBX_MON_30_I2C                          00          0
+00                      209101C9 CFG-MSGOUT-UBX_MON_30_UART1                        00          0
+00                      209101CA CFG-MSGOUT-UBX_MON_30_UART2                        00          0
+
+00                      209101CB CFG-MSGOUT-UBX_MON_30_USB                          00          0
+00                      209101CC CFG-MSGOUT-UBX_MON_30_SPI                          00          0
+00                      209101CD CFG-MSGOUT-UBX_MON_NVS_I2C                         00          0
+00                      209101CE CFG-MSGOUT-UBX_MON_NVS_UART1                       00          0
+00                      209101CF CFG-MSGOUT-UBX_MON_NVS_UART2                       00          0
+00                      209101D0 CFG-MSGOUT-UBX_MON_NVS_USB                         00          0
+00                      209101D1 CFG-MSGOUT-UBX_MON_NVS_SPI                         00          0
+00                      209101D2 CFG-MSGOUT-UBX_MON_SPEC_I2C                        00          0
+
+00                      209101D3 CFG-MSGOUT-UBX_MON_SPEC_UART1                      00          0
+00                      209101D4 CFG-MSGOUT-UBX_MON_SPEC_UART2                      00          0
+00                      209101D5 CFG-MSGOUT-UBX_MON_SPEC_USB                        00          0
+00                      209101D6 CFG-MSGOUT-UBX_MON_SPEC_SPI                        00          0
+00                      209101D7 CFG-MSGOUT-UBX_MON_22_I2C                          00          0
+00                      209101D8 CFG-MSGOUT-UBX_MON_22_UART1                        00          0
+00                      209101D9 CFG-MSGOUT-UBX_MON_22_UART2                        00          0
+00                      209101DA CFG-MSGOUT-UBX_MON_22_USB                          00          0
+
+00                      209101DB CFG-MSGOUT-UBX_MON_22_SPI                          00          0
+00                      209101DC CFG-MSGOUT-UBX_MON_STAT_I2C                        00          0
+00                      209101DD CFG-MSGOUT-UBX_MON_STAT_UART1                      00          0
+00                      209101DE CFG-MSGOUT-UBX_MON_STAT_UART2                      00          0
+00                      209101DF CFG-MSGOUT-UBX_MON_STAT_USB                        00          0
+00                      209101E0 CFG-MSGOUT-UBX_MON_STAT_SPI                        00          0
+00                      209101E1 CFG-MSGOUT-UBX_MON_RTS_I2C                         00          0
+00                      209101E2 CFG-MSGOUT-UBX_MON_RTS_UART1                       00          0
+
+00                      209101E3 CFG-MSGOUT-UBX_MON_RTS_UART2                       00          0
+00                      209101E4 CFG-MSGOUT-UBX_MON_RTS_USB                         00          0
+00                      209101E5 CFG-MSGOUT-UBX_MON_RTS_SPI                         00          0
+00                      209101E6 CFG-MSGOUT-UBX_UPD_13_I2C                          00          0
+00                      209101E7 CFG-MSGOUT-UBX_UPD_13_UART1                        00          0
+00                      209101E8 CFG-MSGOUT-UBX_UPD_13_UART2                        00          0
+00                      209101E9 CFG-MSGOUT-UBX_UPD_13_USB                          00          0
+00                      209101EA CFG-MSGOUT-UBX_UPD_13_SPI                          00          0
+
+00                      209101F5 CFG-MSGOUT-UBX_DBG_4A_I2C                          00          0
+00                      209101F6 CFG-MSGOUT-UBX_DBG_4A_UART1                        00          0
+00                      209101F7 CFG-MSGOUT-UBX_DBG_4A_UART2                        00          0
+00                      209101F8 CFG-MSGOUT-UBX_DBG_4A_USB                          00          0
+00                      209101F9 CFG-MSGOUT-UBX_DBG_4A_SPI                          00          0
+00                      209101FF CFG-MSGOUT-UBX_DBG_22_I2C                          00          0
+00                      20910200 CFG-MSGOUT-UBX_DBG_22_UART1                        00          0
+00                      20910201 CFG-MSGOUT-UBX_DBG_22_UART2                        00          0
+
+00                      20910202 CFG-MSGOUT-UBX_DBG_22_USB                          00          0
+00                      20910203 CFG-MSGOUT-UBX_DBG_22_SPI                          00          0
+00                      20910204 CFG-MSGOUT-UBX_RXM_MEASX_I2C                       00          0
+00                      20910205 CFG-MSGOUT-UBX_RXM_MEASX_UART1                     00          0
+00                      20910206 CFG-MSGOUT-UBX_RXM_MEASX_UART2                     00          0
+00                      20910207 CFG-MSGOUT-UBX_RXM_MEASX_USB                       00          0
+00                      20910208 CFG-MSGOUT-UBX_RXM_MEASX_SPI                       00          0
+00                      20910209 CFG-MSGOUT-UBX_MON_PT2_I2C                         00          0
+
+00                      2091020A CFG-MSGOUT-UBX_MON_PT2_UART1                       00          0
+00                      2091020B CFG-MSGOUT-UBX_MON_PT2_UART2                       00          0
+00                      2091020C CFG-MSGOUT-UBX_MON_PT2_USB                         00          0
+00                      2091020D CFG-MSGOUT-UBX_MON_PT2_SPI                         00          0
+00                      2091020E CFG-MSGOUT-UBX_TRK_THRS2_I2C                       00          0
+00                      2091020F CFG-MSGOUT-UBX_TRK_THRS2_UART1                     00          0
+00                      20910210 CFG-MSGOUT-UBX_TRK_THRS2_UART2                     00          0
+00                      20910211 CFG-MSGOUT-UBX_TRK_THRS2_USB                       00          0
+
+00                      20910212 CFG-MSGOUT-UBX_TRK_THRS2_SPI                       00          0
+00                      20910213 CFG-MSGOUT-UBX_TRK_MEAS_I2C                        00          0
+00                      20910214 CFG-MSGOUT-UBX_TRK_MEAS_UART1                      00          0
+00                      20910215 CFG-MSGOUT-UBX_TRK_MEAS_UART2                      00          0
+00                      20910216 CFG-MSGOUT-UBX_TRK_MEAS_USB                        00          0
+00                      20910217 CFG-MSGOUT-UBX_TRK_MEAS_SPI                        00          0
+00                      20910218 CFG-MSGOUT-UBX_TRK_13_I2C                          00          0
+00                      20910219 CFG-MSGOUT-UBX_TRK_13_UART1                        00          0
+
+00                      2091021A CFG-MSGOUT-UBX_TRK_13_UART2                        00          0
+00                      2091021B CFG-MSGOUT-UBX_TRK_13_USB                          00          0
+00                      2091021C CFG-MSGOUT-UBX_TRK_13_SPI                          00          0
+00                      20910227 CFG-MSGOUT-UBX_RXM_INTF_I2C                        00          0
+00                      20910228 CFG-MSGOUT-UBX_RXM_INTF_UART1                      00          0
+00                      20910229 CFG-MSGOUT-UBX_RXM_INTF_UART2                      00          0
+00                      2091022A CFG-MSGOUT-UBX_RXM_INTF_USB                        00          0
+00                      2091022B CFG-MSGOUT-UBX_RXM_INTF_SPI                        00          0
+
+00                      2091022C CFG-MSGOUT-UBX_TRK_SFRBX_I2C                       00          0
+00                      2091022D CFG-MSGOUT-UBX_TRK_SFRBX_UART1                     00          0
+00                      2091022E CFG-MSGOUT-UBX_TRK_SFRBX_UART2                     00          0
+00                      2091022F CFG-MSGOUT-UBX_TRK_SFRBX_USB                       00          0
+00                      20910230 CFG-MSGOUT-UBX_TRK_SFRBX_SPI                       00          0
+00                      20910231 CFG-MSGOUT-UBX_RXM_SFRBX_I2C                       00          0
+00                      20910232 CFG-MSGOUT-UBX_RXM_SFRBX_UART1                     00          0
+00                      20910233 CFG-MSGOUT-UBX_RXM_SFRBX_UART2                     00          0
+
+00                      20910234 CFG-MSGOUT-UBX_RXM_SFRBX_USB                       00          0
+00                      20910235 CFG-MSGOUT-UBX_RXM_SFRBX_SPI                       00          0
+00                      20910236 CFG-MSGOUT-UBX_DBG_NAV_I2C                         00          0
+00                      20910237 CFG-MSGOUT-UBX_DBG_NAV_UART1                       00          0
+00                      20910238 CFG-MSGOUT-UBX_DBG_NAV_UART2                       00          0
+00                      20910239 CFG-MSGOUT-UBX_DBG_NAV_USB                         00          0
+00                      2091023A CFG-MSGOUT-UBX_DBG_NAV_SPI                         00          0
+00                      2091023B CFG-MSGOUT-UBX_DBG_19_I2C                          00          0
+
+00                      2091023C CFG-MSGOUT-UBX_DBG_19_UART1                        00          0
+00                      2091023D CFG-MSGOUT-UBX_DBG_19_UART2                        00          0
+00                      2091023E CFG-MSGOUT-UBX_DBG_19_USB                          00          0
+00                      2091023F CFG-MSGOUT-UBX_DBG_19_SPI                          00          0
+00                      20910240 CFG-MSGOUT-UBX_MON_57_I2C                          00          0
+00                      20910241 CFG-MSGOUT-UBX_MON_57_UART1                        00          0
+00                      20910242 CFG-MSGOUT-UBX_MON_57_UART2                        00          0
+00                      20910243 CFG-MSGOUT-UBX_MON_57_USB                          00          0
+
+00                      20910244 CFG-MSGOUT-UBX_MON_57_SPI                          00          0
+00                      2091024A CFG-MSGOUT-UBX_MON_SGY_I2C                         00          0
+00                      2091024B CFG-MSGOUT-UBX_MON_SGY_UART1                       00          0
+00                      2091024C CFG-MSGOUT-UBX_MON_SGY_UART2                       00          0
+00                      2091024D CFG-MSGOUT-UBX_MON_SGY_USB                         00          0
+00                      2091024E CFG-MSGOUT-UBX_MON_SGY_SPI                         00          0
+00                      20910254 CFG-MSGOUT-UBX_TRK_11_I2C                          00          0
+00                      20910255 CFG-MSGOUT-UBX_TRK_11_UART1                        00          0
+
+00                      20910256 CFG-MSGOUT-UBX_TRK_11_UART2                        00          0
+00                      20910257 CFG-MSGOUT-UBX_TRK_11_USB                          00          0
+00                      20910258 CFG-MSGOUT-UBX_TRK_11_SPI                          00          0
+00                      20910259 CFG-MSGOUT-UBX_LOG_INFO_I2C                        00          0
+00                      2091025A CFG-MSGOUT-UBX_LOG_INFO_UART1                      00          0
+00                      2091025B CFG-MSGOUT-UBX_LOG_INFO_UART2                      00          0
+00                      2091025C CFG-MSGOUT-UBX_LOG_INFO_USB                        00          0
+00                      2091025D CFG-MSGOUT-UBX_LOG_INFO_SPI                        00          0
+
+00                      2091025E CFG-MSGOUT-UBX_RXM_RLM_I2C                         00          0
+00                      2091025F CFG-MSGOUT-UBX_RXM_RLM_UART1                       00          0
+00                      20910260 CFG-MSGOUT-UBX_RXM_RLM_UART2                       00          0
+00                      20910261 CFG-MSGOUT-UBX_RXM_RLM_USB                         00          0
+00                      20910262 CFG-MSGOUT-UBX_RXM_RLM_SPI                         00          0
+00                      20910263 CFG-MSGOUT-UBX_DBG_20_I2C                          00          0
+00                      20910264 CFG-MSGOUT-UBX_DBG_20_UART1                        00          0
+00                      20910265 CFG-MSGOUT-UBX_DBG_20_UART2                        00          0
+
+00                      20910266 CFG-MSGOUT-UBX_DBG_20_USB                          00          0
+00                      20910267 CFG-MSGOUT-UBX_DBG_20_SPI                          00          0
+00                      20910268 CFG-MSGOUT-UBX_RXM_RTCM_I2C                        00          0
+00                      20910269 CFG-MSGOUT-UBX_RXM_RTCM_UART1                      00          0
+00                      2091026A CFG-MSGOUT-UBX_RXM_RTCM_UART2                      00          0
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                        01          1
+00                      2091026C CFG-MSGOUT-UBX_RXM_RTCM_SPI                        00          0
+00                      20910290 CFG-MSGOUT-UBX_DBG_36_I2C                          00          0
+
+00                      20910291 CFG-MSGOUT-UBX_DBG_36_UART1                        00          0
+00                      20910292 CFG-MSGOUT-UBX_DBG_36_UART2                        00          0
+00                      20910293 CFG-MSGOUT-UBX_DBG_36_USB                          00          0
+00                      20910294 CFG-MSGOUT-UBX_DBG_36_SPI                          00          0
+00                      209102A4 CFG-MSGOUT-UBX_RXM_RAWX_I2C                        00          0
+00                      209102A5 CFG-MSGOUT-UBX_RXM_RAWX_UART1                      00          0
+00                      209102A6 CFG-MSGOUT-UBX_RXM_RAWX_UART2                      00          0
+00                      209102A7 CFG-MSGOUT-UBX_RXM_RAWX_USB                        00          0
+
+00                      209102A8 CFG-MSGOUT-UBX_RXM_RAWX_SPI                        00          0
+00                      209102A9 CFG-MSGOUT-RTCM_3X_TYPE1001_I2C                    00          0
+00                      209102AA CFG-MSGOUT-RTCM_3X_TYPE1001_UART1                  00          0
+00                      209102AB CFG-MSGOUT-RTCM_3X_TYPE1001_UART2                  00          0
+00                      209102AC CFG-MSGOUT-RTCM_3X_TYPE1001_USB                    00          0
+00                      209102AD CFG-MSGOUT-RTCM_3X_TYPE1001_SPI                    00          0
+00                      209102AE CFG-MSGOUT-RTCM_3X_TYPE1009_I2C                    00          0
+00                      209102AF CFG-MSGOUT-RTCM_3X_TYPE1009_UART1                  00          0
+
+00                      209102B0 CFG-MSGOUT-RTCM_3X_TYPE1009_UART2                  00          0
+00                      209102B1 CFG-MSGOUT-RTCM_3X_TYPE1009_USB                    00          0
+00                      209102B2 CFG-MSGOUT-RTCM_3X_TYPE1009_SPI                    00          0
+00                      209102B3 CFG-MSGOUT-RTCM_3X_TYPE1002_I2C                    00          0
+00                      209102B4 CFG-MSGOUT-RTCM_3X_TYPE1002_UART1                  00          0
+00                      209102B5 CFG-MSGOUT-RTCM_3X_TYPE1002_UART2                  00          0
+00                      209102B6 CFG-MSGOUT-RTCM_3X_TYPE1002_USB                    00          0
+00                      209102B7 CFG-MSGOUT-RTCM_3X_TYPE1002_SPI                    00          0
+
+00                      209102B8 CFG-MSGOUT-RTCM_3X_TYPE1010_I2C                    00          0
+00                      209102B9 CFG-MSGOUT-RTCM_3X_TYPE1010_UART1                  00          0
+00                      209102BA CFG-MSGOUT-RTCM_3X_TYPE1010_UART2                  00          0
+00                      209102BB CFG-MSGOUT-RTCM_3X_TYPE1010_USB                    00          0
+00                      209102BC CFG-MSGOUT-RTCM_3X_TYPE1010_SPI                    00          0
+00                      209102BD CFG-MSGOUT-RTCM_3X_TYPE1005_I2C                    00          0
+00                      209102BE CFG-MSGOUT-RTCM_3X_TYPE1005_UART1                  00          0
+00                      209102BF CFG-MSGOUT-RTCM_3X_TYPE1005_UART2                  00          0
+
+00                      209102C0 CFG-MSGOUT-RTCM_3X_TYPE1005_USB                    00          0
+00                      209102C1 CFG-MSGOUT-RTCM_3X_TYPE1005_SPI                    00          0
+00                      209102C2 CFG-MSGOUT-RTCM_3X_TYPE1006_I2C                    00          0
+00                      209102C3 CFG-MSGOUT-RTCM_3X_TYPE1006_UART1                  00          0
+00                      209102C4 CFG-MSGOUT-RTCM_3X_TYPE1006_UART2                  00          0
+00                      209102C5 CFG-MSGOUT-RTCM_3X_TYPE1006_USB                    00          0
+00                      209102C6 CFG-MSGOUT-RTCM_3X_TYPE1006_SPI                    00          0
+00                      209102CC CFG-MSGOUT-RTCM_3X_TYPE1077_I2C                    00          0
+
+00                      209102CD CFG-MSGOUT-RTCM_3X_TYPE1077_UART1                  00          0
+00                      209102CE CFG-MSGOUT-RTCM_3X_TYPE1077_UART2                  00          0
+00                      209102CF CFG-MSGOUT-RTCM_3X_TYPE1077_USB                    00          0
+00                      209102D0 CFG-MSGOUT-RTCM_3X_TYPE1077_SPI                    00          0
+00                      209102D1 CFG-MSGOUT-RTCM_3X_TYPE1087_I2C                    00          0
+00                      209102D2 CFG-MSGOUT-RTCM_3X_TYPE1087_UART1                  00          0
+00                      209102D3 CFG-MSGOUT-RTCM_3X_TYPE1087_UART2                  00          0
+00                      209102D4 CFG-MSGOUT-RTCM_3X_TYPE1087_USB                    00          0
+
+00                      209102D5 CFG-MSGOUT-RTCM_3X_TYPE1087_SPI                    00          0
+00                      209102D6 CFG-MSGOUT-RTCM_3X_TYPE1127_I2C                    00          0
+00                      209102D7 CFG-MSGOUT-RTCM_3X_TYPE1127_UART1                  00          0
+00                      209102D8 CFG-MSGOUT-RTCM_3X_TYPE1127_UART2                  00          0
+00                      209102D9 CFG-MSGOUT-RTCM_3X_TYPE1127_USB                    00          0
+00                      209102DA CFG-MSGOUT-RTCM_3X_TYPE1127_SPI                    00          0
+00                      209102F4 CFG-MSGOUT-UBX_08_10_I2C                           00          0
+00                      209102F5 CFG-MSGOUT-UBX_08_10_UART1                         00          0
+
+00                      209102F6 CFG-MSGOUT-UBX_08_10_UART2                         00          0
+00                      209102F7 CFG-MSGOUT-UBX_08_10_USB                           00          0
+00                      209102F8 CFG-MSGOUT-UBX_08_10_SPI                           00          0
+00                      209102F9 CFG-MSGOUT-UBX_MON_34_I2C                          00          0
+00                      209102FA CFG-MSGOUT-UBX_MON_34_UART1                        00          0
+00                      209102FB CFG-MSGOUT-UBX_MON_34_UART2                        00          0
+00                      209102FC CFG-MSGOUT-UBX_MON_34_USB                          00          0
+00                      209102FD CFG-MSGOUT-UBX_MON_34_SPI                          00          0
+
+00                      209102FE CFG-MSGOUT-RTCM_3X_TYPE4072_0_I2C                  00          0
+00                      209102FF CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART1                00          0
+00                      20910300 CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART2                00          0
+00                      20910301 CFG-MSGOUT-RTCM_3X_TYPE4072_0_USB                  00          0
+00                      20910302 CFG-MSGOUT-RTCM_3X_TYPE4072_0_SPI                  00          0
+00                      20910303 CFG-MSGOUT-RTCM_3X_TYPE1230_I2C                    00          0
+00                      20910304 CFG-MSGOUT-RTCM_3X_TYPE1230_UART1                  00          0
+00                      20910305 CFG-MSGOUT-RTCM_3X_TYPE1230_UART2                  00          0
+
+00                      20910306 CFG-MSGOUT-RTCM_3X_TYPE1230_USB                    00          0
+00                      20910307 CFG-MSGOUT-RTCM_3X_TYPE1230_SPI                    00          0
+00                      20910308 CFG-MSGOUT-UBX_MON_33_I2C                          00          0
+00                      20910309 CFG-MSGOUT-UBX_MON_33_UART1                        00          0
+00                      20910310 CFG-MSGOUT-UBX_MON_33_UART2                        00          0
+00                      20910311 CFG-MSGOUT-UBX_MON_33_USB                          00          0
+00                      20910312 CFG-MSGOUT-UBX_MON_33_SPI                          00          0
+00                      20910313 CFG-MSGOUT-UBX_NAV_EELL_I2C                        00          0
+
+00                      20910314 CFG-MSGOUT-UBX_NAV_EELL_UART1                      00          0
+00                      20910315 CFG-MSGOUT-UBX_NAV_EELL_UART2                      00          0
+00                      20910316 CFG-MSGOUT-UBX_NAV_EELL_USB                        00          0
+00                      20910317 CFG-MSGOUT-UBX_NAV_EELL_SPI                        00          0
+00                      20910318 CFG-MSGOUT-RTCM_3X_TYPE1097_I2C                    00          0
+00                      20910319 CFG-MSGOUT-RTCM_3X_TYPE1097_UART1                  00          0
+00                      2091031A CFG-MSGOUT-RTCM_3X_TYPE1097_UART2                  00          0
+00                      2091031B CFG-MSGOUT-RTCM_3X_TYPE1097_USB                    00          0
+
+00                      2091031C CFG-MSGOUT-RTCM_3X_TYPE1097_SPI                    00          0
+00                      2091032C CFG-MSGOUT-UBX_DBG_CFGVAL_I2C                      00          0
+00                      2091032D CFG-MSGOUT-UBX_DBG_CFGVAL_UART1                    00          0
+00                      2091032E CFG-MSGOUT-UBX_DBG_CFGVAL_UART2                    00          0
+00                      2091032F CFG-MSGOUT-UBX_DBG_CFGVAL_USB                      00          0
+00                      20910330 CFG-MSGOUT-UBX_DBG_CFGVAL_SPI                      00          0
+00                      20910331 CFG-MSGOUT-UBX_MON_TEMP_I2C                        00          0
+00                      20910332 CFG-MSGOUT-UBX_MON_TEMP_UART1                      00          0
+
+00                      20910333 CFG-MSGOUT-UBX_MON_TEMP_UART2                      00          0
+00                      20910334 CFG-MSGOUT-UBX_MON_TEMP_USB                        00          0
+00                      20910335 CFG-MSGOUT-UBX_MON_TEMP_SPI                        00          0
+00                      20910336 CFG-MSGOUT-UBX_NAV_SLAS_I2C                        00          0
+00                      20910337 CFG-MSGOUT-UBX_NAV_SLAS_UART1                      00          0
+00                      20910338 CFG-MSGOUT-UBX_NAV_SLAS_UART2                      00          0
+00                      20910339 CFG-MSGOUT-UBX_NAV_SLAS_USB                        00          0
+00                      2091033A CFG-MSGOUT-UBX_NAV_SLAS_SPI                        00          0
+
+00                      20910345 CFG-MSGOUT-UBX_NAV_SIG_I2C                         00          0
+00                      20910346 CFG-MSGOUT-UBX_NAV_SIG_UART1                       00          0
+00                      20910347 CFG-MSGOUT-UBX_NAV_SIG_UART2                       00          0
+00                      20910348 CFG-MSGOUT-UBX_NAV_SIG_USB                         00          0
+00                      20910349 CFG-MSGOUT-UBX_NAV_SIG_SPI                         00          0
+00                      2091034A CFG-MSGOUT-UBX_SEC_ECSIGN_I2C                      00          0
+00                      2091034B CFG-MSGOUT-UBX_SEC_ECSIGN_UART1                    00          0
+00                      2091034C CFG-MSGOUT-UBX_SEC_ECSIGN_UART2                    00          0
+
+00                      2091034D CFG-MSGOUT-UBX_SEC_ECSIGN_USB                      00          0
+00                      2091034E CFG-MSGOUT-UBX_SEC_ECSIGN_SPI                      00          0
+00                      2091034F CFG-MSGOUT-UBX_MON_COMMS_I2C                       00          0
+00                      20910350 CFG-MSGOUT-UBX_MON_COMMS_UART1                     00          0
+00                      20910351 CFG-MSGOUT-UBX_MON_COMMS_UART2                     00          0
+00                      20910352 CFG-MSGOUT-UBX_MON_COMMS_USB                       00          0
+00                      20910353 CFG-MSGOUT-UBX_MON_COMMS_SPI                       00          0
+00                      20910354 CFG-MSGOUT-UBX_MON_HW3_I2C                         00          0
+
+00                      20910355 CFG-MSGOUT-UBX_MON_HW3_UART1                       00          0
+00                      20910356 CFG-MSGOUT-UBX_MON_HW3_UART2                       00          0
+00                      20910357 CFG-MSGOUT-UBX_MON_HW3_USB                         00          0
+00                      20910358 CFG-MSGOUT-UBX_MON_HW3_SPI                         00          0
+00                      20910359 CFG-MSGOUT-UBX_MON_RF_I2C                          00          0
+00                      2091035A CFG-MSGOUT-UBX_MON_RF_UART1                        00          0
+00                      2091035B CFG-MSGOUT-UBX_MON_RF_UART2                        00          0
+00                      2091035C CFG-MSGOUT-UBX_MON_RF_USB                          00          0
+
+00                      2091035D CFG-MSGOUT-UBX_MON_RF_SPI                          00          0
+00                      2091035E CFG-MSGOUT-RTCM_3X_TYPE1074_I2C                    00          0
+00                      2091035F CFG-MSGOUT-RTCM_3X_TYPE1074_UART1                  00          0
+00                      20910360 CFG-MSGOUT-RTCM_3X_TYPE1074_UART2                  00          0
+00                      20910361 CFG-MSGOUT-RTCM_3X_TYPE1074_USB                    00          0
+00                      20910362 CFG-MSGOUT-RTCM_3X_TYPE1074_SPI                    00          0
+00                      20910363 CFG-MSGOUT-RTCM_3X_TYPE1084_I2C                    00          0
+00                      20910364 CFG-MSGOUT-RTCM_3X_TYPE1084_UART1                  00          0
+
+00                      20910365 CFG-MSGOUT-RTCM_3X_TYPE1084_UART2                  00          0
+00                      20910366 CFG-MSGOUT-RTCM_3X_TYPE1084_USB                    00          0
+00                      20910367 CFG-MSGOUT-RTCM_3X_TYPE1084_SPI                    00          0
+00                      20910368 CFG-MSGOUT-RTCM_3X_TYPE1094_I2C                    00          0
+00                      20910369 CFG-MSGOUT-RTCM_3X_TYPE1094_UART1                  00          0
+00                      2091036A CFG-MSGOUT-RTCM_3X_TYPE1094_UART2                  00          0
+00                      2091036B CFG-MSGOUT-RTCM_3X_TYPE1094_USB                    00          0
+00                      2091036C CFG-MSGOUT-RTCM_3X_TYPE1094_SPI                    00          0
+
+00                      2091036D CFG-MSGOUT-RTCM_3X_TYPE1124_I2C                    00          0
+00                      2091036E CFG-MSGOUT-RTCM_3X_TYPE1124_UART1                  00          0
+00                      2091036F CFG-MSGOUT-RTCM_3X_TYPE1124_UART2                  00          0
+00                      20910370 CFG-MSGOUT-RTCM_3X_TYPE1124_USB                    00          0
+00                      20910371 CFG-MSGOUT-RTCM_3X_TYPE1124_SPI                    00          0
+00                      2091037C CFG-MSGOUT-UBX_DBG_4E_I2C                          00          0
+00                      2091037D CFG-MSGOUT-UBX_DBG_4E_UART1                        00          0
+00                      2091037E CFG-MSGOUT-UBX_DBG_4E_UART2                        00          0
+
+00                      2091037F CFG-MSGOUT-UBX_DBG_4E_USB                          00          0
+00                      20910380 CFG-MSGOUT-UBX_DBG_4E_SPI                          00          0
+00                      20910381 CFG-MSGOUT-RTCM_3X_TYPE4072_1_I2C                  00          0
+00                      20910382 CFG-MSGOUT-RTCM_3X_TYPE4072_1_UART1                00          0
+00                      20910383 CFG-MSGOUT-RTCM_3X_TYPE4072_1_UART2                00          0
+00                      20910384 CFG-MSGOUT-RTCM_3X_TYPE4072_1_USB                  00          0
+00                      20910385 CFG-MSGOUT-RTCM_3X_TYPE4072_1_SPI                  00          0
+00                      20910386 CFG-MSGOUT-UBX_NAV_TIMEQZSS_I2C                    00          0
+
+00                      20910387 CFG-MSGOUT-UBX_NAV_TIMEQZSS_UART1                  00          0
+00                      20910388 CFG-MSGOUT-UBX_NAV_TIMEQZSS_UART2                  00          0
+00                      20910389 CFG-MSGOUT-UBX_NAV_TIMEQZSS_USB                    00          0
+00                      2091038A CFG-MSGOUT-UBX_NAV_TIMEQZSS_SPI                    00          0
+00                      2091038B CFG-MSGOUT-MON_SPAN_I2C                            00          0
+00                      2091038C CFG-MSGOUT-MON_SPAN_UART1                          00          0
+00                      2091038D CFG-MSGOUT-MON_SPAN_UART2                          00          0
+00                      2091038E CFG-MSGOUT-MON_SPAN_USB                            00          0
+
+00                      2091038F CFG-MSGOUT-MON_SPAN_SPI                            00          0
+00                      20910390 CFG-MSGOUT-UBX_DBG_4F_I2C                          00          0
+00                      20910391 CFG-MSGOUT-UBX_DBG_4F_UART1                        00          0
+00                      20910392 CFG-MSGOUT-UBX_DBG_4F_UART2                        00          0
+00                      20910393 CFG-MSGOUT-UBX_DBG_4F_USB                          00          0
+00                      20910394 CFG-MSGOUT-UBX_DBG_4F_SPI                          00          0
+00                      20910395 CFG-MSGOUT-UBX_DBG_51_I2C                          00          0
+00                      20910396 CFG-MSGOUT-UBX_DBG_51_UART1                        00          0
+
+00                      20910397 CFG-MSGOUT-UBX_DBG_51_UART2                        00          0
+00                      20910398 CFG-MSGOUT-UBX_DBG_51_USB                          00          0
+00                      20910399 CFG-MSGOUT-UBX_DBG_51_SPI                          00          0
+00                      20910400 CFG-MSGOUT-NMEA_ID_RLM_I2C                         00          0
+00                      20910401 CFG-MSGOUT-NMEA_ID_RLM_UART1                       00          0
+00                      20910402 CFG-MSGOUT-NMEA_ID_RLM_UART2                       00          0
+00                      20910403 CFG-MSGOUT-NMEA_ID_RLM_USB                         00          0
+00                      20910404 CFG-MSGOUT-NMEA_ID_RLM_SPI                         00          0
+
+00                      2091040A CFG-MSGOUT-UBX_DBG_54_I2C                          00          0
+00                      2091040B CFG-MSGOUT-UBX_DBG_54_UART1                        00          0
+00                      2091040C CFG-MSGOUT-UBX_DBG_54_UART2                        00          0
+00                      2091040D CFG-MSGOUT-UBX_DBG_54_USB                          00          0
+00                      2091040E CFG-MSGOUT-UBX_DBG_54_SPI                          00          0
+00                      20910420 CFG-MSGOUT-UBX_DBG_56_I2C                          00          0
+00                      20910421 CFG-MSGOUT-UBX_DBG_56_UART1                        00          0
+00                      20910422 CFG-MSGOUT-UBX_DBG_56_UART2                        00          0
+
+00                      20910423 CFG-MSGOUT-UBX_DBG_56_USB                          00          0
+00                      20910424 CFG-MSGOUT-UBX_DBG_56_SPI                          00          0
+00                      20920001 CFG-INFMSG-UBX_I2C                                 00          0
+00                      20920002 CFG-INFMSG-UBX_UART1                               00          0
+00                      20920003 CFG-INFMSG-UBX_UART2                               00          0
+00                      20920004 CFG-INFMSG-UBX_USB                                 00          0
+00                      20920005 CFG-INFMSG-UBX_SPI                                 00          0
+07                      20920006 CFG-INFMSG-NMEA_I2C                                07          7
+
+07                      20920007 CFG-INFMSG-NMEA_UART1                              07          7
+07                      20920008 CFG-INFMSG-NMEA_UART2                              07          7
+07                      20920009 CFG-INFMSG-NMEA_USB                                07          7
+07                      2092000A CFG-INFMSG-NMEA_SPI                                07          7
+29                      20930001 CFG-NMEA-PROTVER                                   29         41
+00                      20930002 CFG-NMEA-MAXSVS                                    00          0
+00                      20930007 CFG-NMEA-SVNUMBERING                               00          0
+00                      20930031 CFG-NMEA-MAINTALKERID                              00          0
+
+00                      20930032 CFG-NMEA-GSVTALKERID                               00          0
+00                      20A20003 CFG-TXREADY-003                                    00          0
+00                      20A20005 CFG-TXREADY-005                                    00          0
+0F                      20A30006 CFG-HW-006                                         0F         15
+0F                      20A30012 CFG-HW-012                                         0F         15
+03                      20A30025 CFG-HW-OSC_TYPE                                    03          3
+10                      20A30036 CFG-HW-ANT_SUP_SWITCH_PIN                          10         16
+0F                      20A30037 CFG-HW-ANT_SUP_SHORT_PIN                           0F         15
+
+0E                      20A30038 CFG-HW-ANT_SUP_OPEN_PIN                            0E         14
+00                      20A30051 CFG-HW-051                                         00          0
+00                      20A30054 CFG-HW-ANT_SUP_ENGINE                              00          0
+00                      20A30055 CFG-HW-ANT_SUP_SHORT_THR                           00          0
+00                      20A30056 CFG-HW-ANT_SUP_OPEN_THR                            00          0
+14                      20C50001 CFG-0C5-001                                        14         20
+8C                      20C50002 CFG-0C5-002                                        8C        140
+08                      20C60001 CFG-0C6-001                                        08          8
+
+00                      20C60004 CFG-0C6-004                                        00          0
+01                      20C60006 CFG-0C6-006                                        01          1
+00                      20C60008 CFG-0C6-008                                        00          0
+01                      20C6000A CFG-0C6-00A                                        01          1
+00                      20C6000C CFG-0C6-00C                                        00          0
+01                      20C6000E CFG-0C6-00E                                        01          1
+00                      20C60010 CFG-0C6-010                                        00          0
+01                      20C60012 CFG-0C6-012                                        01          1
+
+00                      20C60014 CFG-0C6-014                                        00          0
+01                      20C60016 CFG-0C6-016                                        01          1
+00                      20C60018 CFG-0C6-018                                        00          0
+01                      20C6001A CFG-0C6-01A                                        01          1
+00                      20C6001C CFG-0C6-01C                                        00          0
+01                      20C6001E CFG-0C6-01E                                        01          1
+00                      20C60020 CFG-0C6-020                                        00          0
+01                      20C60022 CFG-0C6-022                                        01          1
+
+00                      20C60024 CFG-0C6-024                                        00          0
+01                      20C60026 CFG-0C6-026                                        01          1
+00                      20C60028 CFG-0C6-028                                        00          0
+01                      20C6002A CFG-0C6-02A                                        01          1
+00                      20C6002C CFG-0C6-02C                                        00          0
+01                      20C6002E CFG-0C6-02E                                        01          1
+00                      20C60030 CFG-0C6-030                                        00          0
+01                      20C60032 CFG-0C6-032                                        01          1
+
+16                      20C70003 CFG-RINV-DATA_SIZE                                 16         22
+00                      20F60001 CFG-SEC-001                                        00          0
+00 00                   30010010 CFG-001-010                                      0000          0
+00 00                   30010020 CFG-001-020                                      0000          0
+00 00                   30010030 CFG-001-030                                      0000          0
+00 00                   30010040 CFG-001-040                                      0000          0
+00 00                   30010050 CFG-001-050                                      0000          0
+00 00                   30010060 CFG-001-060                                      0000          0
+
+00 00                   30010070 CFG-001-070                                      0000          0
+00 00                   30010080 CFG-001-080                                      0000          0
+00 00                   30010090 CFG-001-090                                      0000          0
+00 00                   300100A0 CFG-001-0A0                                      0000          0
+00 00                   300100B0 CFG-001-0B0                                      0000          0
+00 00                   300100C0 CFG-001-0C0                                      0000          0
+00 00                   300100D0 CFG-001-0D0                                      0000          0
+00 00                   300100E0 CFG-001-0E0                                      0000          0
+
+00 00                   30010110 CFG-001-110                                      0000          0
+00 00                   30010120 CFG-001-120                                      0000          0
+00 00                   30010130 CFG-001-130                                      0000          0
+00 00                   30010140 CFG-001-140                                      0000          0
+00 00                   30010150 CFG-001-150                                      0000          0
+00 00                   30010160 CFG-001-160                                      0000          0
+00 00                   30010170 CFG-001-170                                      0000          0
+00 00                   30010180 CFG-001-180                                      0000          0
+
+00 00                   30010190 CFG-001-190                                      0000          0
+00 00                   300101A0 CFG-001-1A0                                      0000          0
+00 00                   300101B0 CFG-001-1B0                                      0000          0
+00 00                   300101C0 CFG-001-1C0                                      0000          0
+00 00                   300101D0 CFG-001-1D0                                      0000          0
+00 00                   300101E0 CFG-001-1E0                                      0000          0
+64 00                   30020001 CFG-002-001                                      0064        100
+32 00                   30050001 CFG-TP-ANT_CABLEDELAY                            0032         50
+
+00 00                   30090001 CFG-RTCM-DF003_OUT                               0000          0
+00 00                   30090008 CFG-RTCM-DF003_IN                                0000          0
+32 08                   30110017 CFG-NAVSPG-WKNROLLOVER                           0832       2098
+FA 00                   301100B1 CFG-NAVSPG-OUTFIL_PDOP                           00FA        250
+FA 00                   301100B2 CFG-NAVSPG-OUTFIL_TDOP                           00FA        250
+64 00                   301100B3 CFG-NAVSPG-OUTFIL_PACC                           0064        100
+5E 01                   301100B4 CFG-NAVSPG-OUTFIL_TACC                           015E        350
+96 00                   301100B5 CFG-NAVSPG-OUTFIL_FACC                           0096        150
+
+64 00                   30210001 CFG-RATE-MEAS                                    0064        100
+01 00                   30210002 CFG-RATE-NAV                                     0001          1
+00 00                   3025000B CFG-MOT-00B                                      0000          0
+00 00                   3025000C CFG-MOT-00C                                      0000          0
+00 00                   3025003B CFG-MOT-GNSSDIST_THRS                            0000          0
+46 00                   30340006 CFG-BDS-006                                      0046         70
+91 00                   30340008 CFG-BDS-008                                      0091        145
+46 15                   3065000A CFG-USB-VENDOR_ID                                1546       5446
+
+A9 01                   3065000B CFG-USB-PRODUCT_ID                               01A9        425
+00 00                   3065000C CFG-USB-POWER                                    0000          0
+00 00                   30930033 CFG-NMEA-BDSTALKERID                             0000          0
+00 00                   30A20004 CFG-TXREADY-004                                  0000          0
+F4 01                   30A3003C CFG-HW-03C                                       01F4        500
+B0 04                   30A30045 CFG-HW-045                                       04B0       1200
+E8 03                   30A30046 CFG-HW-046                                       03E8       1000
+00 00                   30A30048 CFG-HW-048                                       0000          0
+
+78 05                   30A50002 CFG-0A5-002                                      0578       1400
+FF 1F                   30A5000A CFG-0A5-00A                                      1FFF       8191
+00 00                   30C60005 CFG-0C6-005                                      0000          0
+00 00                   30C60009 CFG-0C6-009                                      0000          0
+00 00                   30C6000D CFG-0C6-00D                                      0000          0
+00 00                   30C60011 CFG-0C6-011                                      0000          0
+00 00                   30C60015 CFG-0C6-015                                      0000          0
+00 00                   30C60019 CFG-0C6-019                                      0000          0
+
+00 00                   30C6001D CFG-0C6-01D                                      0000          0
+00 00                   30C60021 CFG-0C6-021                                      0000          0
+00 00                   30C60025 CFG-0C6-025                                      0000          0
+00 00                   30C60029 CFG-0C6-029                                      0000          0
+00 00                   30C6002D CFG-0C6-02D                                      0000          0
+00 00                   30C60031 CFG-0C6-031                                      0000          0
+00 00                   30DE0005 CFG-LOGFILTER-MIN_INTERVAL                       0000          0
+00 00                   30DE0006 CFG-LOGFILTER-TIME_THRS                          0000          0
+
+00 00                   30DE0007 CFG-LOGFILTER-SPEED_THRS                         0000          0
+00 00                   30F6000A CFG-SEC-CFG_LOCK_UNLOCKGRP1                      0000          0
+00 00                   30F6000B CFG-SEC-CFG_LOCK_UNLOCKGRP2                      0000          0
+00 00 00 00             40030003 CFG-TMODE-ECEF_X                             00000000          0
+00 00 00 00             40030004 CFG-TMODE-ECEF_Y                             00000000          0
+00 00 00 00             40030005 CFG-TMODE-ECEF_Z                             00000000          0
+00 00 00 00             40030009 CFG-TMODE-LAT                                00000000          0
+00 00 00 00             4003000A CFG-TMODE-LON                                00000000          0
+
+00 00 00 00             4003000B CFG-TMODE-HEIGHT                             00000000          0
+00 00 00 00             4003000F CFG-TMODE-FIXED_POS_ACC                      00000000          0
+00 00 00 00             40030010 CFG-TMODE-SVIN_MIN_DUR                       00000000          0
+00 00 00 00             40030011 CFG-TMODE-SVIN_ACC_LIMIT                     00000000          0
+40 42 0F 00             40050002 CFG-TP-PERIOD_TP1                            000F4240    1000000
+40 42 0F 00             40050003 CFG-TP-PERIOD_LOCK_TP1                       000F4240    1000000
+00 00 00 00             40050004 CFG-TP-LEN_TP1                               00000000          0
+A0 86 01 00             40050005 CFG-TP-LEN_LOCK_TP1                          000186A0     100000
+
+00 00 00 00             40050006 CFG-TP-USER_DELAY_TP1                        00000000          0
+01 00 00 00             40050024 CFG-TP-FREQ_TP1                              00000001          1
+01 00 00 00             40050025 CFG-TP-FREQ_LOCK_TP1                         00000001          1
+00 00 00 00             40110064 CFG-NAVSPG-USRDAT_DX                         00000000          0
+00 00 00 00             40110065 CFG-NAVSPG-USRDAT_DY                         00000000          0
+00 00 00 00             40110066 CFG-NAVSPG-USRDAT_DZ                         00000000          0
+00 00 00 00             40110067 CFG-NAVSPG-USRDAT_ROTX                       00000000          0
+00 00 00 00             40110068 CFG-NAVSPG-USRDAT_ROTY                       00000000          0
+
+00 00 00 00             40110069 CFG-NAVSPG-USRDAT_ROTZ                       00000000          0
+00 00 00 00             4011006A CFG-NAVSPG-USRDAT_SCALE                      00000000          0
+00 00 00 00             401100C1 CFG-NAVSPG-CONSTR_ALT                        00000000          0
+10 27 00 00             401100C2 CFG-NAVSPG-CONSTR_ALTVAR                     00002710      10000
+00 00 00 00             401100D1 CFG-NAVSPG-0D1                               00000000          0
+00 00 00 00             401100D2 CFG-NAVSPG-0D2                               00000000          0
+00 00 00 00             401100D3 CFG-NAVSPG-0D3                               00000000          0
+00 00 00 00             40240021 CFG-GEOFENCE-FENCE1_LAT                      00000000          0
+
+00 00 00 00             40240022 CFG-GEOFENCE-FENCE1_LON                      00000000          0
+00 00 00 00             40240023 CFG-GEOFENCE-FENCE1_RAD                      00000000          0
+00 00 00 00             40240031 CFG-GEOFENCE-FENCE2_LAT                      00000000          0
+00 00 00 00             40240032 CFG-GEOFENCE-FENCE2_LON                      00000000          0
+00 00 00 00             40240033 CFG-GEOFENCE-FENCE2_RAD                      00000000          0
+00 00 00 00             40240041 CFG-GEOFENCE-FENCE3_LAT                      00000000          0
+00 00 00 00             40240042 CFG-GEOFENCE-FENCE3_LON                      00000000          0
+00 00 00 00             40240043 CFG-GEOFENCE-FENCE3_RAD                      00000000          0
+
+00 00 00 00             40240051 CFG-GEOFENCE-FENCE4_LAT                      00000000          0
+00 00 00 00             40240052 CFG-GEOFENCE-FENCE4_LON                      00000000          0
+00 00 00 00             40240053 CFG-GEOFENCE-FENCE4_RAD                      00000000          0
+F0 F1 FF FF             40340012 CFG-BDS-012                                  FFFFF1F0 4294963696
+30 2A 00 00             40340013 CFG-BDS-013                                  00002A30      10800
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                           0001C200     115200
+00 C2 01 00             40530001 CFG-UART2-BAUDRATE                           0001C200     115200
+00 00 00 00             40A30028 CFG-HW-CLK_OFFSET                            00000000          0
+
+00 00 00 00             40A3002A CFG-HW-CLK_PRECISION                         00000000          0
+00 00 00 00             40A3002B CFG-HW-CLK_MAX_CALIB_DEV                     00000000          0
+00 00 00 00             40A30041 CFG-HW-041                                   00000000          0
+D0 07 00 00             40A30042 CFG-HW-042                                   000007D0       2000
+E8 03 00 00             40A30043 CFG-HW-043                                   000003E8       1000
+F4 01 00 00             40A30044 CFG-HW-044                                   000001F4        500
+00 04 04 00             40A3004C CFG-HW-04C                                   00040400     263168
+B0 00 00 00             40A3004D CFG-HW-04D                                   000000B0        176
+
+00 60 E3 16             40A40001 CFG-CLOCK-001                                16E36000  384000000
+00 60 E3 16             40A40002 CFG-CLOCK-002                                16E36000  384000000
+00 B0 71 0B             40A40003 CFG-CLOCK-003                                0B71B000  192000000
+00 60 E3 16             40A40004 CFG-CLOCK-004                                16E36000  384000000
+00 20 A1 07             40A40005 CFG-CLOCK-005                                07A12000  128000000
+80 1A 06 00             40A40006 CFG-CLOCK-006                                00061A80     400000
+00 20 A1 07             40A40007 CFG-CLOCK-007                                07A12000  128000000
+00 90 D0 03             40A40008 CFG-CLOCK-008                                03D09000   64000000
+
+00 90 D0 03             40A40009 CFG-CLOCK-009                                03D09000   64000000
+00 20 A1 07             40A4000A CFG-CLOCK-00A                                07A12000  128000000
+00 90 D0 03             40A4000B CFG-CLOCK-00B                                03D09000   64000000
+00 24 F4 00             40A4000C CFG-CLOCK-00C                                00F42400   16000000
+E0 87 F4 02             40A4000D CFG-CLOCK-OSC_FREQ                           02F487E0   49580000
+00 B0 71 0B             40A40010 CFG-CLOCK-010                                0B71B000  192000000
+01 00 00 00             40A50001 CFG-0A5-001                                  00000001          1
+FF FF FF 1F             40A50005 CFG-0A5-005                                  1FFFFFFF  536870911
+
+FF FF FF FF             40A50006 CFG-0A5-006                                  FFFFFFFF 4294967295
+FF FF FF FF             40A50007 CFG-0A5-007                                  FFFFFFFF 4294967295
+FF FF FF FF             40A50008 CFG-0A5-008                                  FFFFFFFF 4294967295
+FF FF FF FF             40A50009 CFG-0A5-009                                  FFFFFFFF 4294967295
+00 00 00 00             40A60001 CFG-0A6-001                                  00000000          0
+0F 00 00 00             40C60034 CFG-0C6-034                                  0000000F         15
+3C 00 00 00             40D00014 CFG-PM-014                                   0000003C         60
+30 00 00 00             40D00015 CFG-PM-015                                   00000030         48
+
+00 00 00 00             40DE0008 CFG-LOGFILTER-POSITION_THRS                  00000000          0
+00 00 00 00 00 00 00 00 5005002A CFG-TP-DUTY_TP1                              0000000000000000 ........
+00 00 00 00 00 00 24 40 5005002B CFG-TP-DUTY_LOCK_TP1                         4024000000000000 ......$@ 10.000000
+00 00 00 40 A6 54 58 41 50110062 CFG-NAVSPG-USRDAT_MAJA                       415854A640000000 ...@.TXA 6378137.000000
+88 6D 74 96 1D A4 72 40 50110063 CFG-NAVSPG-USRDAT_FLAT                       4072A41D96746D88 .mt...r@ 298.257224
+C8 2B 07 00 00 00 00 00 50360006 CFG-SBAS-PRNSCANMASK                         0000000000072BC8 .+......
+75 2D 62 6C 6F 78 20 41 5065000D CFG-USB-VENDOR_STR0                          4120786F6C622D75 u-blox A
+47 20 2D 20 77 77 77 2E 5065000E CFG-USB-VENDOR_STR1                          2E777777202D2047 G - www.
+
+75 2D 62 6C 6F 78 2E 63 5065000F CFG-USB-VENDOR_STR2                          632E786F6C622D75 u-blox.c
+6F 6D 00 00 00 00 00 00 50650010 CFG-USB-VENDOR_STR3                          0000000000006D6F om......
+75 2D 62 6C 6F 78 20 47 50650011 CFG-USB-PRODUCT_STR0                         4720786F6C622D75 u-blox G
+4E 53 53 20 72 65 63 65 50650012 CFG-USB-PRODUCT_STR1                         656365722053534E NSS rece
+69 76 65 72 00 00 00 00 50650013 CFG-USB-PRODUCT_STR2                         0000000072657669 iver....
+00 00 00 00 00 00 00 00 50650014 CFG-USB-PRODUCT_STR3                         0000000000000000 ........
+00 00 00 00 00 00 00 00 50650015 CFG-USB-SERIAL_NO_STR0                       0000000000000000 ........
+00 00 00 00 00 00 00 00 50650016 CFG-USB-SERIAL_NO_STR1                       0000000000000000 ........
+
+00 00 00 00 00 00 00 00 50650017 CFG-USB-SERIAL_NO_STR2                       0000000000000000 ........
+00 00 00 00 00 00 00 00 50650018 CFG-USB-SERIAL_NO_STR3                       0000000000000000 ........
+20 40 00 00 54 00 00 00 50A30026 CFG-HW-026                                   0000005400004020  @..T...
+5A 45 44 2D 46 39 50 00 50A30049 CFG-HW-049                                   005039462D44455A ZED-F9P.
+4D 77 35 A3 ED 01 00 00 50A50003 CFG-0A5-003                                  000001EDA335774D Mw5.....
+00 00 00 00 00 00 00 00 50C60007 CFG-0C6-007                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C6000B CFG-0C6-00B                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C6000F CFG-0C6-00F                                  0000000000000000 ........
+
+00 00 00 00 00 00 00 00 50C60013 CFG-0C6-013                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C60017 CFG-0C6-017                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C6001B CFG-0C6-01B                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C6001F CFG-0C6-01F                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C60023 CFG-0C6-023                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C60027 CFG-0C6-027                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C6002B CFG-0C6-02B                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50C6002F CFG-0C6-02F                                  0000000000000000 ........
+
+00 00 00 00 00 00 00 00 50C60033 CFG-0C6-033                                  0000000000000000 ........
+4E 6F 74 69 63 65 3A 20 50C70004 CFG-RINV-CHUNK0                              203A656369746F4E Notice:
+6E 6F 20 64 61 74 61 20 50C70005 CFG-RINV-CHUNK1                              2061746164206F6E no data
+73 61 76 65 64 21 00 00 50C70006 CFG-RINV-CHUNK2                              0000216465766173 saved!..
+00 00 00 00 00 00 00 00 50C70007 CFG-RINV-CHUNK3                              0000000000000000 ........
+00 00 00 00 00 00 00 00 50F60002 CFG-SEC-002                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50F60003 CFG-SEC-003                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50F60004 CFG-SEC-004                                  0000000000000000 ........
+
+00 00 00 00 00 00 00 00 50F60005 CFG-SEC-005                                  0000000000000000 ........
+00 00 00 00 00 00 00 00 50F60006 CFG-SEC-ECCFGSESSIONID0                      0000000000000000 ........
+00 00 00 00 00 00 00 00 50F60007 CFG-SEC-ECCFGSESSIONID1                      0000000000000000 ........
+00 00 00 00 00 00 00 00 50F60008 CFG-SEC-ECCFGSESSIONID2                      0000000000000000 ........
