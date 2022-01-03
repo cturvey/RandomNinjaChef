@@ -1,0 +1,116 @@
+# Config changes format version 1.0
+# created by ubxcfgdump - Copyright (c) 2022 sourcer32@gmail.com
+[del]
+[set]
+Flash CFG-NAVSPG-ACKAIDING 1 # write value 1 to item id 0x10110025 in layer 2
+  BBR CFG-NAVSPG-ACKAIDING 1 # write value 1 to item id 0x10110025 in layer 1
+  RAM CFG-NAVSPG-ACKAIDING 1 # write value 1 to item id 0x10110025 in layer 0
+
+Flash CFG-SIGNAL-SBAS_L1CA_ENA 0 # write value 0 to item id 0x10310005 in layer 2
+  BBR CFG-SIGNAL-SBAS_L1CA_ENA 0 # write value 0 to item id 0x10310005 in layer 1
+  RAM CFG-SIGNAL-SBAS_L1CA_ENA 0 # write value 0 to item id 0x10310005 in layer 0
+
+Flash CFG-SIGNAL-BDS_B1_ENA 0 # write value 0 to item id 0x1031000D in layer 2
+  BBR CFG-SIGNAL-BDS_B1_ENA 0 # write value 0 to item id 0x1031000D in layer 1
+  RAM CFG-SIGNAL-BDS_B1_ENA 0 # write value 0 to item id 0x1031000D in layer 0
+
+Flash CFG-SIGNAL-BDS_B2_ENA 0 # write value 0 to item id 0x1031000E in layer 2
+  BBR CFG-SIGNAL-BDS_B2_ENA 0 # write value 0 to item id 0x1031000E in layer 1
+  RAM CFG-SIGNAL-BDS_B2_ENA 0 # write value 0 to item id 0x1031000E in layer 0
+
+Flash CFG-SIGNAL-QZSS_L1CA_ENA 0 # write value 0 to item id 0x10310012 in layer 2
+  BBR CFG-SIGNAL-QZSS_L1CA_ENA 0 # write value 0 to item id 0x10310012 in layer 1
+  RAM CFG-SIGNAL-QZSS_L1CA_ENA 0 # write value 0 to item id 0x10310012 in layer 0
+
+Flash CFG-SIGNAL-QZSS_L2C_ENA 0 # write value 0 to item id 0x10310015 in layer 2
+  BBR CFG-SIGNAL-QZSS_L2C_ENA 0 # write value 0 to item id 0x10310015 in layer 1
+  RAM CFG-SIGNAL-QZSS_L2C_ENA 0 # write value 0 to item id 0x10310015 in layer 0
+
+Flash CFG-UART1OUTPROT-NMEA 0 # write value 0 to item id 0x10740002 in layer 2
+  BBR CFG-UART1OUTPROT-NMEA 0 # write value 0 to item id 0x10740002 in layer 1
+  RAM CFG-UART1OUTPROT-NMEA 0 # write value 0 to item id 0x10740002 in layer 0
+
+Flash CFG-UART1OUTPROT-RTCM3X 0 # write value 0 to item id 0x10740004 in layer 2
+  BBR CFG-UART1OUTPROT-RTCM3X 0 # write value 0 to item id 0x10740004 in layer 1
+  RAM CFG-UART1OUTPROT-RTCM3X 0 # write value 0 to item id 0x10740004 in layer 0
+
+Flash CFG-UART2OUTPROT-RTCM3X 0 # write value 0 to item id 0x10760004 in layer 2
+  BBR CFG-UART2OUTPROT-RTCM3X 0 # write value 0 to item id 0x10760004 in layer 1
+  RAM CFG-UART2OUTPROT-RTCM3X 0 # write value 0 to item id 0x10760004 in layer 0
+
+Flash CFG-NAVSPG-DYNMODEL 0x08 # write value 8 0x08 to item id 0x20110021 in layer 2
+  BBR CFG-NAVSPG-DYNMODEL 0x08 # write value 8 0x08 to item id 0x20110021 in layer 1
+  RAM CFG-NAVSPG-DYNMODEL 0x08 # write value 8 0x08 to item id 0x20110021 in layer 0
+
+Flash CFG-RATE-TIMEREF 0x00 # write value 0 0x00 to item id 0x20210003 in layer 2
+  BBR CFG-RATE-TIMEREF 0x00 # write value 0 0x00 to item id 0x20210003 in layer 1
+  RAM CFG-RATE-TIMEREF 0x00 # write value 0 0x00 to item id 0x20210003 in layer 0
+
+Flash CFG-MSGOUT-UBX_NAV_PVT_UART1 0x01 # write value 1 0x01 to item id 0x20910007 in layer 2
+  BBR CFG-MSGOUT-UBX_NAV_PVT_UART1 0x01 # write value 1 0x01 to item id 0x20910007 in layer 1
+  RAM CFG-MSGOUT-UBX_NAV_PVT_UART1 0x01 # write value 1 0x01 to item id 0x20910007 in layer 0
+
+Flash CFG-MSGOUT-UBX_NAV_PVT_USB 0x01 # write value 1 0x01 to item id 0x20910009 in layer 2
+  BBR CFG-MSGOUT-UBX_NAV_PVT_USB 0x01 # write value 1 0x01 to item id 0x20910009 in layer 1
+  RAM CFG-MSGOUT-UBX_NAV_PVT_USB 0x01 # write value 1 0x01 to item id 0x20910009 in layer 0
+
+Flash CFG-MSGOUT-UBX_NAV_DOP_UART1 0x01 # write value 1 0x01 to item id 0x20910039 in layer 2
+  BBR CFG-MSGOUT-UBX_NAV_DOP_UART1 0x01 # write value 1 0x01 to item id 0x20910039 in layer 1
+  RAM CFG-MSGOUT-UBX_NAV_DOP_UART1 0x01 # write value 1 0x01 to item id 0x20910039 in layer 0
+
+Flash CFG-MSGOUT-UBX_NAV_TIMEGPS_UART1 0x05 # write value 5 0x05 to item id 0x20910048 in layer 2
+  BBR CFG-MSGOUT-UBX_NAV_TIMEGPS_UART1 0x05 # write value 5 0x05 to item id 0x20910048 in layer 1
+  RAM CFG-MSGOUT-UBX_NAV_TIMEGPS_UART1 0x05 # write value 5 0x05 to item id 0x20910048 in layer 0
+
+Flash CFG-MSGOUT-UBX_NAV_RELPOSNED_UART1 0x01 # write value 1 0x01 to item id 0x2091008E in layer 2
+  BBR CFG-MSGOUT-UBX_NAV_RELPOSNED_UART1 0x01 # write value 1 0x01 to item id 0x2091008E in layer 1
+  RAM CFG-MSGOUT-UBX_NAV_RELPOSNED_UART1 0x01 # write value 1 0x01 to item id 0x2091008E in layer 0
+
+Flash CFG-MSGOUT-UBX_NAV_RELPOSNED_USB 0x01 # write value 1 0x01 to item id 0x20910090 in layer 2
+  BBR CFG-MSGOUT-UBX_NAV_RELPOSNED_USB 0x01 # write value 1 0x01 to item id 0x20910090 in layer 1
+  RAM CFG-MSGOUT-UBX_NAV_RELPOSNED_USB 0x01 # write value 1 0x01 to item id 0x20910090 in layer 0
+
+Flash CFG-MSGOUT-NMEA_ID_GSA_USB 0x00 # write value 0 0x00 to item id 0x209100C2 in layer 2
+  BBR CFG-MSGOUT-NMEA_ID_GSA_USB 0x00 # write value 0 0x00 to item id 0x209100C2 in layer 1
+  RAM CFG-MSGOUT-NMEA_ID_GSA_USB 0x00 # write value 0 0x00 to item id 0x209100C2 in layer 0
+
+Flash CFG-MSGOUT-NMEA_ID_GSV_I2C 0x00 # write value 0 0x00 to item id 0x209100C4 in layer 2
+  BBR CFG-MSGOUT-NMEA_ID_GSV_I2C 0x00 # write value 0 0x00 to item id 0x209100C4 in layer 1
+  RAM CFG-MSGOUT-NMEA_ID_GSV_I2C 0x00 # write value 0 0x00 to item id 0x209100C4 in layer 0
+
+Flash CFG-MSGOUT-NMEA_ID_GSV_UART1 0x00 # write value 0 0x00 to item id 0x209100C5 in layer 2
+  BBR CFG-MSGOUT-NMEA_ID_GSV_UART1 0x00 # write value 0 0x00 to item id 0x209100C5 in layer 1
+  RAM CFG-MSGOUT-NMEA_ID_GSV_UART1 0x00 # write value 0 0x00 to item id 0x209100C5 in layer 0
+
+Flash CFG-MSGOUT-NMEA_ID_GSV_UART2 0x00 # write value 0 0x00 to item id 0x209100C6 in layer 2
+  BBR CFG-MSGOUT-NMEA_ID_GSV_UART2 0x00 # write value 0 0x00 to item id 0x209100C6 in layer 1
+  RAM CFG-MSGOUT-NMEA_ID_GSV_UART2 0x00 # write value 0 0x00 to item id 0x209100C6 in layer 0
+
+Flash CFG-MSGOUT-NMEA_ID_GSV_SPI 0x00 # write value 0 0x00 to item id 0x209100C8 in layer 2
+  BBR CFG-MSGOUT-NMEA_ID_GSV_SPI 0x00 # write value 0 0x00 to item id 0x209100C8 in layer 1
+  RAM CFG-MSGOUT-NMEA_ID_GSV_SPI 0x00 # write value 0 0x00 to item id 0x209100C8 in layer 0
+
+Flash CFG-MSGOUT-UBX_MON_HW_UART1 0x05 # write value 5 0x05 to item id 0x209101B5 in layer 2
+  BBR CFG-MSGOUT-UBX_MON_HW_UART1 0x05 # write value 5 0x05 to item id 0x209101B5 in layer 1
+  RAM CFG-MSGOUT-UBX_MON_HW_UART1 0x05 # write value 5 0x05 to item id 0x209101B5 in layer 0
+
+Flash CFG-MSGOUT-UBX_MON_HW2_UART1 0x05 # write value 5 0x05 to item id 0x209101BA in layer 2
+  BBR CFG-MSGOUT-UBX_MON_HW2_UART1 0x05 # write value 5 0x05 to item id 0x209101BA in layer 1
+  RAM CFG-MSGOUT-UBX_MON_HW2_UART1 0x05 # write value 5 0x05 to item id 0x209101BA in layer 0
+
+Flash CFG-MSGOUT-UBX_RXM_RTCM_USB 0x01 # write value 1 0x01 to item id 0x2091026B in layer 2
+  BBR CFG-MSGOUT-UBX_RXM_RTCM_USB 0x01 # write value 1 0x01 to item id 0x2091026B in layer 1
+  RAM CFG-MSGOUT-UBX_RXM_RTCM_USB 0x01 # write value 1 0x01 to item id 0x2091026B in layer 0
+
+Flash CFG-RATE-MEAS 0x0064 # write value 100 0x0064 to item id 0x30210001 in layer 2
+  BBR CFG-RATE-MEAS 0x0064 # write value 100 0x0064 to item id 0x30210001 in layer 1
+  RAM CFG-RATE-MEAS 0x0064 # write value 100 0x0064 to item id 0x30210001 in layer 0
+
+Flash CFG-UART1-BAUDRATE 0x00070800 # write value 460800 0x00070800 to item id 0x40520001 in layer 2
+  BBR CFG-UART1-BAUDRATE 0x00070800 # write value 460800 0x00070800 to item id 0x40520001 in layer 1
+  RAM CFG-UART1-BAUDRATE 0x00070800 # write value 460800 0x00070800 to item id 0x40520001 in layer 0
+
+Flash CFG-UART2-BAUDRATE 0x00070800 # write value 460800 0x00070800 to item id 0x40530001 in layer 2
+  BBR CFG-UART2-BAUDRATE 0x00070800 # write value 460800 0x00070800 to item id 0x40530001 in layer 1
+  RAM CFG-UART2-BAUDRATE 0x00070800 # write value 460800 0x00070800 to item id 0x40530001 in layer 0
+
