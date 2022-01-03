@@ -1,3 +1,48 @@
+simpleRTK2B_FW113_Bluetooth-02.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+01                      10760002 CFG-UART2OUTPROT-NMEA                                     1       TRUE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+01                      10930006 CFG-NMEA-HIGHPREC                                         1       TRUE
+00                      209100C1 CFG-MSGOUT-NMEA_ID_GSA_UART2                             00          0
+00                      209100CB CFG-MSGOUT-NMEA_ID_GLL_UART2                             00          0
+
+01                      209100D4 CFG-MSGOUT-NMEA_ID_GST_UART1                             01          1
+01                      209100D5 CFG-MSGOUT-NMEA_ID_GST_UART2                             01          1
+01                      209100D6 CFG-MSGOUT-NMEA_ID_GST_USB                               01          1
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+
+simpleRTK2B_FW113_HeadingKit_MovingBase_10Hz_Ardupilot-01.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10310012 CFG-SIGNAL-QZSS_L1CA_ENA                                  0      FALSE
+00                      10310015 CFG-SIGNAL-QZSS_L2C_ENA                                   0      FALSE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+00                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                             00          0
+00                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                             00          0
+
+00                      209100BB CFG-MSGOUT-NMEA_ID_GGA_UART1                             00          0
+00                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                             00          0
+00                      209100C2 CFG-MSGOUT-NMEA_ID_GSA_USB                               00          0
+00                      209100C4 CFG-MSGOUT-NMEA_ID_GSV_I2C                               00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+00                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             00          0
+00                      209100C8 CFG-MSGOUT-NMEA_ID_GSV_SPI                               00          0
+00                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                             00          0
+
+01                      209102CD CFG-MSGOUT-RTCM_3X_TYPE1077_UART1                        01          1
+01                      209102D2 CFG-MSGOUT-RTCM_3X_TYPE1087_UART1                        01          1
+01                      20910304 CFG-MSGOUT-RTCM_3X_TYPE1230_UART1                        01          1
+01                      20910319 CFG-MSGOUT-RTCM_3X_TYPE1097_UART1                        01          1
+01                      20910382 CFG-MSGOUT-RTCM_3X_TYPE4072_1_UART1                      01          1
+64 00                   30210001 CFG-RATE-MEAS                                          0064        100
+00 08 07 00             40520001 CFG-UART1-BAUDRATE                                 00070800     460800
+00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
+
 simpleRTK2B_FW113_HeadingKit_MovingBase_1Hz-00.txt
 
 00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
@@ -21,6 +66,67 @@ simpleRTK2B_FW113_HeadingKit_MovingBase_1Hz-00.txt
 00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
 00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
 
+simpleRTK2B_FW113_HeadingKit_MovingBase_5Hz-00.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+00                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                             00          0
+00                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                             00          0
+00                      209100BB CFG-MSGOUT-NMEA_ID_GGA_UART1                             00          0
+00                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                             00          0
+
+00                      209100C4 CFG-MSGOUT-NMEA_ID_GSV_I2C                               00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+00                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             00          0
+00                      209100C8 CFG-MSGOUT-NMEA_ID_GSV_SPI                               00          0
+00                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                             00          0
+01                      209102CD CFG-MSGOUT-RTCM_3X_TYPE1077_UART1                        01          1
+01                      209102D2 CFG-MSGOUT-RTCM_3X_TYPE1087_UART1                        01          1
+01                      209102FF CFG-MSGOUT-RTCM_3X_TYPE4072_0_UART1                      01          1
+
+01                      20910304 CFG-MSGOUT-RTCM_3X_TYPE1230_UART1                        01          1
+01                      20910319 CFG-MSGOUT-RTCM_3X_TYPE1097_UART1                        01          1
+01                      20910382 CFG-MSGOUT-RTCM_3X_TYPE4072_1_UART1                      01          1
+C8 00                   30210001 CFG-RATE-MEAS                                          00C8        200
+00 08 07 00             40520001 CFG-UART1-BAUDRATE                                 00070800     460800
+00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
+
+simpleRTK2B_FW113_HeadingKit_Rover_10Hz_Ardupilot-01.txt
+
+01                      10110025 CFG-NAVSPG-ACKAIDING                                      1       TRUE
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10310012 CFG-SIGNAL-QZSS_L1CA_ENA                                  0      FALSE
+00                      10310015 CFG-SIGNAL-QZSS_L2C_ENA                                   0      FALSE
+00                      10740002 CFG-UART1OUTPROT-NMEA                                     0      FALSE
+00                      10740004 CFG-UART1OUTPROT-RTCM3X                                   0      FALSE
+
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+08                      20110021 CFG-NAVSPG-DYNMODEL                                      08          8
+00                      20210003 CFG-RATE-TIMEREF                                         00          0
+01                      20910007 CFG-MSGOUT-UBX_NAV_PVT_UART1                             01          1
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
+01                      20910039 CFG-MSGOUT-UBX_NAV_DOP_UART1                             01          1
+05                      20910048 CFG-MSGOUT-UBX_NAV_TIMEGPS_UART1                         05          5
+01                      2091008E CFG-MSGOUT-UBX_NAV_RELPOSNED_UART1                       01          1
+
+01                      20910090 CFG-MSGOUT-UBX_NAV_RELPOSNED_USB                         01          1
+00                      209100C2 CFG-MSGOUT-NMEA_ID_GSA_USB                               00          0
+00                      209100C4 CFG-MSGOUT-NMEA_ID_GSV_I2C                               00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+00                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             00          0
+00                      209100C8 CFG-MSGOUT-NMEA_ID_GSV_SPI                               00          0
+05                      209101B5 CFG-MSGOUT-UBX_MON_HW_UART1                              05          5
+05                      209101BA CFG-MSGOUT-UBX_MON_HW2_UART1                             05          5
+
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+64 00                   30210001 CFG-RATE-MEAS                                          0064        100
+00 08 07 00             40520001 CFG-UART1-BAUDRATE                                 00070800     460800
+00 08 07 00             40530001 CFG-UART2-BAUDRATE                                 00070800     460800
+
 simpleRTK2B_FW113_HeadingKit_Rover_1Hz-00.txt
 
 01                      10110025 CFG-NAVSPG-ACKAIDING                                      1       TRUE
@@ -34,6 +140,72 @@ simpleRTK2B_FW113_HeadingKit_Rover_1Hz-00.txt
 
 01                      20910090 CFG-MSGOUT-UBX_NAV_RELPOSNED_USB                         01          1
 00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
+00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
+
+simpleRTK2B_FW113_HeadingKit_Rover_5Hz-00.txt
+
+01                      10110025 CFG-NAVSPG-ACKAIDING                                      1       TRUE
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+01                      20910007 CFG-MSGOUT-UBX_NAV_PVT_UART1                             01          1
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
+01                      2091008E CFG-MSGOUT-UBX_NAV_RELPOSNED_UART1                       01          1
+
+01                      20910090 CFG-MSGOUT-UBX_NAV_RELPOSNED_USB                         01          1
+00                      209100C4 CFG-MSGOUT-NMEA_ID_GSV_I2C                               00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+00                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             00          0
+00                      209100C8 CFG-MSGOUT-NMEA_ID_GSV_SPI                               00          0
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+C8 00                   30210001 CFG-RATE-MEAS                                          00C8        200
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
+
+00 08 07 00             40530001 CFG-UART2-BAUDRATE                                 00070800     460800
+
+simpleRTK2B_FW113_PPK_UART1USB_1Hz-00.txt
+
+00                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                             00          0
+00                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                             00          0
+00                      209100BB CFG-MSGOUT-NMEA_ID_GGA_UART1                             00          0
+00                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                             00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+00                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                             00          0
+01                      20910232 CFG-MSGOUT-UBX_RXM_SFRBX_UART1                           01          1
+01                      20910234 CFG-MSGOUT-UBX_RXM_SFRBX_USB                             01          1
+
+01                      209102A5 CFG-MSGOUT-UBX_RXM_RAWX_UART1                            01          1
+01                      209102A7 CFG-MSGOUT-UBX_RXM_RAWX_USB                              01          1
+00 E1 00 00             40520001 CFG-UART1-BAUDRATE                                 0000E100      57600
+
+simpleRTK2B_FW113_Rover_10Hz-00.txt
+
+01                      10110025 CFG-NAVSPG-ACKAIDING                                      1       TRUE
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
+00                      209100C4 CFG-MSGOUT-NMEA_ID_GSV_I2C                               00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+
+00                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             00          0
+00                      209100C8 CFG-MSGOUT-NMEA_ID_GSV_SPI                               00          0
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+64 00                   30210001 CFG-RATE-MEAS                                          0064        100
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
+00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
+
+simpleRTK2B_FW113_Rover_1Hz-00.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10760004 CFG-UART2OUTPROT-RTCM3X                                   0      FALSE
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
 01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
 00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
 00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
@@ -55,3 +227,83 @@ simpleRTK2B_FW113_Rover_sends_GGA_to_base_1Hz-00.txt
 01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
 00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
 00 C2 01 00             40530001 CFG-UART2-BAUDRATE                                 0001C200     115200
+
+simpleRTK2B_FW113_simpleSSR_10Hz-01.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10310012 CFG-SIGNAL-QZSS_L1CA_ENA                                  0      FALSE
+00                      10310015 CFG-SIGNAL-QZSS_L2C_ENA                                   0      FALSE
+00                      10730001 CFG-UART1INPROT-UBX                                       0      FALSE
+00                      10730002 CFG-UART1INPROT-NMEA                                      0      FALSE
+F0                      201100C4 CFG-NAVSPG-CONSTR_DGNSSTO                                F0        240
+
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
+00                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                             00          0
+00                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                             00          0
+0A                      209100BB CFG-MSGOUT-NMEA_ID_GGA_UART1                             0A         10
+00                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                             00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+0A                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             0A         10
+00                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                             00          0
+
+01                      209100D5 CFG-MSGOUT-NMEA_ID_GST_UART2                             01          1
+01                      209100D6 CFG-MSGOUT-NMEA_ID_GST_USB                               01          1
+0A                      209100D9 CFG-MSGOUT-NMEA_ID_ZDA_UART1                             0A         10
+0A                      20910232 CFG-MSGOUT-UBX_RXM_SFRBX_UART1                           0A         10
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+64 00                   30210001 CFG-RATE-MEAS                                          0064        100
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
+
+simpleRTK2B_FW113_simpleSSR_1Hz-01.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10310012 CFG-SIGNAL-QZSS_L1CA_ENA                                  0      FALSE
+00                      10310015 CFG-SIGNAL-QZSS_L2C_ENA                                   0      FALSE
+00                      10730001 CFG-UART1INPROT-UBX                                       0      FALSE
+00                      10730002 CFG-UART1INPROT-NMEA                                      0      FALSE
+F0                      201100C4 CFG-NAVSPG-CONSTR_DGNSSTO                                F0        240
+
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
+00                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                             00          0
+00                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                             00          0
+00                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                             00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+00                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                             00          0
+01                      209100D6 CFG-MSGOUT-NMEA_ID_GST_USB                               01          1
+01                      209100D9 CFG-MSGOUT-NMEA_ID_ZDA_UART1                             01          1
+
+01                      20910232 CFG-MSGOUT-UBX_RXM_SFRBX_UART1                           01          1
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
+
+simpleRTK2B_FW113_simpleSSR_5Hz-01.txt
+
+00                      10310005 CFG-SIGNAL-SBAS_L1CA_ENA                                  0      FALSE
+00                      1031000D CFG-SIGNAL-BDS_B1_ENA                                     0      FALSE
+00                      1031000E CFG-SIGNAL-BDS_B2_ENA                                     0      FALSE
+00                      10310012 CFG-SIGNAL-QZSS_L1CA_ENA                                  0      FALSE
+00                      10310015 CFG-SIGNAL-QZSS_L2C_ENA                                   0      FALSE
+00                      10730001 CFG-UART1INPROT-UBX                                       0      FALSE
+00                      10730002 CFG-UART1INPROT-NMEA                                      0      FALSE
+F0                      201100C4 CFG-NAVSPG-CONSTR_DGNSSTO                                F0        240
+
+01                      20910009 CFG-MSGOUT-UBX_NAV_PVT_USB                               01          1
+00                      209100AC CFG-MSGOUT-NMEA_ID_RMC_UART1                             00          0
+00                      209100B1 CFG-MSGOUT-NMEA_ID_VTG_UART1                             00          0
+05                      209100BB CFG-MSGOUT-NMEA_ID_GGA_UART1                             05          5
+00                      209100C0 CFG-MSGOUT-NMEA_ID_GSA_UART1                             00          0
+00                      209100C5 CFG-MSGOUT-NMEA_ID_GSV_UART1                             00          0
+0A                      209100C6 CFG-MSGOUT-NMEA_ID_GSV_UART2                             0A         10
+00                      209100CA CFG-MSGOUT-NMEA_ID_GLL_UART1                             00          0
+
+01                      209100D5 CFG-MSGOUT-NMEA_ID_GST_UART2                             01          1
+01                      209100D6 CFG-MSGOUT-NMEA_ID_GST_USB                               01          1
+05                      209100D9 CFG-MSGOUT-NMEA_ID_ZDA_UART1                             05          5
+05                      20910232 CFG-MSGOUT-UBX_RXM_SFRBX_UART1                           05          5
+01                      2091026B CFG-MSGOUT-UBX_RXM_RTCM_USB                              01          1
+C8 00                   30210001 CFG-RATE-MEAS                                          00C8        200
+00 C2 01 00             40520001 CFG-UART1-BAUDRATE                                 0001C200     115200
