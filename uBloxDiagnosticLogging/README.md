@@ -3,9 +3,10 @@ depending on your logging capabilities / capacities. These represent expectation
 behaviour.
 
 Basically apply via Tools -> GNSS/Receiver Configuration -> File >> GNSS
+https://www.u-blox.com/sites/default/files/u-centersetup_v21.09.zip
 
 You can also convert these to commands sent by your own embedded app as/where appropriate.
 
 -Clive
 
-clive1 at uBlox and AdruSimple Forums
+clive1 at uBlox and ArduSimple Forums
