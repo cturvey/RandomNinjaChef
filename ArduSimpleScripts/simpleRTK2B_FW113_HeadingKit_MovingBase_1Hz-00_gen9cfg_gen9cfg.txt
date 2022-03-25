@@ -1,4 +1,0 @@
-# Config changes format version 1.0
-# created by ubxcfgdump - Copyright (c) 2022 sourcer32@gmail.com
-[del]
-[set]
