@@ -4,6 +4,15 @@
 // https://portal.u-blox.com/s/question/0D52p00008Y5pLECAZ/rtcm-to-f9p-via-i2c-bus
 // https://portal.u-blox.com/s/question/0D52p0000AXRCaWCQX/rtcm-via-i2c-on-zedf9p
 //****************************************************************************
+//
+// If you lift this, remember where you got it, and how much time you wasted previously
+//  with code and ideas that failed.
+// 
+// If this saves you several man-hours/days consider https://paypal.me/cliveone
+//
+// 30-Mar-2022  sourcer32@gmail.com
+//
+//****************************************************************************
 
 #define UBX_I2C_ADDR 0x42
 
@@ -12,7 +21,7 @@
 
 #define MAX_I2C_UBX_SEND 32
 
-int ubx_send_rtcm3_i2c(size_t size, const uint8_t *buffer)
+int ubx_send_rtcm3_i2c(size_t size, const uint8_t *buffer) // sourcer32@gmail.com
 {
   while(size)
   {
