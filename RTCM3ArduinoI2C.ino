@@ -52,3 +52,46 @@ int ubx_send_rtcm3_i2c(size_t size, const uint8_t *buffer) // sourcer32@gmail.co
 }
 
 //****************************************************************************
+// Going to add this as perhaps a secondary approach, where is pushes in
+//  blocks which don't exceed the wire side buffering method.
+// It opens once, and then feeds blocks without STOP phase, until the last ONE
+// A NACK failure from the slave side will abort the transfer.
+
+int ubx_send_rtcm3_i2c_ex(int size, const uint8_t *buffer)
+{
+  if (!size) return(1); // No data
+
+  // Begin transmission to the I2C slave device
+  Wire.beginTransmission(UBX_I2C_ADDR);
+
+  if (size < 2) // I think this is the threshold
+    Wire.write((uint8_t)0xFF); // Set 0xFF register for byte writes
+
+  while(size)
+  {
+    int length = size;
+
+    // Should be able to use wire's whole buffer, not Team Arduino here..
+    if (length > MAX_I2C_UBX_SEND) length = MAX_I2C_UBX_SEND;
+
+    // Queue data array for transmission to the I2C device
+    if (Wire.write(buffer, length) != length) // Was it accepted? Oops!
+    {
+      Wire.endTransmission(true); // Send and Close the I2C interface.
+      return(0); // Failed
+    }
+
+    // Transmit the bytes and a stop message to release the I2C bus
+    //  if the last burst, otherwise don't stop, and push another
+
+    if (Wire.endTransmission(size == length)) // true for last block, otherwise false
+      return(0); // Failed
+
+    size -= length;
+    buffer += length;
+  }
+
+  return(1); // Succeed
+}
+
+//****************************************************************************
