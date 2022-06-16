@@ -3,6 +3,11 @@
    15-June-2022
    Copyright (C) 2022 C Turvey (aka sourcer32, clive1)
    All Rights Reserved
+
+ If this saves you several man-hours/days consider https://paypal.me/cliveone
+  15-June-2022  sourcer32@gmail.com
+
+//****************************************************************************
 */
 
 
