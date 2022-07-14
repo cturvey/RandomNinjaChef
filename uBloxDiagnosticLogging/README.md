@@ -1,5 +1,5 @@
 These are some uCenter (Classic / 21.09) scripts to enable different volumes of diagnostic messages on Rover or Base units
-depending on your logging capabilities / capacities. These represent expectation by uBlox for any analysis of odd / abherent
+depending on your logging capabilities / capacities. These represent minimum expectations by uBlox for any analysis of odd / abherent
 behaviour.
 
 Basically apply via Tools -> GNSS/Receiver Configuration -> File >> GNSS
