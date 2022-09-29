@@ -2,8 +2,8 @@
 // Quick uBlox Fletcher Checksum Example - sourcer32@gmail.com
 //****************************************************************************
 //
-//  The sum skips the sync bytes 0xB5,0x62, but include the Class, ID, Length
-//  and Payload data. Total data length is Payload + 8,6 on the front, 2 on
+//  The sum skips the sync bytes 0xB5,0x62, but includes the Class, ID, Length
+//  and Payload data. Total data length is Payload + 8, 6 on the front, 2 on
 //  the tail for the checksum
 //
 //****************************************************************************
