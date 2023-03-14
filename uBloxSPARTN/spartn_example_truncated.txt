@@ -1,0 +1,81 @@
+This is old data, with a now expired key, partially redacted, coming out
+of a NEO-D9S (PMP 1.04) via an UBX-RXM-PMP frame. 
+
+The primary purpose of this truncated version is to illustrate
+IV generation at a packet level. PointPerfect customer at this time should
+be able to recognize/identify the key used.
+
+I have a proof-of-concept system transcoding into plain-text SPARTN on-the-fly,
+which can be directly injested by a ZED-F9P or F9R as an "IP" Source, rather
+than a keyed "L-Band" Source.
+
+The system used a NUCLEO-144 board with a C101-D9S shield, outputting SPARTN-IP
+via the ST-LINK's VCP, and attached as a "Differential GNSS Interface" in 
+u-Center Classic as a feed-source to the attached ZED-F9P
+
+-Clive
+sourcer32@gmail.com
+December 2022
+
+Related
+https://portal.u-blox.com/s/question/0D52p0000CimfsOCQQ/spartn-initialization-vector-iv-details
+
+--SPARTN---------------------------------------------------------------------
+OFFSET:00000627 SIZE:230  560
+MSG:1 EAF
+CRC-24-Radix-64
+MSGSUB: 0 TIMETYPE:1 TIMETAG: 403150470 / 18079686 (1.0)
+GPSTIME:2231.180870
+SOLID:  6 SOLPROCID:12 ENCID: 2 ENCSEQ:45  AUTHIND:1
+TTAG: 403150470 IV:  03 18 00 C0 3C B4 30 6C 2B 40 00 00 00 00 00 01
+TTAG: 403150470 KEY: 58 23 ** ** ** ** ** ** ** ** ** ** ** ** BA 7D
+CRC:56D948 - 56D948
+
+ORIGINAL PACKET
+0000 : 73 03 18 69 08 C0 3C B4-30 6C 2B 48 22 05 63 40 s..i..<.0l+H".c@
+0010 : 02 9B 48 06 EC E7 D7 AD-4C 1E 82 82 46 97 3E 17 ..H.....L...F.>.
+...
+0220 : 81 89 D6 DD C6 EC 18 17-EE E2 1A 23 74 C9 C8 9D ...........#t...
+0230 : 51 46 3F BB AC 4E D5 D4-CA C3 A3 0B 56 D9 48    QF?..N......V.H
+
+PAYLOAD ENCRYPTED
+0000 : 22 05 63 40 02 9B 48 06-EC E7 D7 AD 4C 1E 82 82 ".c@..H.....L...
+0010 : 46 97 3E 17 FD 9D BF 3F-B7 24 53 F3 D6 B1 22 D5 F.>....?.$S...".
+...
+
+PAYLOAD PLAIN-TEXT
+0000 : 6E 89 20 00 14 B8 1B 71-EA F7 20 9C 20 81 21 61 n. ....q.. . .!a
+0010 : B1 82 3D FA A1 C0 B1 03-4B FB 63 83 6E 07 57 EC ..=.....K.c.n.W.
+...
+
+--SPARTN---------------------------------------------------------------------
+OFFSET:00000BFC SIZE:028   40
+MSG:0 EAF
+CRC-24-Radix-64
+MSGSUB: 0 TIMETYPE:0 TIMETAG:      8075 / 00001F8B (0.0)
+GPSTIME:2231.180875 (16)
+SOLID:  6 SOLPROCID:12 ENCID: 2 ENCSEQ:22  AUTHIND:1
+TTAG: 403150475 IV:  00 14 00 C0 3C B4 58 6C 25 80 00 00 00 00 00 01
+CRC:ADA847 - ADA847
+
+ORIGINAL PACKET
+0000 : 73 00 14 68 00 FC 58 6C-25 88 43 63 20 9D 1E 4C s..h..Xl%.Cc ..L
+0010 : AC FA 15 63 F0 D5 57 04-83 F3 63 AB 40 3A 0C 7D ...c..W...c.@:.}
+0020 : 3E 8E FD 4D 9E CB 5B AD-EC FC 74 EA 03 3E 07 C2 >..M..[...t..>..
+0030 : 1A FA AD A8 47                                  ....G
+
+PAYLOAD ENCRYPTED
+0000 : 43 63 20 9D 1E 4C AC FA-15 63 F0 D5 57 04 83 F3 Cc ..L...c..W...
+0010 : 63 AB 40 3A 0C 7D 3E 8E-FD 4D 9E CB 5B AD EC FC c.@:.}>..M..[...
+0020 : 74 EA 03 3E 07 C2 1A FA-                        t..>....
+
+PAYLOAD PLAIN-TEXT
+0000 : 6E 80 09 C2 88 32 17 F1-1D 22 FD C0 96 5F CD 04 n....2..."..._..
+0010 : 8B F8 7A 89 7E ED 71 2F-DE 60 65 FB 8A 04 BE 9F ..z.~.q/.`e.....
+0020 : F0 97 F2 B1 12 FE 5A 92-                        ......Z.
+
+REBUILT PACKET - SIZE:028 CRC:4E3F8A
+0000 : 73 00 14 25 00 FC 58 6C-6E 80 09 C2 88 32 17 F1 s..%..Xln....2..
+0010 : 1D 22 FD C0 96 5F CD 04-8B F8 7A 89 7E ED 71 2F ."..._....z.~.q/
+0020 : DE 60 65 FB 8A 04 BE 9F-F0 97 F2 B1 12 FE 5A 92 .`e...........Z.
+0030 : 4E 3F 8A                                        N?.
