@@ -17,6 +17,11 @@
 //
 // 27-Oct-2021  sourcer32@gmail.com
 //
+// uBlox reached out to indicate negative values here use a sign/magnitude format
+//  I'm waiting to see documentation, the Accel/Gyro use 2's complement
+//
+// 23-Mar-2023  sourcer32@gmail.com
+//
 //****************************************************************************
 
 void ubx_esf_meas_gen(uint32_t ttag, int32_t left_rear, int32_t right_rear)
@@ -34,9 +39,15 @@ void ubx_esf_meas_gen(uint32_t ttag, int32_t left_rear, int32_t right_rear)
   ubxcmd[0x04] = (uint8_t)(length % 256);
   ubxcmd[0x05] = (uint8_t)(length / 256);
 
-	// Probably overkill, should truncate fine within the number space we're using
+#if 0
+  // Probably overkill, should truncate fine within the number space we're using
   if (left_rear  & 0x80000000) left_rear  |= 0xFF800000; // sign to bit 23
   if (right_rear & 0x80000000) right_rear |= 0xFF800000; //  receiver uses int24_t
+#else
+  // Been suggested that this needs to be a sign/magnitude format
+  if (left_rear  & 0x80000000) left_rear  = -left_rear  | 0x800000; // sign to bit 23,
+  if (right_rear & 0x80000000) right_rear = -right_rear | 0x800000; //  positive tick count 0..22
+#endif
 
   u[0] = ttag; // Timestamp in your MCU time-line, receiver will add it's own upon reception
   u[1] = (2 << 11); // Flags/Id, Two Sensors
@@ -47,4 +58,3 @@ void ubx_esf_meas_gen(uint32_t ttag, int32_t left_rear, int32_t right_rear)
 }
 
 //****************************************************************************
-
