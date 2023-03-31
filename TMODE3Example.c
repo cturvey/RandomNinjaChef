@@ -121,7 +121,7 @@ void ConfigTMODE3ECEF(FIFO *Fifo, double ex, double ey, double ez) // ECEF metre
 
 #if 0
   *((int32_t *)&ubx_cfg_tmode3[6 +  4]) = x; // Course Precision Words
-  *((int32_t *)&ubx_cfg_tmode3[6 +  8]) = y;
+  *((int32_t *)&ubx_cfg_tmode3[6 +  8]) = y; //  9 digits, cm
   *((int32_t *)&ubx_cfg_tmode3[6 + 12]) = z;
 #else // Portable on platforms with alignment issues, ie Cortex-M0
   memcpy(&ubx_cfg_tmode3[6 +  4], &x, sizeof(int32_t));
@@ -129,6 +129,8 @@ void ConfigTMODE3ECEF(FIFO *Fifo, double ex, double ey, double ez) // ECEF metre
   memcpy(&ubx_cfg_tmode3[6 + 12], &z, sizeof(int32_t));
 #endif
 
+#if 0 // Two methods, more efficient, more accurate
+  
   // Roll off low precision rough integers
 
   ex -= (double)x * 1e-2;
@@ -140,6 +142,17 @@ void ConfigTMODE3ECEF(FIFO *Fifo, double ex, double ey, double ez) // ECEF metre
   x = (int32_t)(ex * 1e4); // Fine Integers
   y = (int32_t)(ey * 1e4);
   z = (int32_t)(ez * 1e4); // m to 0.1 mm
+
+#else
+  
+  // Equivalent, maintaining more intermediate precision
+  //  Compute fine by backing out course, maintains decimals better
+  
+  x = (int32_t)((ex * 1e4) - ((double)x * 1e2)); // Fine Integers
+  y = (int32_t)((ey * 1e4) - ((double)y * 1e2));
+  z = (int32_t)((ez * 1e4) - ((double)z * 1e2)); // m to 0.1 mm, back out cm
+
+#endif
 
   ubx_cfg_tmode3[6 + 16] = x; // High Precision Bytes
   ubx_cfg_tmode3[6 + 17] = y;
