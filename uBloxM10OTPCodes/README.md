@@ -21,6 +21,8 @@ https://portal.u-blox.com/s/question/0D52p0000DbCR9CCQW/change-default-baudrate-
      *  B5 62 06 41 10 00 03 00 04 1F 54 5E 79 BF 28 EF 12 05 FD FF FF FF 8F 0D 
      *  B5 62 06 41 1C 00 04 01 A4 10 BD 34 F9 12 28 EF 12 05 05 00 A4 40 00 B0 71 0B 0A 00 A4 40 00 D8 B8 05 DE AE
      *  https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_IntegrationManual_UBX-21028173.pdf
+   * Internal LNA Mode, Bypass
+     *  B5 62 06 41 10 00 03 00 05 1F 79 B2 0A E5 28 EF 12 05 9F FF FF FF 62 FB
+     *  https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_IntegrationManual_UBX-21028173.pdf
 
- 31-May-2022  sourcer32@gmail.com
- 
+31-May-2022  sourcer32@gmail.com 
