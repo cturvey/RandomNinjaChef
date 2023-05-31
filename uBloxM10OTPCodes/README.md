@@ -1,9 +1,13 @@
 I'm using this as a parking place for useful codes. If this helps you, contribute via https://paypal.me/cliveone
 
-Setting OTP values in u-Blox M10 devices for permanent configuration. Use sparingly its a finite resource
+Setting OTP values in u-Blox M10 devices for permanent configuration. Use sparingly its a finite resource. OTP (One Time Programmable), really its a once and done, use with thought and consideration...
 
 Related ramblings
+
 https://portal.u-blox.com/s/question/0D52p0000DbCR9CCQW/change-default-baudrate-on-m10-gps
+
+https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configuration-item-in-the-flash-memory-of-an-m10s-i-only-get-the-red-triangle-in-the-ucenter-software
+
 
   * CFG-ITFM-ENABLE=1,CFG-RATE-MEAS=200
     *  B5 62 06 41 17 00 04 01 A4 0B 66 95 58 93 28 EF 12 05 0D 00 41 10 01 01 00 21 30 C8 00 9F EA
