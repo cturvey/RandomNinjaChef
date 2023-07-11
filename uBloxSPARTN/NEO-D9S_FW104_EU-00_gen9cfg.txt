@@ -1,0 +1,42 @@
+# Config changes format version 1.0
+# created by ubxcfgdump - Copyright (c) 2022 sourcer32@gmail.com
+[del]
+[set]
+Flash CFG-PMP-USE_DESCRAMBLER 1 # write value 1 to item id 0x10B10014 in layer 2
+  BBR CFG-PMP-USE_DESCRAMBLER 1 # write value 1 to item id 0x10B10014 in layer 1
+  RAM CFG-PMP-USE_DESCRAMBLER 1 # write value 1 to item id 0x10B10014 in layer 0
+
+Flash CFG-PMP-USE_SERVICE_ID 0 # write value 0 to item id 0x10B10016 in layer 2
+  BBR CFG-PMP-USE_SERVICE_ID 0 # write value 0 to item id 0x10B10016 in layer 1
+  RAM CFG-PMP-USE_SERVICE_ID 0 # write value 0 to item id 0x10B10016 in layer 0
+
+Flash CFG-PMP-USE_PRESCRAMBLING 0 # write value 0 to item id 0x10B10019 in layer 2
+  BBR CFG-PMP-USE_PRESCRAMBLING 0 # write value 0 to item id 0x10B10019 in layer 1
+  RAM CFG-PMP-USE_PRESCRAMBLING 0 # write value 0 to item id 0x10B10019 in layer 0
+
+Flash CFG-PMP-SEARCH_WINDOW 0x0898 # write value 2200 0x0898 to item id 0x30B10012 in layer 2
+  BBR CFG-PMP-SEARCH_WINDOW 0x0898 # write value 2200 0x0898 to item id 0x30B10012 in layer 1
+  RAM CFG-PMP-SEARCH_WINDOW 0x0898 # write value 2200 0x0898 to item id 0x30B10012 in layer 0
+
+Flash CFG-PMP-DATA_RATE 0x0960 # write value 2400 0x0960 to item id 0x30B10013 in layer 2
+  BBR CFG-PMP-DATA_RATE 0x0960 # write value 2400 0x0960 to item id 0x30B10013 in layer 1
+  RAM CFG-PMP-DATA_RATE 0x0960 # write value 2400 0x0960 to item id 0x30B10013 in layer 0
+
+Flash CFG-PMP-DESCRAMBLER_INIT 0x6959 # write value 26969 0x6959 to item id 0x30B10015 in layer 2
+  BBR CFG-PMP-DESCRAMBLER_INIT 0x6959 # write value 26969 0x6959 to item id 0x30B10015 in layer 1
+  RAM CFG-PMP-DESCRAMBLER_INIT 0x6959 # write value 26969 0x6959 to item id 0x30B10015 in layer 0
+
+Flash CFG-PMP-SERVICE_ID 0x5555 # write value 21845 0x5555 to item id 0x30B10017 in layer 2
+  BBR CFG-PMP-SERVICE_ID 0x5555 # write value 21845 0x5555 to item id 0x30B10017 in layer 1
+  RAM CFG-PMP-SERVICE_ID 0x5555 # write value 21845 0x5555 to item id 0x30B10017 in layer 0
+
+#USA/NA 1556290000 0x5CC319D0
+#Flash CFG-PMP-CENTER_FREQUENCY 0x5CC319D0 # write value 1556290000 0x5CC319D0 to item id 0x40B10011 in layer 2
+#  BBR CFG-PMP-CENTER_FREQUENCY 0x5CC319D0 # write value 1556290000 0x5CC319D0 to item id 0x40B10011 in layer 1
+#  RAM CFG-PMP-CENTER_FREQUENCY 0x5CC319D0 # write value 1556290000 0x5CC319D0 to item id 0x40B10011 in layer 0
+
+#EU     1545260000 0x5C1ACBE0
+Flash CFG-PMP-CENTER_FREQUENCY 0x5C1ACBE0 # write value 1545260000 0x5C1ACBE0 to item id 0x40B10011 in layer 2
+  BBR CFG-PMP-CENTER_FREQUENCY 0x5C1ACBE0 # write value 1545260000 0x5C1ACBE0 to item id 0x40B10011 in layer 1
+  RAM CFG-PMP-CENTER_FREQUENCY 0x5C1ACBE0 # write value 1545260000 0x5C1ACBE0 to item id 0x40B10011 in layer 0
+
