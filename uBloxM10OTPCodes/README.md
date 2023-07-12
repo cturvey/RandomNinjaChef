@@ -28,5 +28,10 @@ https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configura
    * Internal LNA Mode, Bypass
      *  B5 62 06 41 10 00 03 00 05 1F 79 B2 0A E5 28 EF 12 05 9F FF FF FF 62 FB
      *  https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_IntegrationManual_UBX-21028173.pdf
+     *  http://www.u-blox.com/docs/UBX-21028173
+   * Internal LNA Mode, Low Gain
+     *  B5 62 06 41 10 00 03 00 05 1F 44 EA 1E 7E 28 EF 12 05 DF FF FF FF 52 10
+     *  http://www.u-blox.com/docs/UBX-22038241
+     
 
-31-May-2022  sourcer32@gmail.com 
+12-July-2022  sourcer32@gmail.com 
