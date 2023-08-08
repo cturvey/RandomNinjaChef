@@ -1,0 +1,14 @@
+# Config changes format version 1.0
+# created by clive1 at 09:16:22 on Tuesday, 08 Aug 2023
+[del]
+[set]
+  RAM CFG-NAV2-OUT_ENABLED 1                    # write value 1                    to item id 0x10170001 in layer 0
+  BBR CFG-NAV2-OUT_ENABLED 1                    # write value 1                    to item id 0x10170001 in layer 1
+Flash CFG-NAV2-OUT_ENABLED 1                    # write value 1                    to item id 0x10170001 in layer 2
+  RAM CFG-MSGOUT-NMEA_NAV2_ID_GGA_UART1 0x1     # write value 1  0x1               to item id 0x20910662 in layer 0
+  BBR CFG-MSGOUT-NMEA_NAV2_ID_GGA_UART1 0x1     # write value 1  0x1               to item id 0x20910662 in layer 1
+Flash CFG-MSGOUT-NMEA_NAV2_ID_GGA_UART1 0x1     # write value 1  0x1               to item id 0x20910662 in layer 2
+  RAM CFG-MSGOUT-NMEA_NAV2_ID_GGA_USB 0x1       # write value 1  0x1               to item id 0x20910664 in layer 0
+  BBR CFG-MSGOUT-NMEA_NAV2_ID_GGA_USB 0x1       # write value 1  0x1               to item id 0x20910664 in layer 1
+Flash CFG-MSGOUT-NMEA_NAV2_ID_GGA_USB 0x1       # write value 1  0x1               to item id 0x20910664 in layer 2
+
