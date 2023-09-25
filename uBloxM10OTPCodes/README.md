@@ -1,4 +1,6 @@
-I'm using this as a parking place for useful codes. If this helps you, contribute via https://paypal.me/cliveone
+I'm using this as a parking place for useful codes. If this helps you, contribute via PayPal or Venmo. Submit new/compounded requests in the form of payment.
+  *  https://paypal.me/cliveone  
+  *  https://www.venmo.com/u/cliveone
 
 Setting OTP values in u-Blox M10 devices for permanent configuration. Use sparingly its a finite resource. OTP (One Time Programmable), really its a once and done, use with thought and consideration...
 
@@ -33,5 +35,4 @@ https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configura
      *  B5 62 06 41 10 00 03 00 05 1F 44 EA 1E 7E 28 EF 12 05 DF FF FF FF 52 10
      *  http://www.u-blox.com/docs/UBX-22038241
      
-
-12-July-2022  sourcer32@gmail.com 
+25-September-2023  sourcer32@gmail.com 
