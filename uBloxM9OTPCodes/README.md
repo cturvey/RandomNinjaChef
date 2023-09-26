@@ -1,4 +1,6 @@
-I'm using this as a parking place for useful codes. If this helps you, contribute via https://paypal.me/cliveone
+I'm using this as a parking place for useful codes. If this helps you, contribute via PayPal or Venmo. Submit new/compounded requests in the form of payment.
+  *  https://paypal.me/cliveone  
+  *  https://www.venmo.com/u/cliveone
 
 Setting OTP values in u-Blox M9 devices for permanent configuration. Use sparingly its a finite resource. OTP (One Time Programmable), really its a once and done, use with thought and consideration...
 
