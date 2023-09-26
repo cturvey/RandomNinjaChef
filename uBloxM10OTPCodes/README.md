@@ -35,6 +35,6 @@ https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configura
      *  B5 62 06 41 10 00 03 00 05 1F 44 EA 1E 7E 28 EF 12 05 DF FF FF FF 52 10
      *  http://www.u-blox.com/docs/UBX-22038241
    * I2C/UART SWAP  TX/SCL  RX/SDA
-     * B5 62 06 41 10 00 03 00 05 1F 94 EA 99 CC 28 EF 12 05 FC FF FF FF 88 D0
+     *  B5 62 06 41 10 00 03 00 05 1F C2 FA FA 94 28 EF 12 05 F3 FF FF FF E6 56
        
 26-September-2023  sourcer32@gmail.com 
