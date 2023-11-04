@@ -21,6 +21,28 @@ HardFault_Handler\
 
 ;*****************************************************************************
 
+; Equivalent for GNU/GAS used with STM32CubeIDE etc
+
+    .section  .text.HardFault_Handler,"ax",%progbits
+HardFault_Handler:
+
+                /* Determine correct stack */
+
+                TST     lr, #4
+                ITE     EQ
+                MRSEQ   R0, MSP         /* Read MSP (Main) */
+                MRSNE   R0, PSP         /* Read PSP (Process) */
+
+                MOV     R1, R4
+                MOV     R2, R5
+                MOV     R3, R6
+
+                B       hard_fault_handler_c
+
+  .size  HardFault_Handler, .-HardFault_Handler
+
+;*****************************************************************************
+
 ;Note to self, Cortex-M0(+) startup.s code for Keil
 
 HardFault_Handler\
