@@ -1,6 +1,6 @@
-//****************************************************************************
-// From ramblings here
+// From some conversations, ramblings and postings on the u-Blox forum
 // https://portal.u-blox.com/s/question/0D52p0000DfrTQpCQM/referring-ubxrxmsfrbx-message-to-construct-ubxmgagps-message
+// https://portal.u-blox.com/s/question/0D52p00008HKD1DCAX/how-to-tell-which-subframe-is-being-transmitted-on-the-ubxrxmsfrbx-message
 //****************************************************************************
 //
 //  RXM-SFRBX
@@ -18,6 +18,10 @@
 //   91941F94 46507E
 //
 //  note 0x8B (10001011) leading TLM, and sub-frame# from HOW 0x29 -> 001[010]01
+//
+// There's also a relationship between the truncated Z-Count / ToW and the
+//  subframe encoding for the full frame deck. The sub-frames are on 6 second
+//  intervals, and a full deck gets transmitted every 12.5 minutes
 //****************************************************************************
 
 #include <windows.h>
