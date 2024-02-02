@@ -38,5 +38,7 @@ https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configura
      *  B5 62 06 41 10 00 03 00 05 1F C2 FA FA 94 28 EF 12 05 F3 FF FF FF E6 56
    * RMC ONLY, CFG-MSGOUT-UART1 VTG=0,GGA=0,GSA=0,GSV=0,GLL=0
      *  B5 62 06 41 25 00 04 01 A4 19 6A 68 2A BB 28 EF 12 05 B1 00 91 20 00 BB 00 91 20 00 C0 00 91 20 00 C5 00 91 20 00 CA 00 91 20 00 43 0F
+   * CFG-MSGOUT-UART1 GST=1
+     *  B5 62 06 41 11 00 04 01 A4 05 5F 05 B8 DF 28 EF 12 05 D4 00 91 20 01 B5 4C
        
-6-October-2023  sourcer32@gmail.com 
+2-February-2024  sourcer32@gmail.com 
