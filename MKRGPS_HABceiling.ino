@@ -7,6 +7,8 @@
  If this saves you several man-hours/days consider https://paypal.me/cliveone
   5-Feb-2024  sourcer32@gmail.com
 
+https://portal.u-blox.com/s/question/0D5Oj000005u5nyKAA/samm8q-limit-altitude-problem
+
 //****************************************************************************
 */
 
@@ -75,7 +77,7 @@ void set_airbourne_dynamic(void)
 
 void setup(void)
 {
-  while(!Serial) // (USB) Wait for Host Side Connection
+  while(!Serial); // (USB) Wait for Host Side Connection
 
   Serial.println("MKR GPS SAM-M8Q I2C");
 
