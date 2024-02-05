@@ -16,3 +16,6 @@ uint8_t ubx_cfg_nav5[] = { // CFG-NAV5 (06 24)
 0x55,0xB4 }; // Checksum (Fletcher) of preceeding packet
 
 SendUBLOX(hUARTGPS, sizeof(ubx_cfg_nav5), ubx_cfg_nav5);
+
+// For Ardunio use the form Serial.write(buffer, sizeof(buffer));
+//  to send checksumed packets to the receiver.
