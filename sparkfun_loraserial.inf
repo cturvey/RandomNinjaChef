@@ -87,9 +87,11 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 [SourceDisksNames]
 [DeviceList]
 "SparkFun LoRaSerial"=DriverInstall, USB\VID_1B4F&PID_002A&MI_00
+"SparkFun SAMD21 LoRaSerial"=DriverInstall, USB\VID_1B4F&PID_002A&MI_04
 
 [DeviceList.NTamd64]
 "SparkFun LoRaSerial"=DriverInstall, USB\VID_1B4F&PID_002A&MI_00
+"SparkFun SAMD21 LoRaSerial"=DriverInstall, USB\VID_1B4F&PID_002A&MI_04
 
 ;------------------------------------------------------------------------------
 ;  String Definitions
