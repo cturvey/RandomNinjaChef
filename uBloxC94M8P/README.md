@@ -21,3 +21,11 @@ ASCII Text Image of underlying circuit connectivity from schematic. AND combines
 Micro Controller Connectivity (CMOS 3V Compatible)
 
 ![alt text](c94-m8p-d-micro.jpg?raw=true)
+
+### Suggested Reading..
+  *  https://portal.u-blox.com/s/question/0D52p0000AzKxWUCQ0/c94m8p1-pixhawk-interface
+  *  https://portal.u-blox.com/s/question/0D52p0000E7qXkKCQU/the-c94m8p-green-led-never-comes-on-i-have-done-all-of-the-setups-and-the-fix-mode-show-time-included-is-picture-off-all-i-know-the-config-file-was-ask-to-be-saved-on-another-unit-but-this-one-i-had-to-manually-goto-the-config-and-save-it
+  *  https://portal.u-blox.com/s/question/0D52p00009VxbbaCAB/problems-connecting-c94m8p-rover-to-an-arduino-due
+  *  https://portal.u-blox.com/s/question/0D52p00008HKCwyCAH/c94m8p2-settings-to-use-j8-connector-for-external-communication
+  *  https://portal.u-blox.com/s/question/0D52p00008HKD52CAH/c94m8p-rover-ubx-protocoll-send-by-radio-to-base-ubx-data-at-which-j8-jumper
+  *  https://www.google.com/search?q=site%3Aportal.u-blox.com+clive1+j8.10
