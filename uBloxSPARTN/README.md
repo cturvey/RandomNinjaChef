@@ -87,3 +87,5 @@ Azimuth (magn.): 197.4°
 ![alt text](eu_gad.jpg?raw=true)
 ![alt text](au_gad.jpg?raw=true)
 ![alt text](jp_gad.jpg?raw=true)
+
+![alt text](beitian_all_frequency.jpg?raw=true)
