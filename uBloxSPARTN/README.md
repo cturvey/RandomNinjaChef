@@ -43,6 +43,16 @@ Azimuth (true): 149.6°
 Azimuth (magn.): 148.7°
 ```
 ```
+Address: 54.9069, -1.3838 - Sunderland, England
+Latitude: 54.9069°
+Longitude: -1.3838°
+
+Satellite: 24.8E ALPHASAT
+Elevation: 23.1°
+Azimuth (true): 149.0°
+Azimuth (magn.): 149.0°
+```
+```
 Address: 52.5200, 13.4050 - Berlin, Germany
 Latitude: 52.5200°
 Longitude: 13.4050°
