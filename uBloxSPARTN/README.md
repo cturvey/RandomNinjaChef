@@ -13,6 +13,10 @@ https://portal.u-blox.com/s/question/0D52p0000DbrPUBCQ2/which-inductor-value-sho
 
 https://portal.u-blox.com/s/question/0D52p0000DZMlwtCQD/neo-d9c-and-zed-f9p-sharing-same-active-antenna
 
+The protocol
+
+https://www.spartnformat.org/wp-content/uploads/210928_SPARTN_v2.0.1.pdf
+
 Mini-Circuits RF Power Splitters, GP2S+ and SCN-3-16+
 
 https://www.minicircuits.com/pdfs/GP2S+.pdf
