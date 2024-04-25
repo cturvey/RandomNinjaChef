@@ -1,6 +1,9 @@
-I'm using this as a parking place for useful codes. If this helps you, contribute via PayPal or Venmo. Submit new/compounded requests in the form of payment.
+I'm using this as a parking place for useful codes. If this helps you, contribute via PayPal or Venmo. Submit new/compounded requests in the form of payment. Suggested $20-25 USD (Higher in California)
+
   *  https://paypal.me/cliveone  
   *  https://www.venmo.com/u/cliveone
+
+Now also accepting coffee https://buymeacoffee.com/cliveone
 
 Setting OTP values in u-Blox M10 devices for permanent configuration. Use sparingly its a finite resource. OTP (One Time Programmable), really its a once and done, use with thought and consideration...
 
@@ -49,4 +52,4 @@ https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configura
   * CFG-UART1-BAUDRATE=115200,CFG-RATE-MEAS=100(10Hz),NAVSPG-DYNMODEL=4,CFG-ITFM-ENABLE=1
      *  B5 62 06 41 24 00 04 01 A4 18 9E 21 E3 84 28 EF 12 05 01 00 52 40 00 C2 01 00 01 00 21 30 64 00 21 00 11 20 04 0D 00 41 10 01 41 BE
 
-2-March 2024  sourcer32@gmail.com 
+25-April-2024  sourcer32@gmail.com 
