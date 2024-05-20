@@ -1,2 +1,4 @@
-64-bir Drivers
-https://ftdichip.com/wp-content/uploads/2021/11/CDM-v2.12.36.4.U-WHQL-Certified.zip
+64-bit Drivers
+https://ftdichip.com/drivers/d2xx-drivers/
+https://www.ftdichip.com/Driver/CDM/CDM%20v2.12.28%20WHQL%20Certified.zip
+
