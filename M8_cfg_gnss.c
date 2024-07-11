@@ -20,6 +20,11 @@ SendUBLOX(hUARTGPS, sizeof(ubx_cfg_gnss), ubx_cfg_gnss); // Use sizeof() for arr
 // As escaped characters
 // "\xB5\x62\x06\x3E\x3C\x00\x00\x00\x20\x07\x00\x08\x10\x00\x01\x00\x01\x01\x01\x01\x03\x00\x01\x00\x01\x01\x02\x04\x08\x00\x01\x00\x01\x01\x03\x08\x10\x00\x00\x00\x01\x01\x04\x00\x08\x00\x00\x00\x01\x01\x05\x00\x03\x00\x01\x00\x01\x01\x06\x08\x0E\x00\x01\x00\x01\x01\x30\xAD"
 
+// The M8 supports Two RF down-converters, and this limits the constellations it will support concurrently
+//   1575.42 MHz  GPS+SBAS+GALILEO+QZSS
+//   1602 MHz  GLONASS
+//   1561.098 MHz  BEIDOU
+  
 // Related resources
 // https://content.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_UBX-13003221.pdf
 // https://content.u-blox.com/sites/default/files/u-blox-M9-SPG-4.04_InterfaceDescription_UBX-21022436.pdf?hash=undefined
