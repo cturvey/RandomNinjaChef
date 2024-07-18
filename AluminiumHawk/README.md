@@ -10,7 +10,7 @@ https://www.menards.com/main/tools/hand-tools/drywall-tools/kraft-tool-co-reg-13
 
 Handle mounts via 5/16"-18 threaded rod/bolt, widely available, but no convienient mounting / fixturing beyond using standard bolts on brackets, etc.
 
-Standard tripod mounts are 1/4"-20, 3/8"-16 and 5/8"-11 threads. Most Camera Tripods use the 1/4"-20, and most Survey Tripods use the 5/8"-11
+Standard tripod mounts are 1/4"-20, 3/8"-16 and 5/8"-11 threads. Most Camera Tripods use the 1/4"-20, and most Survey Tripods use the 5/8"-11, whereas Microphone stands are 5/8"-27
 
 I had to drill out the hole to 5/16" and then tap with 3/8"-16 (See Bosch BDT38F16) to use standard camera tripod and mount adapters. I used a knurled-nut style, but you can also use threaded inserts.
 
