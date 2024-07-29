@@ -7,6 +7,8 @@ Ramblings on uBlox OSNMA one ZED-F9P SPG 1.50, Using UBX-MGA-GAL
  The SECP256R1 Public Key looks too short, does appear to need the leading 0x03 to accept. The UBX packet doesn't look large enough for P-521 key
 
  The Merkel Key has several nodes, not sure how these get communicated, but under review
+
+ Packet sizes fixed at 36 and 72-bytes. I suspect issues with the P-521 compressed key ingress, but need a working example.
  
   If this saves you several man-hours/days consider https://paypal.me/cliveone
   
@@ -18,7 +20,7 @@ Ramblings on uBlox OSNMA one ZED-F9P SPG 1.50, Using UBX-MGA-GAL
 // 03 97 EB 43 78 9A A0 F6 D0 52 A6 38 46 8E CF 52 78 E6 F6 DF 84 65 EC B8 D8 B8 4B 8C 7A 35 01 F7 3B
 
 uint8_t  ubx_mga_gal_osnma_pubkey[] = {
-  0xB5,0x62,0x13,0x02,0x48,0x00,  // 0x13,0x02 = UBX-MGA-GAL (36-Bytes)
+  0xB5,0x62,0x13,0x02,0x48,0x00,  // 0x13,0x02 = UBX-MGA-GAL (72-Bytes)
   0x07,0x00,0x11,0x00,            // 0x07 = PUBKEY, +2 Low Nibble Key#, High Nibble 1=ECDSA P-256,3=ECDSA P-521
   0x03,0x97,0xEB,0x43,0x78,0x9A,0xA0,0xF6, //KEY
   0xD0,0x52,0xA6,0x38,0x46,0x8E,0xCF,0x52,
