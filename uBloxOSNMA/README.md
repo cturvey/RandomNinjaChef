@@ -47,3 +47,16 @@ uint8_t  ubx_mga_gal_osnma_merkel[] = {
   0x90,0x4A,0xCD,0x9B,0xF8,0x42,0xF0,0x4E,
   0x8E,0xDC }; // Fletcher Checksum
 ```
+
+I'm in the process of going through the sign-up process outlined here
+
+https://customersupport.septentrio.com/s/article/How-to-retrieve-keys-and-insert-them-in-the-receiver-to-use-the-OSNMA-service
+
+https://www.gsc-europa.eu/
+
+Signing up for developer access to OSNMA Public Key and Merkel Tree data
+
+The compressed public key leads with a 2 or 3 byte
+
+  30-Jul-2024  sourcer32@gmail.com
+  
