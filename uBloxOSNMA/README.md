@@ -140,6 +140,12 @@ When you hit that time, click the SEND button to dispatch.
 ### CHECK TIME TRUSTED
 ![alt text](ubx_nav_trustedtime_001.jpg?raw=true)
 
+### CHECK OSNMA ENABLED, KEY / TABLE ACCEPTANCE
+![alt text](osnma_test_001.jpg?raw=true)
+
+### CHECK OSNMA PROCESSING / TESLA KEY / AUTHENTICATION
+![alt text](osnma_test_002.jpg?raw=true)
+
   If this saves you several man-hours/days consider https://paypal.me/cliveone
 
   31-Jul-2024  sourcer32@gmail.com
