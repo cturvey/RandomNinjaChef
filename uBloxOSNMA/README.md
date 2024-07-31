@@ -13,7 +13,11 @@ Ramblings on uBlox OSNMA one ZED-F9P SPG 1.50, Using UBX-MGA-GAL
   If this saves you several man-hours/days consider https://paypal.me/cliveone
   
    29-Jul-2024  sourcer32@gmail.com
- 
+
+```
+UBX-CFB-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
+B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
+```
 7 = OSNMA PUBKEY
 ```
 // 0397EB43789AA0F6D052A638468ECF5278E6F6DF8465ECB8D8B84B8C7A3501F73B
