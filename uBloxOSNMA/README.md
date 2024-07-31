@@ -86,11 +86,11 @@ The compressed public key leads with a 2 or 3 byte
   30-Jul-2024  sourcer32@gmail.com
   
   
-Ok, so the secret here is to make sure that Trusted Time is set, you get one shot at this, so awkward to do manually in uCenter. If you mess up you must cold start
+Ok, so the secret here is to make sure that Time Trusted is set, you get one shot at this, so awkward to do manually in uCenter. If you mess up you must cold start
 
 Go to UBX-MGA-INI-TIME_UTC in Message View
 
-Set Accuracy to 5 seconds, Check "Trusted Time'" box, must do both.
+Set Accuracy to 5 seconds, Check "Time Trusted" box, must do both.
 
 Adjust Time HH:MM:SS to UTC, not your local time, here in Chicago had to advance 5 hours for Central/Day Lights Saving.
 
@@ -98,7 +98,7 @@ Adjust the MM:SS to something close to the time on your phone, in the future.
 
 When you hit that time, click the SEND button to dispatch.
 
-You can check the result via UBX-NAV-TRUSTEDTIME, and how slow your reaction time is. ~500 ms in my case.
+You can check the result via UBX-NAV-TIMETRUSTED, and how slow your reaction time is. ~500 ms in my case.
 
 On an embedded platform this can be done more mechanically if you have a button to confirm UTC as determine via GPS/GNSS at a location/time you trust the system.
 
@@ -127,6 +127,19 @@ UBX-MGA-GAL-OSNMA PUBKEY - ID:1  TYPE:ECDSA P-256/SHA-256
 ```
 ![alt text](ubx_mga_gal_osnma_pubkey_001.jpg?raw=true)
 
-### SET TRUSTED TIME
+### SET TIME TRUSTED
+Set Accuracy to 5 seconds, Check "Time Trusted" box, must do both.
 
-### CHECK TRUSTED TIME
+Adjust Time HH:MM:SS to UTC, not your local time, here in Chicago had to advance 5 hours for Central/Day Lights Saving.
+
+Adjust the MM:SS to something close to the time on your phone, in the future.
+
+When you hit that time, click the SEND button to dispatch.
+![alt text](ubx_mga_ini_timeutc_001.jpg?raw=true)
+
+### CHECK TIME TRUSTED
+![alt text](ubx_nav_trustedtime_001.jpg?raw=true)
+
+  If this saves you several man-hours/days consider https://paypal.me/cliveone
+
+  31-Jul-2024  sourcer32@gmail.com
