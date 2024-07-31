@@ -85,3 +85,23 @@ The compressed public key leads with a 2 or 3 byte
 
   30-Jul-2024  sourcer32@gmail.com
   
+  
+Ok, so the secret here is to make sure that Trusted Time is set, you get one shot at this, so awkward to do manually in uCenter. If you mess up you must cold start
+
+Go to UBX-MGA-INI-TIME_UTC in Message View
+
+Set Accuracy to 5 seconds, Check "Trusted Time'" box, must do both.
+
+Adjust Time HH:MM:SS to UTC, not your local time, here in Chicago had to advance 5 hours for Central/Day Lights Saving.
+
+Adjust the MM:SS to something close to the time on your phone, in the future.
+
+When you hit that time, click the SEND button to dispatch.
+
+You can check the result via UBX-NAV-TRUSTEDTIME, and how slow your reaction time is. ~500 ms in my case.
+
+On an embedded platform this can be done more mechanically if you have a button to confirm UTC as determine via GPS/GNSS at a location/time you trust the system.
+
+I'll perhaps add screen shots here later. But check  https://portal.u-blox.com/s/question/0D5Oj00000N0yaLKAR/f9p-150-osnma-configuration
+
+  31-Jul-2024  sourcer32@gmail.com
