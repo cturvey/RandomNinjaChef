@@ -105,3 +105,28 @@ On an embedded platform this can be done more mechanically if you have a button 
 I'll perhaps add screen shots here later. But check  https://portal.u-blox.com/s/question/0D5Oj00000N0yaLKAR/f9p-150-osnma-configuration
 
   31-Jul-2024  sourcer32@gmail.com
+
+##  SETUP METHOD
+###  ENABLE OSNMA
+```
+UBX-CFB-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
+B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
+```
+
+###  SET MERKEL TABLE ROOT
+UBX-MGA-GAL-OSNMA MERKEL - CURRENT
+```
+83 2E 15 ED E5 56 55 EA C6 E3 99 A5 39 47 7B 7C 03 4C CE 24 C3 C9 3F FC 90 4A CD 9B F8 42 F0 4E
+```
+![alt text](ubx_mga_gal_osnma_merkel_001.jpg?raw=true)
+
+###  SET PUBLIC KEY
+UBX-MGA-GAL-OSNMA PUBKEY - ID:1  TYPE:ECDSA P-256/SHA-256
+```
+03 97 EB 43 78 9A A0 F6 D0 52 A6 38 46 8E CF 52 78 E6 F6 DF 84 65 EC B8 D8 B8 4B 8C 7A 35 01 F7 3B
+```
+![alt text](ubx_mga_gal_osnma_pubkey_001.jpg?raw=true)
+
+### SET TRUSTED TIME
+
+### CHECK TRUSTED TIME
