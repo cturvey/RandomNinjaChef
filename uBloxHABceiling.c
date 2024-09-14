@@ -19,3 +19,8 @@ SendUBLOX(hUARTGPS, sizeof(ubx_cfg_nav5), ubx_cfg_nav5);
 
 // For Ardunio use the form Serial.write(buffer, sizeof(buffer));
 //  to send checksumed packets to the receiver.
+
+uint8_t ubx_cfg_valset_dyn6[] = { // Series 9 and 10
+  0xB5,0x62,0x06,0x8A,0x09,0x00,  // Header/Command/Size  UBX-CFG-VALSET (RAM)
+  0x00,0x01,0x00,0x00,0x21,0x00,0x11,0x20,0x06, // Payload data (0x20110021 CFG-NAVSPG-DYNMODEL = 6)
+  0xF2,0x4F };
