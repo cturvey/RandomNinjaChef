@@ -4,6 +4,9 @@
 // If this saves you several man-hours/days consider https://paypal.me/cliveone
 //   sourcer32@gmail.com
 
+// For SendUBLOX code, see
+//  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxChecksum.c
+
 //****************************************************************************
 
 void ConfigRate(void *hSerial, uint32_t RateHz)
@@ -19,6 +22,20 @@ void ConfigRate(void *hSerial, uint32_t RateHz)
   cfg_rate[6 + 1] = (uint8_t)((Ms >>  8) & 0xFF);
 
   SendUBLOX(hSerial, sizeof(cfg_rate), cfg_rate);
+}
+
+//****************************************************************************
+
+void ConfigHNR(void *hSerial, uint32_t RateHz)
+{
+  uint8_t cfg_hnr[] = { // 0x06,0x5C CFG_HNR
+    0xB5, 0x62, 0x06, 0x5C, 0x04, 0x00,
+    0x0A, 0x00, 0x00, 0x00,
+    0xAA, 0xAA }; // compute checksum
+
+  cfg_hnr[6 + 0] = (uint8_t)RateHz;
+
+  SendUBLOX(hSerial, sizeof(cfg_hnr), cfg_hnr);
 }
 
 //****************************************************************************
