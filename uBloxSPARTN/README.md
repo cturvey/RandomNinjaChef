@@ -1,3 +1,4 @@
+## SPARTN RESOURCES
 If this saves you several man-hours/days consider https://paypal.me/cliveone
 
 Related to
@@ -38,6 +39,7 @@ Primary difference is the L-Band frequency the respective Inmarsat is parked on 
   *  US Satellite: 97.6W INMARSAT 4-F3 - 1556.29 MHz
   *  EU Satellite: 24.8E ALPHASAT (INMARSAT-4A F4) - 1545.26 MHz
 
+## SATELLITE VISIBILITY
 Determine Satellite Visibility from your location
 
   *  https://www.groundcontrol.com/us/knowledge/look-angle-calculator/
@@ -103,9 +105,15 @@ Azimuth (true): 193.8°
 Azimuth (magn.): 197.4°
 ```
 
+## DIRECTIONAL ANTENNA PERFORMANCE
+47.55 dBHz (13.625 Eb/NO [dB]), no demodulation errors
+![alt text](neo_d9s_004.jpg?raw=true)
+
+## GAD MAPS
 ![alt text](us_gad.jpg?raw=true)
 ![alt text](eu_gad.jpg?raw=true)
 ![alt text](au_gad.jpg?raw=true)
 ![alt text](jp_gad.jpg?raw=true)
 
+## ANTENNAS
 ![alt text](beitian_all_frequency.jpg?raw=true)
