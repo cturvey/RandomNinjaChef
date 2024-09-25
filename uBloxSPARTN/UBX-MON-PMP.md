@@ -12,7 +12,7 @@ https://portal.u-blox.com/s/question/0D52p0000DLWEeLCQX/lband-spartn-corrections
 +0x01 U1 nEntries (1)
 +0x02 U1[2] reserved0
  
-Repeated Entries (typically 1)
+Repeated Entries (typically 1) 20-byte(s) each
 +0x00 U4 reserved1
    [U4 timeTag ms]
 +0x04 U4 status, Bit 0 locked, Bit 1 frameSync
@@ -24,4 +24,4 @@ Repeated Entries (typically 1)
 +0x12 U1[2] reserved3
 ```
 
-https://content.u-blox.com/sites/default/files/C101-D9S-AppBoard_UserGuide_UBX-20031865.pdf (disclosure)
+https://content.u-blox.com/sites/default/files/C101-D9S-AppBoard_UserGuide_UBX-20031865.pdf#page=8 (disclosure)
