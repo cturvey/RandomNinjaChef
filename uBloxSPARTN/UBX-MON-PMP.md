@@ -25,3 +25,7 @@ Repeated Entries (typically 1) 20-byte(s) each
 ```
 
 https://content.u-blox.com/sites/default/files/C101-D9S-AppBoard_UserGuide_UBX-20031865.pdf#page=8 (disclosure)
+
+
+47.55 dBHz (13.625 Eb/NO [dB]), no demodulation errors
+![alt text](neo_d9s_004.jpg?raw=true)
