@@ -145,6 +145,44 @@ void Dump0135Pointer(uint32_t Size, uint8_t *Buffer)
 }
 
 //****************************************************************************
+/*
+---UBX-----------------------------------------------------------------------
+01 35 NAV-SAT         - 85 0F : 85 0F 376
+NAV-SAT  492130000
+TOW:492130.000  5 16:42:10.000
+Satellite Count: 30   Used: 18 (GPS:9, GLO:0, GAL:7, BDS:2) RTK
+GPS       2  CNO:16 Elev:31 Azim:132 Res:-20.3      QI:4
+GPS       7  CNO:19 Elev:86 Azim:192 Res:-14.8 Used QI:4
+GPS       8  CNO:32 Elev:52 Azim: 54 Res:  0.3 Used QI:7 Code+Carr
+GPS       9  CNO:16 Elev:18 Azim:199 Res:-11.0 Used QI:4
+GPS      13  CNO:22 Elev:15 Azim:320 Res:-10.2 Used QI:4
+GPS      14  CNO:28 Elev:37 Azim:279 Res: -0.4 Used QI:7 Code+Carr
+GPS      17  CNO: 8 Elev:15 Azim:215 Res:  9.0      QI:4
+GPS      21  CNO:15 Elev:36 Azim:113 Res:  6.2 Used QI:4
+GPS      22  CNO:15 Elev:18 Azim:270 Res:  3.6 Used QI:4
+GPS      27  CNO:32 Elev:16 Azim: 46 Res: -1.4 Used QI:7 Code+Carr
+GPS      30  CNO:27 Elev:57 Azim:305 Res:  6.8 Used QI:7 Code+Carr
+SBAS    131  CNO: 0 Elev:34 Azim:219 Res:  0.0      QI:1
+SBAS    133  CNO: 0 Elev:27 Azim:232 Res:  0.0      QI:1
+SBAS    138  CNO: 0 Elev:38 Azim:207 Res:  0.0      QI:1
+GALILEO   4  CNO:10 Elev:17 Azim:193 Res: 19.6 Used QI:4
+GALILEO   5  CNO:20 Elev:25 Azim:307 Res:-13.4 Used QI:4
+GALILEO   9  CNO:22 Elev:41 Azim:244 Res:  9.6 Used QI:4
+GALILEO  12  CNO: 0 Elev: 4 Azim:168 Res:  0.0      QI:1
+GALILEO  13  CNO:10 Elev: 1 Azim: 21 Res: 70.9      QI:4
+GALILEO  14  CNO:34 Elev:31 Azim: 56 Res:  0.0      QI:7 Code+Carr
+GALILEO  24  CNO: 9 Elev:31 Azim:277 Res: 11.9 Used QI:4
+GALILEO  26  CNO:26 Elev:28 Azim: 65 Res:  2.4 Used QI:7 Code+Carr
+GALILEO  31  CNO:35 Elev:73 Azim:342 Res: -1.4 Used QI:7 Code+Carr
+GALILEO  33  CNO:17 Elev:30 Azim:121 Res:-12.8 Used QI:4
+BEIDOU    8  CNO: 0                  Res:  0.0      QI:1
+BEIDOU   19  CNO:18 Elev:13 Azim:276 Res: -6.2 Used QI:4
+BEIDOU   20  CNO: 0 Elev: 6 Azim:231 Res:  0.0      QI:1
+BEIDOU   23  CNO: 0 Elev:14 Azim:109 Res:  0.0      QI:1
+BEIDOU   43  CNO:25 Elev:14 Azim: 40 Res:  9.9 Used QI:4
+BEIDOU   46  CNO:10 Elev:51 Azim:307 Res: 27.8      QI:3
+
+*/
 
 uint8_t ubx_nav_sat_pattern[] = {
   0xB5,0x62,0x01,0x35,0x70,0x01,0xD0,0x4E,0x55,0x1D,0x01,0x1E,0x00,0x00,0x00,0x02,
