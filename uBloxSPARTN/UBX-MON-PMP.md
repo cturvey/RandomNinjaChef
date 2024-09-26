@@ -2,7 +2,6 @@
 
 Discussed with details of packet as I've disected it around post 29
 
-
 https://portal.u-blox.com/s/question/0D52p0000DLWEeLCQX/lband-spartn-corrections-via-d9s-and-f9p-correct-d9s-configuration
 
 ```
@@ -37,15 +36,13 @@ MON-PMP
 CNO: 50.21
 ```
 ```
-0x20910322  CFG-MSGOUT-UBX_MON_PMPI2C
-0x20910323  CFG-MSGOUT-UBX_MON_PMPUART1
-0x20910324  CFG-MSGOUT-UBX_MON_PMPUART2
-0x20910325  CFG-MSGOUT-UBX_MON_PMPUSB
-0x20910326  CFG-MSGOUT-UBX_MON_PMPSPI
+0x20910322  CFG-MSGOUT-UBX_MON_PMP_I2C
+0x20910323  CFG-MSGOUT-UBX_MON_PMP_UART1
+0x20910324  CFG-MSGOUT-UBX_MON_PMP_UART2
+0x20910325  CFG-MSGOUT-UBX_MON_PMP_USB
+0x20910326  CFG-MSGOUT-UBX_MON_PMP_SPI
 ```
-
 https://content.u-blox.com/sites/default/files/C101-D9S-AppBoard_UserGuide_UBX-20031865.pdf#page=8 (disclosure)
-
 
 47.55 dBHz (13.625 Eb/NO [dB]), no demodulation errors
 ![alt text](neo_d9s_004.jpg?raw=true)
