@@ -23,6 +23,26 @@ Repeated Entries (typically 1) 20-byte(s) each
 +0x11 U1 cnoFrac dBHz
 +0x12 U1[2] reserved3
 ```
+```
+---UBX-----------------------------------------------------------------------
+0000 : B5 62 0A 35 18 00 00 01-00 00 F0 C5 1C 14 03 00 .b.5............
+0010 : 00 00 C0 E2 F8 0E EA 1A-C3 5C 32 35 00 00 72 C0 .........\25..r.
+
+0A 35 MON-PMP         - 72 C0 : 72 C0 32
+MON-PMP
+0000 : 00 01 00 00 F0 C5 1C 14-03 00 00 00 C0 E2 F8 0E ................
+0010 : EA 1A C3 5C 32 35 00 00-                        ...\25..
+
+ 337430000  251192000 1556290282      13618
+CNO: 50.21
+```
+```
+0x20910322  CFG-MSGOUT-UBX_MON_PMPI2C
+0x20910323  CFG-MSGOUT-UBX_MON_PMPUART1
+0x20910324  CFG-MSGOUT-UBX_MON_PMPUART2
+0x20910325  CFG-MSGOUT-UBX_MON_PMPUSB
+0x20910326  CFG-MSGOUT-UBX_MON_PMPSPI
+```
 
 https://content.u-blox.com/sites/default/files/C101-D9S-AppBoard_UserGuide_UBX-20031865.pdf#page=8 (disclosure)
 
