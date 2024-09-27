@@ -120,5 +120,6 @@ Azimuth (magn.): 197.4°
 
 ## USB SPARTN-MOUSE
 ![alt text](usb_spartn_mouse.jpg?raw=true)
+
 If in the USA, and interested in a $99 SPARTN-Mouse please drop me an email
 
