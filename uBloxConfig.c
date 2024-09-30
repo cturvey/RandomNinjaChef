@@ -70,7 +70,7 @@ void ConfigMsgPortNumber(void *hSerial, uint16_t Msg, int Enable, int PortNumber
   uint8_t ubx_cfg_msg[] = {
     0xB5, 0x62, 0x06, 0x01, 0x08, 0x00, // UBX-CFG-MSG (8-Byte Variant)
     0x00, 0x00, // Message Number
-    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // SPI, USART1, USART2, USB, ??, ??
+    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // I2C, UART1, UART2, USB, SPI, ??
     0xAA, 0xAA }; // compute checksum
 
   ubx_cfg_msg[6] = (uint8_t)((Msg >>  8) & 0xFF);
