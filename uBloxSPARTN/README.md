@@ -141,9 +141,11 @@ https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/LBAND01D-S6-00.
 
 https://download.mikroe.com/documents/datasheets/LBAND01D-S6-00_datasheet.pdf
 
-RTL-SDR LBAND (round $60 for kit, findable on Amazon)
+RTL-SDR LBAND (around $60 for kit, findable on Amazon)
 
 ![alt text](lband_patch_main2_500x500.jpg?raw=true)
+
+https://www.amazon.com/RTL-SDR-Blog-1525-1637-Inmarsat-Iridium/dp/B07WGWZS1D
 
 https://www.rtl-sdr.com/rtl-sdr-blog-active-l-band-patch-antenna-for-inmarsat-iridium-gps-back-in-stock/
 
