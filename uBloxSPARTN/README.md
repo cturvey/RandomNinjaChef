@@ -118,6 +118,10 @@ Azimuth (magn.): 197.4°
 ## ANTENNAS
 ![alt text](beitian_all_frequency.jpg?raw=true)
 
+INPAQ L-BAND  1525~1559 MHz  used in u-Blox Kits
+
+https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/LBAND01D-S6-00.pdf
+
 ## USB SPARTN-MOUSE
 ![alt text](usb_spartn_mouse.jpg?raw=true)
 
