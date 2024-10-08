@@ -9,14 +9,15 @@ Thanks to Helge from the uBlox forum for doing some quick plots of the GAD I ext
 Some additional discussions here
 
   *  https://portal.u-blox.com/s/question/0D52p0000Cw5Qz5CQE/how-to-enable-the-ubxrxmpmp-message-from-d9s
-
   *  https://portal.u-blox.com/s/question/0D52p0000DbrPUBCQ2/which-inductor-value-should-i-useand-do-i-need-the-ferrite-bead-in-my-design
-
   *  https://portal.u-blox.com/s/question/0D52p0000DZMlwtCQD/neo-d9c-and-zed-f9p-sharing-same-active-antenna
-
   *  https://forum.sparkfun.com/viewtopic.php?f=116&t=58895
-
   *  https://portal.u-blox.com/s/question/0D5Oj000006sloaKAA/looking-for-packet-format-for-spartn-correction-packets
+
+The boards
+
+  *  https://content.u-blox.com/sites/default/files/C101-D9S-AppBoard_UserGuide_UBX-20031865.pdf
+  *  https://content.u-blox.com/sites/default/files/documents/C102-F9R_UserGuide_UBX-20029244.pdf
 
 The protocol
 
@@ -120,7 +121,13 @@ Azimuth (magn.): 197.4°
 
 INPAQ L-BAND  1525~1559 MHz  used in u-Blox Kits
 
+![alt text](InpaqLBand.jpg?raw=true)
+
+https://www.digikey.com/en/products/detail/inpaq-technology-co-ltd/LBAND01D-S6-00/20511929
+
 https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/LBAND01D-S6-00.pdf
+
+https://download.mikroe.com/documents/datasheets/LBAND01D-S6-00_datasheet.pdf
 
 ## USB SPARTN-MOUSE
 ![alt text](usb_spartn_mouse.jpg?raw=true)
