@@ -27,6 +27,15 @@ Mini-Circuits RF Power Splitters, GP2S+ and SCN-3-16+
 
   *  https://www.minicircuits.com/pdfs/GP2S+.pdf
 
+Service
+
+  *  ThingStream
+     *  https://portal.thingstream.io/register
+     *  https://developer.thingstream.io/guides/location-services/pointperfect-getting-started
+  *  Nordian (Brazil)
+     *  https://www.nordian.com/point-perfect
+     *  https://www.nordian.com/form
+
 The configuration parameters were under NDA, but have been published here, openly, so will provide my scripts for them
 
 https://learn.sparkfun.com/tutorials/gnss-correction-data-receiver-neo-d9s-hookup-guide/all
