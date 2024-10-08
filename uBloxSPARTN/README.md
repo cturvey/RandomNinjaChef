@@ -1,8 +1,11 @@
 ## SPARTN RESOURCES
-If this saves you several man-hours/days consider https://paypal.me/cliveone
+If this saves you several man-hours/days consider donating / contributing
+  *  https://paypal.me/cliveone  
+  *  https://www.venmo.com/u/cliveone
+  *  Now also accepting coffee  https://buymeacoffee.com/cliveone
 
 Related to
-https://portal.u-blox.com/s/question/0D52p0000CimfsOCQQ/spartn-initialization-vector-iv-details
+  *  https://portal.u-blox.com/s/question/0D52p0000CimfsOCQQ/spartn-initialization-vector-iv-details
 
 Thanks to Helge from the uBlox forum for doing some quick plots of the GAD I extracted from the live data, should give a better visualization of the coverage.
 
@@ -128,7 +131,7 @@ Azimuth (magn.): 197.4°
 ## ANTENNAS
 ![alt text](beitian_all_frequency.jpg?raw=true)
 
-INPAQ L-BAND  1525~1559 MHz  used in u-Blox Kits
+INPAQ L-BAND  1525~1559 MHz  used in u-Blox Kits (should be around $11, Mikro-E had them closer to $60)
 
 ![alt text](InpaqLBand.jpg?raw=true)
 
@@ -137,6 +140,12 @@ https://www.digikey.com/en/products/detail/inpaq-technology-co-ltd/LBAND01D-S6-0
 https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/LBAND01D-S6-00.pdf
 
 https://download.mikroe.com/documents/datasheets/LBAND01D-S6-00_datasheet.pdf
+
+RTL-SDR LBAND (round $60 for kit, findable on Amazon)
+
+![alt text](lband_patch_main2_500x500.jpg?raw=true)
+
+https://www.rtl-sdr.com/rtl-sdr-blog-active-l-band-patch-antenna-for-inmarsat-iridium-gps-back-in-stock/
 
 ## USB SPARTN-MOUSE
 ![alt text](usb_spartn_mouse.jpg?raw=true)
