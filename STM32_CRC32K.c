@@ -10,9 +10,10 @@
 
 //******************************************************************************
 
-void TestCRC(void) // sourcer32@gmail.com PayPal accepted..
+void TestCRC32K(void) // sourcer32@gmail.com PayPal accepted..
 {
-  uint8_t test[] = { 0x31,0x32,0x33,0x34,0x35,0x36,0x37,0x38,0x39 }; // 0x2D3DD0AE
+  uint8_t test1[] = { 0x31,0x32,0x33,0x34,0x35,0x36,0x37,0x38,0x39 }; // 0x2D3DD0AE
+  uint8_t test2[] = { 0x12,0x34,0x56 };  // 0x85165958
 
   /* CRC handler declaration */
   CRC_HandleTypeDef CrcHandle = {0};
@@ -54,7 +55,8 @@ void TestCRC(void) // sourcer32@gmail.com PayPal accepted..
   }
 
   /* Note that I negate the response the hardware spins end-to-end */
-  printf("CRC-32-K %08X TEST 2D3DD0AE ?\n", ~HAL_CRC_Calculate(&CrcHandle, (uint32_t *)test, sizeof(test)));
+  printf("CRC-32-K %08X TEST1 2D3DD0AE ?\n", ~HAL_CRC_Calculate(&CrcHandle, (uint32_t *)test1, sizeof(test1)));
+  printf("CRC-32-K %08X TEST1 85165958 ?\n", ~HAL_CRC_Calculate(&CrcHandle, (uint32_t *)test2, sizeof(test2)));
 }
 
 //******************************************************************************
