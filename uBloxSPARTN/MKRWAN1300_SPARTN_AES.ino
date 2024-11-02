@@ -1,5 +1,5 @@
 /*
-	MKR WAN 1300 SPARTN AES
+  MKR WAN 1300 SPARTN AES
 */
 
 
@@ -80,7 +80,7 @@ CTR<AES128> ctr;
 void aes_testing(void)
 {
   ctr.setCounterSize(4);
-  
+
   ctr.setKey(key, 16);
 
   ctr.setIV(iv, 16);
@@ -90,7 +90,7 @@ void aes_testing(void)
 
   ctr.setIV(iv, 16);
   ctr.encrypt(junk, junk, sizeof(in)); // Re-Encrypt
-  
+
   Serial.print("CTR memcmp b "); Serial.println(memcmp(in, junk, sizeof(in)) == 0 ? "PASS" : "FAIL");
 }
 
@@ -136,12 +136,13 @@ void setup()
 
 void loop()
 {
-	if ((millis() - lastMillis) > 200)
-	{
-	  lastMillis += 200;
-  	lastLED ^= 1;
-  	digitalWrite(LED_BUILTIN, lastLED ? HIGH : LOW);
-	}
+  if ((millis() - lastMillis) > 200)
+  {
+    lastMillis += 200;
+    lastLED ^= 1;
+    digitalWrite(LED_BUILTIN, lastLED ? HIGH : LOW);
+  }
 }
 
 //***************************************************************************
+
