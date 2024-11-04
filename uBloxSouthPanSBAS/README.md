@@ -1,4 +1,4 @@
-# SOUTHPAN SBAS on PRN122
+# SOUTHPAN SBAS on PRN122 for M9/F9/M10/F10
 
 If you found this useful, or it saved you many hours of work, consider contributing to my efforts
   *  https://paypal.me/cliveone  
@@ -11,6 +11,10 @@ If you found this useful, or it saved you many hours of work, consider contribut
   *  https://frontiersi.github.io/southpan-receiver-docs/docs/configuration/ublox.html
   *  https://frontiersi.github.io/southpan-receiver-docs/docs/configuration/ublox.html#generation-9-modules
   *  https://frontiersi.github.io/southpan-receiver-docs/docs/configuration/ublox.html#generation-10-modules
+
+### Receivers
+  *  https://www.beitian.com/en/sys-pd/832.html  (BE-126)
+  *  https://www.beitian.com/en/sys-pd/524.html  (BE-122)
 
 ### Generation 9 Configuration File
 ![alt text](cfg9_southpan_sbas.jpg?raw=true)
