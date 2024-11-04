@@ -1,6 +1,6 @@
 # C94M8P page
 
-I created these over several conversations over the uBlox Support Forum.
+I created these over several conversations over at the uBlox Support Forum.
 
 If you found this useful, or it saved you many hours of work, consider contributing to my efforts
   *  https://paypal.me/cliveone  
