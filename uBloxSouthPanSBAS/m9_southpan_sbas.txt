@@ -1,0 +1,11 @@
+# Config changes format version 1.0
+# created by u-center version 23.08 at 13:08:12 on Monday, 04 Nov 2024
+[del]
+[set]
+  RAM CFG-SIGNAL-SBAS_ENA  1                    # write value 1                    to item id 0x10310020 in layer 0
+  RAM CFG-SIGNAL-SBAS_L1CA_ENA 1                    # write value 1                    to item id 0x10310005 in layer 0
+  RAM CFG-SBAS-USE_TESTMODE 1                    # write value 1                    to item id 0x10360002 in layer 0
+  RAM CFG-SBAS-USE_RANGING 0                    # write value 0                    to item id 0x10360003 in layer 0
+  RAM CFG-SBAS-USE_DIFFCORR 1                    # write value 1                    to item id 0x10360004 in layer 0
+  RAM CFG-SBAS-USE_INTEGRITY 0                    # write value 0                    to item id 0x10360005 in layer 0
+  RAM CFG-SBAS-PRNSCANMASK 0x4                  # write value 4  0x4               to item id 0x50360006 in layer 0
