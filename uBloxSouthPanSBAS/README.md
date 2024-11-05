@@ -33,7 +33,6 @@ If you found this useful, or it saved you many hours of work, consider contribut
   RAM CFG-SBAS-USE_INTEGRITY 0                  # write value 0                    to item id 0x10360005 in layer 0
   RAM CFG-SBAS-PRNSCANMASK 0x4                  # write value 4  0x4               to item id 0x50360006 in layer 0
 ```
-
 ### C code for M9/F9/M10/F10
 Flash only works with modules with FLASH, which doesn't include MAX-M10, MIA-M10
 ```
@@ -72,4 +71,16 @@ uint8_t ubx9_cfg_valset_sbas122_ram_bbr_flash[] = {
   0x05,0x00,0x36,0x10,0x00,
   0x06,0x00,0x36,0x50,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
   0x26,0xB8 };
+```
+### Generation 8 Configuration File
+  *  [m8_southpan_sbas.txt](https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSouthPanSBAS/m8_southpan_sbas.txt)
+```
+CFG-SBAS - 06 16 08 00 03 02 01 00 04 00 00 00
+```
+### C code for M8
+```
+uint8_t ubx8_cfg_sbas[] = { // Enable SBAS, One Search, Custom 122
+  0xB5,0x62,0x06,0x16,0x08,0x00,
+  0x03,0x02,0x01,0x00,0x04,0x00,0x00,0x00,
+  0x2E,0xC6 };
 ```
