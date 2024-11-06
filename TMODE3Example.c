@@ -2,6 +2,14 @@
 // Quick CFG-TMODE3 Examples for ZED-F9X and NEO-M8P - sourcer32@gmail.com
 //****************************************************************************
 
+// If this saves you several man-hours/days consider https://paypal.me/cliveone
+//   sourcer32@gmail.com
+
+// For SendUBLOX code, see
+//  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxChecksum.c
+
+//****************************************************************************
+
 void ConfigTMODE3Disable(FIFO *Fifo)
 {
   uint8_t ubx_cfg_tmode3[] = { // CFG-TMODE3 (06 71)
