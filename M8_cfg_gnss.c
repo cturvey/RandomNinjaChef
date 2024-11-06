@@ -3,6 +3,14 @@
 // https://portal.u-blox.com/s/question/0D52p0000BLc5JKCQZ/m8n-write-config-cfg-edited
 //****************************************************************************
 
+// If this saves you several man-hours/days consider https://paypal.me/cliveone
+//   sourcer32@gmail.com
+
+// For SendUBLOX code, see
+//  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxChecksum.c
+
+//****************************************************************************
+
 uint8_t ubx_cfg_gnss[] = { // Full spectrum enabling GPS, GLONASS, SBAS, QZSS and GALILEO, disable BEIDOU/IMES
   0xB5,0x62,0x06,0x3E,0x3C,0x00, // Header/Command/Size [UBX-CFG-GNSS (06 3E)]
   0x00,0x00,0x20,0x07, // Version, HW Channels (Read-Only), Useable (Read-Only), Blocks following..
