@@ -131,7 +131,7 @@ Azimuth (magn.): 197.4°
 ## ANTENNAS
 ![alt text](beitian_all_frequency.jpg?raw=true)
 
-INPAQ L-BAND  1525~1559 MHz  used in u-Blox Kits (should be around $11, Mikro-E had them closer to $60)
+INPAQ L-BAND  1525~1559 MHz  used in u-Blox Kits (should be around $11, Mikro-E had them closer to $60) small, roughly 35x35mm
 
 ![alt text](InpaqLBand.jpg?raw=true)
 
@@ -141,7 +141,7 @@ https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/LBAND01D-S6-00.
 
 https://download.mikroe.com/documents/datasheets/LBAND01D-S6-00_datasheet.pdf
 
-RTL-SDR LBAND (around $60 for kit, findable on Amazon)
+RTL-SDR LBAND (around $60 for kit, findable on Amazon) large, roughly 170x170mm
 
 ![alt text](lband_patch_main2_500x500.jpg?raw=true)
 
