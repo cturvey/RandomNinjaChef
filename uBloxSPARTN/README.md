@@ -2,7 +2,7 @@
 If this saves you several man-hours/days consider donating / contributing
   *  https://paypal.me/cliveone  
   *  https://www.venmo.com/u/cliveone
-  *  Now also accepting coffee  https://buymeacoffee.com/cliveone
+  *  https://buymeacoffee.com/cliveone
 
 Related to
   *  https://portal.u-blox.com/s/question/0D52p0000CimfsOCQQ/spartn-initialization-vector-iv-details
@@ -197,3 +197,4 @@ REBUILT PACKET
 -----------------------------------------------------------------------------
  48459000 LOCK SYNC  44447000 1556290880 47.01 dBHz #################-----
 ```
+![alt text](nucleo_spartn_u5.jpg?raw=true)
