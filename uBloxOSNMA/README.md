@@ -1,4 +1,4 @@
-Ramblings on uBlox OSNMA one ZED-F9P SPG 1.50, Using UBX-MGA-GAL
+Ramblings on uBlox OSNMA one ZED-F9P HPG 1.50 (L1/L2), Using UBX-MGA-GAL
 
  https://portal.u-blox.com/s/question/0D5Oj00000N0yaLKAR/f9p-150-osnma-configuration
 
