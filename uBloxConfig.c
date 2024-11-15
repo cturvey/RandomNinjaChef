@@ -65,6 +65,33 @@ void ConfigMsgCurrent(void *hSerial, uint16_t Msg, int Enable)
 
 //****************************************************************************
 
+void ConfigBaudEx(void *hSerial, int Port, int Baud, int In, int Out)
+{
+  uint8_t cfg_prt[] = { // 0x06,0x00 CFG_PRT 8N1
+    0xB5,0x62,0x06,0x00,0x14,0x00,
+    0x01,0x00,0x00,0x00,0xD0,0x08,0x00,0x00,
+    0x00,0x84,0x03,0x00,0x27,0x00,0x23,0x00,
+    0x00,0x00,0x00,0x00,
+    0xAA,0xAA }; // compute checksum
+
+  cfg_prt[6 +  0] = (uint8_t)Port;
+
+  cfg_prt[6 +  8] = (uint8_t)((Baud >>  0) & 0xFF);
+  cfg_prt[6 +  9] = (uint8_t)((Baud >>  8) & 0xFF);
+  cfg_prt[6 + 10] = (uint8_t)((Baud >> 16) & 0xFF);
+  cfg_prt[6 + 11] = (uint8_t)((Baud >> 24) & 0xFF);
+
+  cfg_prt[6 + 12] = (uint8_t)((In >>  0) & 0xFF);
+  cfg_prt[6 + 13] = (uint8_t)((In >>  8) & 0xFF);
+
+  cfg_prt[6 + 14] = (uint8_t)((Out >>  0) & 0xFF);
+  cfg_prt[6 + 15] = (uint8_t)((Out >>  8) & 0xFF);
+
+  SendUBLOX(hSerial, sizeof(cfg_prt), cfg_prt);
+}
+
+//****************************************************************************
+
 void ConfigMsgPortNumber(void *hSerial, uint16_t Msg, int Enable, int PortNumber)
 {
   uint8_t ubx_cfg_msg[] = {
