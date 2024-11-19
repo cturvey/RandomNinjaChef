@@ -43,14 +43,15 @@ The configuration parameters were under NDA, but have been published here, openl
 
 https://learn.sparkfun.com/tutorials/gnss-correction-data-receiver-neo-d9s-hookup-guide/all
 
-Primary difference is the L-Band frequency the respective Inmarsat is parked on US 1556.29 MHz, EU 1545.26 MHz
+Primary difference is the L-Band frequency the respective Inmarsat is parked on US 1556.29 MHz, EU 1545.26 MHz, BR 1545.83
 
   *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/NEO-D9S_FW104_EU-00_gen9cfg.txt
 
   *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/NEO-D9S_FW104_US-00_gen9cfg.txt
 
-  *  US Satellite: 97.6W INMARSAT 4-F3 - 1556.29 MHz
+  *  US/NA Satellite: 97.6W INMARSAT 4-F3 - 1556.29 MHz
   *  EU Satellite: 24.8E ALPHASAT (INMARSAT-4A F4) - 1545.26 MHz
+  *  BR/SA Satellite: ?? - 1545.83 MHz
 
 ## SATELLITE VISIBILITY
 Determine Satellite Visibility from your location
