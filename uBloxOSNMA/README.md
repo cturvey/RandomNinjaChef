@@ -84,6 +84,13 @@ Signing up for developer access to OSNMA Public Key and Merkel Tree data
 The compressed public key leads with a 2 or 3 byte
 
   30-Jul-2024  sourcer32@gmail.com
+
+  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P_FW100HPG150_RN_UBXDOC-963802114-12826.pdf
+  *  https://content.u-blox.com/sites/default/files/2024-07/UBX_F9_100_HPG_150_ZED_F9P.82afa0b888dab694869a5098bf3a9f0b.bin
+
+  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P-FW100HPG151_RN_UBXDOC-963802114-13110.pdf
+
+  22-Nov-2024  sourcer32@gmail.com
   
   
 Ok, so the secret here is to make sure that Time Trusted is set, you get one shot at this, so awkward to do manually in uCenter. If you mess up you must cold start
