@@ -4,6 +4,12 @@ If this saves you several man-hours/days consider https://paypal.me/cliveone
 
 Related to
   *  https://portal.u-blox.com/s/question/0D5Oj00000ZTxtPKAT/ubxrxmmeas50-payload-format
+  *  https://portal.u-blox.com/s/question/0D52p0000DXaY0oCQF/does-the-m10-firmware-have-a-commandmessage-that-reports-the-raw-pseudoranges-or-raw-code-phases-i-can-see-the-m8-and-m9-both-report-these-but-is-absent-in-the-m10-interface-description
+  *  https://portal.u-blox.com/s/question/0D5Oj00000NjJURKA3/cloudlocate-what-are-measc12measd12-for
+  *  https://portal.u-blox.com/s/question/0D52p0000DWDqq3CQD/rtcm-messages
+  *  https://developer.thingstream.io/guides/location-services/cloudlocate-new-getting-started
+  *  https://developer.thingstream.io/guides/location-services/cloudlocate-new-getting-started/using-gnss-raw-measurements/using_cloudlocate_with_m8
+  *  https://portal.thingstream.io/app/downloads
 
 
 23-Nov-2024 sourcer32@gmail.com
@@ -35,6 +41,7 @@ tWICgAwAA2OBF8juVlRI2+JENak=
 index:96
 -----------------------------------------------------------------------------
 ```
+  *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxMEAS/measd12.c
 
 ```
 ---UBX-----------------------------------------------------------------------
