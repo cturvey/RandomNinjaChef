@@ -1,6 +1,10 @@
-### uBlox MEASX, MEASD12, MEASC12, MEAS20, MEAS50
+## uBlox MEASX, MEASD12, MEASC12, MEAS20, MEAS50 Resources
 
 If this saves you several man-hours/days consider https://paypal.me/cliveone
+
+Related to
+  *  https://portal.u-blox.com/s/question/0D5Oj00000ZTxtPKAT/ubxrxmmeas50-payload-format
+
 
 23-Nov-2024 sourcer32@gmail.com
 
@@ -12,9 +16,9 @@ If this saves you several man-hours/days consider https://paypal.me/cliveone
 
 tWICgAwAA2OBF8juVlRI2+JENak=
 
-000000
-11011
-00011 100000010001 svId+1 dopp*2.5
+000000 ?? ONLY GPS
+11011 svId+1 (doppler reference)
+00011 100000010001 svId+1 doppDelta*2.5
 01111 100100011101
 11001 010110010101
 00010 010001101101
@@ -38,6 +42,16 @@ index:96
 0000 : 36 1A E8 3C CB 08 17 9A-0B C9 67 52 15 64 56 36 6..<......gR.dV6
 0010 : 68 FE E1 B1                                     h...
 
+tWIChBQANhroPMsIF5oLyWdSFWRWNmj+4bEcBA==
+
+00 gnssId
+11011 0000110101110100 svId+1 chips/64.0 (doppler reference)
+00011 1100110010110000 10000001 svId+1 chips/64.0 doppDelta*40.0
+01111 0011010000010111 10010010
+11001 1101010010000101 01011001
+00010 1011000110110011 01000111
+11110 1110000110110001
+
 0:GPS
 # 0 28  3444   53.813
 # 1  4 52400  818.750  129  5160
@@ -48,6 +62,8 @@ index:96
 index:160
 -----------------------------------------------------------------------------
 ```
+  *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxMEAS/meas20.c
+
 
 ```
 ---UBX-----------------------------------------------------------------------
@@ -56,6 +72,8 @@ index:160
 0010 : BA 1B 0D 74 96 00 F7 0D-89 65 47 ED 96 C3 66 05 ...t.....eG...f.
 0020 : 63 66 1C E3 3C AE 37 D6-D6 AF 09 0B A3 A9 C4 62 cf..<.7........b
 0030 : C6 68                                           .h
+
+tWIChjIAGDiHAeZYM1Q80F/EozqQqbobDXSWAPcNiWVH7ZbDZgVjZhzjPK431tavCQujqcRixmhqhA==
 
 # 0 0:GPS 25  28942  226.109
 # 1 0:GPS  4 104800  818.750 3285 6570
@@ -73,6 +91,9 @@ index:160
 index:397 0
 -----------------------------------------------------------------------------
 ```
+  *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxMEAS/meas50.c
+
+    
 ##  Support
  
   *  https://paypal.me/cliveone
