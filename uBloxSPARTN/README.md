@@ -16,6 +16,7 @@ Some additional discussions here
   *  https://portal.u-blox.com/s/question/0D52p0000DZMlwtCQD/neo-d9c-and-zed-f9p-sharing-same-active-antenna
   *  https://forum.sparkfun.com/viewtopic.php?f=116&t=58895
   *  https://portal.u-blox.com/s/question/0D5Oj000006sloaKAA/looking-for-packet-format-for-spartn-correction-packets
+  *  https://support.thingstream.io/hc/en-gb/articles/15127213672732-D9S-Signal-Troubleshooting-with-PointPerfect-L-band
 
 The boards
 
@@ -43,7 +44,7 @@ The configuration parameters were under NDA, but have been published here, openl
 
 https://learn.sparkfun.com/tutorials/gnss-correction-data-receiver-neo-d9s-hookup-guide/all
 
-Primary difference is the L-Band frequency the respective Inmarsat is parked on US 1556.29 MHz, EU 1545.26 MHz, BR 1545.83
+Primary difference is the L-Band frequency the respective Inmarsat is parked on US 1556.29 MHz, EU 1545.26 MHz, BR 1545.83 MHz
 
   *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/NEO-D9S_FW104_EU-00_gen9cfg.txt
 
@@ -51,7 +52,7 @@ Primary difference is the L-Band frequency the respective Inmarsat is parked on 
 
   *  US/NA Satellite: 97.6W INMARSAT 4-F3 - 1556.29 MHz
   *  EU Satellite: 24.8E ALPHASAT (INMARSAT-4A F4) - 1545.26 MHz
-  *  BR/SA Satellite: ?? - 1545.83 MHz
+  *  BR/SA Satellite: 97.6W INMARSAT 4-F3 - 1545.83 MHz
 
 ## SATELLITE VISIBILITY
 Determine Satellite Visibility from your location
