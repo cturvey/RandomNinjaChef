@@ -17,6 +17,7 @@ Some additional discussions here
   *  https://forum.sparkfun.com/viewtopic.php?f=116&t=58895
   *  https://portal.u-blox.com/s/question/0D5Oj000006sloaKAA/looking-for-packet-format-for-spartn-correction-packets
   *  https://support.thingstream.io/hc/en-gb/articles/15127213672732-D9S-Signal-Troubleshooting-with-PointPerfect-L-band
+  *  https://developer.thingstream.io/guides/location-services/pointperfect-getting-started/pointperfect-l-band-configuration
 
 The boards
 
