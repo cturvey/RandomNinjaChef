@@ -7,6 +7,8 @@ Related to
   *  https://portal.u-blox.com/s/question/0D52p0000DXaY0oCQF/does-the-m10-firmware-have-a-commandmessage-that-reports-the-raw-pseudoranges-or-raw-code-phases-i-can-see-the-m8-and-m9-both-report-these-but-is-absent-in-the-m10-interface-description
   *  https://portal.u-blox.com/s/question/0D5Oj00000NjJURKA3/cloudlocate-what-are-measc12measd12-for
   *  https://portal.u-blox.com/s/question/0D52p0000DWDqq3CQD/rtcm-messages
+
+  
   *  https://developer.thingstream.io/guides/location-services/cloudlocate-new-getting-started
   *  https://developer.thingstream.io/guides/location-services/cloudlocate-new-getting-started/using-gnss-raw-measurements/using_cloudlocate_with_m8
   *  https://portal.thingstream.io/app/downloads
@@ -14,7 +16,7 @@ Related to
 
 23-Nov-2024 sourcer32@gmail.com
 
-
+### UBX-RXM-MEASD12
 ```
 ---UBX-----------------------------------------------------------------------
 02 80 RXM-MEASD12     - 35 A9 : 35 A9 20
@@ -43,6 +45,7 @@ index:96
 ```
   *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxMEAS/measd12.c
 
+### UBX-RXM-MEAS20
 ```
 ---UBX-----------------------------------------------------------------------
 02 84 RXM-MEAS20      - 1C 04 : 1C 04 28
@@ -71,7 +74,29 @@ index:160
 ```
   *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxMEAS/meas20.c
 
+### UBX-RXM-MEAS50
+```
+A 400-bit vector encoding in payload
+7x 25-bit = 175 without doppler
+6x 37-bit = 222 with doppler
+175 + 222 = 397-bit (49.65-bytes)
+Lowest doppler identified/sorted
+Constellations separated
 
+Bit Record form:
+
+2-bit gnssId [GPS:0, GAL:1, BDS:2, GLO:3]
+6-bit svId-1 [0..63]
+17-bit chip encoding [10.7 form, div 128]
+12-bit doppler delta encoding [six, records 2 thru 7] [0..4095 x2]
+
+Bit Vector form:
+
+1x25-bit (dereferenced doppler, ie implied zero)
+6x37-bit
+6x25-bit
+3-bit zero
+```
 ```
 ---UBX-----------------------------------------------------------------------
 02 86 RXM-MEAS50      - 6A 84 : 6A 84 58
