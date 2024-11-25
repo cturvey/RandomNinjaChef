@@ -1,4 +1,4 @@
-Ramblings on uBlox OSNMA one ZED-F9P HPG 1.50 (L1/L2), Using UBX-MGA-GAL
+Ramblings on uBlox OSNMA one ZED-F9P HPG 1.5x (L1/L2), Using UBX-MGA-GAL
 
  https://portal.u-blox.com/s/question/0D5Oj00000N0yaLKAR/f9p-150-osnma-configuration
 
@@ -14,7 +14,7 @@ Ramblings on uBlox OSNMA one ZED-F9P HPG 1.50 (L1/L2), Using UBX-MGA-GAL
   
    29-Jul-2024  sourcer32@gmail.com
 
-ENABLE OSNMA
+ENABLE OSNMA SUPPORT IN FIRMWARE
 ```
 UBX-CFG-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
 B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
@@ -119,9 +119,9 @@ I'll perhaps add screen shots here later. But check  https://portal.u-blox.com/s
   31-Jul-2024  sourcer32@gmail.com
 
 ##  SETUP METHOD
-###  ENABLE OSNMA
+###  ENABLE OSNMA SUPPORT IN FIRMWARE
 ```
-UBX-CFB-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
+UBX-CFG-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
 B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
 ```
 
