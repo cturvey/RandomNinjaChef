@@ -93,6 +93,7 @@ The compressed public key leads with a 2 or 3 byte
   *  https://content.u-blox.com/sites/default/files/2024-07/UBX_F9_100_HPG_150_ZED_F9P.82afa0b888dab694869a5098bf3a9f0b.bin
 
   *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P-FW100HPG151_RN_UBXDOC-963802114-13110.pdf
+  *  https://content.u-blox.com/sites/default/files/2024-11/UBX_F9_100_HPG151_ZED_F9P.6c43b30ccfed539322eccedfb96ad933.bin
 
   22-Nov-2024  sourcer32@gmail.com
   
