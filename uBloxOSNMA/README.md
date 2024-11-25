@@ -14,10 +14,14 @@ Ramblings on uBlox OSNMA one ZED-F9P HPG 1.50 (L1/L2), Using UBX-MGA-GAL
   
    29-Jul-2024  sourcer32@gmail.com
 
+ENABLE OSNMA
 ```
-UBX-CFB-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
+UBX-CFG-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
 B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
 ```
+  *  https://content.u-blox.com/sites/default/files/documents/u-blox-F9-HPG-1.50_InterfaceDescription_UBXDOC-963802114-12815.pdf#page=245
+  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P_FW100HPG150_RN_UBXDOC-963802114-12826.pdf#page=8
+
 7 = OSNMA PUBKEY
 ```
 // 0397EB43789AA0F6D052A638468ECF5278E6F6DF8465ECB8D8B84B8C7A3501F73B
