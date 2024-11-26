@@ -124,6 +124,7 @@ I'll perhaps add screen shots here later. But check  https://portal.u-blox.com/s
 UBX-CFG-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
 B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
 ```
+![alt text](cfg_valset_cfg_gal_use_osnma_001.jpg?raw=true)
 
 ###  SET MERKEL TABLE ROOT
 UBX-MGA-GAL-OSNMA MERKEL - CURRENT
