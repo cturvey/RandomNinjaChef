@@ -202,3 +202,48 @@ void ConfigElevation(void *hSerial, int elev)
 
 //****************************************************************************
 
+// Simple RAM writes of 1-Bit,1-Byte, 2-Byte and 4-Byte Keys
+
+void ConfigValSet(void *hSerial, uint32_t Key, uint32_t Value)
+{
+  uint8_t ubx_cfg_valset[] = {
+  0xB5,0x62,0x06,0x8A,  // CFG-VALSET
+  0xAA,0x00,            // Payload Length
+  // Payload
+  0x00,0x01,0x00,0x00, // +6 Version 0,RAM=1
+  0x00,0x00,0x00,0x00, // +A Key
+  0x00,0x00,0x00,0x00, // +E Value [1..4]
+  // Checksum
+  0xAA,0xAA };
+  
+  int Size = 8;
+
+  switch(Key >> 28)
+  {
+    case 1 :
+      Value &= 1;
+    case 2 :
+      Size += 1; break;
+    case 3 :
+      Size += 2; break;
+    case 4 :
+      Size += 4; break;
+    default : break;
+  }
+
+  ubx_cfg_valset[4] = Size;
+
+  ubx_cfg_valset[6 +  4] = (uint8_t)((Key >>  0) & 0xFF);
+  ubx_cfg_valset[6 +  5] = (uint8_t)((Key >>  8) & 0xFF);
+  ubx_cfg_valset[6 +  6] = (uint8_t)((Key >> 16) & 0xFF);
+  ubx_cfg_valset[6 +  7] = (uint8_t)((Key >> 24) & 0xFF);
+
+  ubx_cfg_valset[6 +  8] = (uint8_t)((Value >>  0) & 0xFF);
+  ubx_cfg_valset[6 +  9] = (uint8_t)((Value >>  8) & 0xFF);
+  ubx_cfg_valset[6 + 10] = (uint8_t)((Value >> 16) & 0xFF);
+  ubx_cfg_valset[6 + 11] = (uint8_t)((Value >> 24) & 0xFF);
+
+  SendUBLOX(hSerial, Size+8, ubx_cfg_valset);
+}
+
+//****************************************************************************
