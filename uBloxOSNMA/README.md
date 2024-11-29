@@ -162,3 +162,12 @@ When you hit that time, click the SEND button to dispatch.
   If this saves you several man-hours/days consider https://paypal.me/cliveone
 
   31-Jul-2024  sourcer32@gmail.com
+
+## Support
+ * https://paypal.me/cliveone
+ * https://www.venmo.com/u/cliveone
+ * https://buymeacoffee.com/cliveone
+ * Amazon Gift Cards
+ * Starbucks Gift Cards
+ * Google Pay (Probably)
+
