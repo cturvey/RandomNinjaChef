@@ -101,6 +101,36 @@ Azimuth (true): 160.1°
 Azimuth (magn.): 156.3°
 ```
 ```
+Address: 59.3327, 18.06562 - Stockholm, Sweden
+Latitude: 59.3327° N
+Longitude: 18.06562° E
+
+Satellite: 24.8E ALPHASAT
+Elevation: 22.4°
+Azimuth (true): 172.2°
+Azimuth (magn.): 164.6°
+```
+```
+Address: 67.84935, 20.23782 - Kiruna, Sweden
+Latitude: 67.84935° N
+Longitude: 20.23782° E
+
+Satellite: 24.8E ALPHASAT
+Elevation: 13.6°
+Azimuth (true): 175.1°
+Azimuth (magn.): 164.2° 
+```
+```
+Address: 70.64968, 23.70538 - Hammerfest, Norway
+Latitude: 70.64968° N
+Longitude: 23.70538° E
+
+Satellite: 24.8E ALPHASAT
+Elevation: 10.8°
+Azimuth (true): 178.8°
+Azimuth (magn.): 164.8° 
+```
+```
 Address: 40.1039,-105.1708 - Niwot CO
 Latitude: 40.1039°
 Longitude: -105.1708°
