@@ -2,6 +2,8 @@ I'm using this as a parking place for useful codes. If this helps you, contribut
   *  https://paypal.me/cliveone  
   *  https://www.venmo.com/u/cliveone
 
+Now also accepting coffee https://buymeacoffee.com/cliveone
+
 Setting OTP values in u-Blox M9 devices for permanent configuration. Use sparingly its a finite resource. OTP (One Time Programmable), really its a once and done, use with thought and consideration...
 
 Related ramblings
