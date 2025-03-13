@@ -52,7 +52,7 @@ Primary difference is the L-Band frequency the respective Inmarsat is parked on 
   *  https://github.com/cturvey/RandomNinjaChef/blob/main/uBloxSPARTN/NEO-D9S_FW104_US-00_gen9cfg.txt
 
   *  US/NA Satellite: 97.6W INMARSAT 4-F3 - 1556.29 MHz
-  *  EU Satellite: 24.8E ALPHASAT (INMARSAT-4A F4) - 1545.26 MHz
+  *  EU Satellite: 24.8E ALPHASAT (INMARSAT-4A F4) - 1545.26 MHz - BEING DISCONTINUED
   *  BR/SA Satellite: 97.6W INMARSAT 4-F3 - 1545.83 MHz
 
 ## SATELLITE VISIBILITY
