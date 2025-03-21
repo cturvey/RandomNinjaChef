@@ -2,11 +2,11 @@
 
 ![alt text](simpleRTK2B_DoubleStack.jpg?raw=true)
 
-TX1 from Primary provides UBX-NAV-PVT
+TX1 from Primary provides UBX-NAV-PVT (Position, First-Order)
 
-TX1 from Secondary provides UBX-NAV-RELPOSNED
+TX1 from Secondary provides UBX-NAV-RELPOSNED (Orientation)
 
-RX2 (OUTPUT) from Primary provides 4072.0, 1077, 1087, 1230 to the Secondary
+RX2 (OUTPUT) from Primary provides 4072.0, 1077, 1087, 1097, 1127, 1230 to the Secondary
 
 ![alt text](simpleRTK2B_Dual.jpg?raw=true)
 
