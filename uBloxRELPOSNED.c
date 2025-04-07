@@ -1,4 +1,6 @@
 // From some conversations, ramblings and postings on the u-Blox forum
+// https://portal.u-blox.com/s/question/0D5Oj00000qtDCaKAM/how-to-extract-all-info-in-relposned-specially-the-length-and-heading-of-rover-antenna-with-respect-to-mobile-base-one
+// https://portal.u-blox.com/s/question/0D5Oj00000mtghJKAQ/time-difference-between-time-pulse-discrete-signal-and-ubxnavrelposned-message
 //****************************************************************************
 //
 // Unpacking UBX-NAV-RELPOSNED  sourcer32@gmail.com
@@ -320,5 +322,3 @@ void Dump013C(int Size, uint8_t *Buffer) // NAV-RELPOSNED
 }
 
 //****************************************************************************
-
-
