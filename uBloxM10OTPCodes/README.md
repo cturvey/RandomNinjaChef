@@ -66,4 +66,7 @@ https://portal.u-blox.com/s/question/0D52p0000DgwUFOCQ2/how-do-i-store-configura
   * CFG-UART1-BAUDRATE=9600,CFG-RATE-MEAS=1000(1Hz),CFG-MSGOUT-NMEA_ID_GSV_UART1=5 (1/5 Hz)
      *  B5 62 06 41 1F 00 04 01 A4 13 1C EB B3 70 28 EF 12 05 01 00 52 40 80 25 00 00 01 00 21 30 E8 03 C5 00 91 20 05 6A 7C
 
-5-January-2025  sourcer32@gmail.com 
+  * CFG-I2C-ENABLED = 1
+     * B5 62 06 41 11 00 04 01 A4 05 A5 06 84 AA 28 EF 12 05 03 00 51 10 01 72 A3
+
+13-May-2025  sourcer32@gmail.com 
