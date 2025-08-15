@@ -61,4 +61,7 @@ uint8_t S[] = { 0x64,0xA2,0x47,0xE9,0xE4,0xD8,0xDC,0x74,0x17,0x6C,0x90,0x4B,0x9D
 
 sourcer32@gmail.com  3-June-2023
 
-If this saves you several man-hours/days consider https://paypal.me/cliveone
+If this saves you several man-hours/days consider 
+  *  https://paypal.me/cliveone
+  *  https://www.venmo.com/u/cliveone
+  *  https://buymeacoffee.com/cliveone
