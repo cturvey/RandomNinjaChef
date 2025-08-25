@@ -6,7 +6,7 @@ Ramblings on uBlox OSNMA one ZED-F9P HPG 1.5x (L1/L2), Using UBX-MGA-GAL
 
  The SECP256R1 Public Key looks too short, does appear to need the leading 0x03 to accept. The UBX packet doesn't look large enough for P-521 key
 
- The Merkel Key has several nodes, not sure how these get communicated, but under review
+ The Merkle Key has several nodes, not sure how these get communicated, but under review
 
  Packet sizes fixed at 36 and 72-bytes. I suspect issues with the P-521 compressed key ingress, but need a working example.
  
@@ -14,6 +14,22 @@ Ramblings on uBlox OSNMA one ZED-F9P HPG 1.5x (L1/L2), Using UBX-MGA-GAL
   
    29-Jul-2024  sourcer32@gmail.com
 
+You can get the current values by signing up at GSC EUROPA, double checked today
+
+  *  https://www.gsc-europa.eu/
+  *  https://www.gsc-europa.eu/user/register
+  *  https://www.gsc-europa.eu/user/login
+  *  https://www.gsc-europa.eu/gsc-products/OSNMA/MT (Need to be logged-in)
+  *  https://www.gsc-europa.eu/gsc-products/OSNMA/PKI
+
+Support added in uCenter 2.0 
+
+  Device Configuration - Via Gear Icon in Data Sources (Ctrl-G)
+
+  Quick Configuration - OSNMA Configuration - Select XML files downloaded above
+  
+  25-Aug-2025  sourcer32@gmail.com
+  
 ENABLE OSNMA SUPPORT IN FIRMWARE
 ```
 UBX-CFG-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
@@ -61,15 +77,15 @@ uint8_t  ubx_mga_gal_osnma_pubkey[] = {
   0xEC,0xB4,0xDD,0x00,
   0x21,0x75 }; // Fletcher Checksum
 ```
-8 = OSNMA MERKEL
+8 = OSNMA MERKLE
 ```
 // 832E15EDE55655EAC6E399A539477B7C034CCE24C3C93FFC904ACD9BF842F04E
 // 83 2E 15 ED E5 56 55 EA C6 E3 99 A5 39 47 7B 7C 03 4C CE 24 C3 C9 3F FC 90 4A CD 9B F8 42 F0 4E
 //  (SHOULD BE VALID)
 
-uint8_t  ubx_mga_gal_osnma_merkel[] = {
+uint8_t  ubx_mga_gal_osnma_merkle[] = {
   0xB5,0x62,0x13,0x02,0x24,0x00,  // 0x13,0x02 = UBX-MGA-GAL (36-Bytes)
-  0x08,0x00,0x00,0x00,            // 0x08 = MERKEL, +2 0=CURRENT,1=FUTURE
+  0x08,0x00,0x00,0x00,            // 0x08 = MERKLE, +2 0=CURRENT,1=FUTURE
   0x83,0x2E,0x15,0xED,0xE5,0x56,0x55,0xEA, // KEY
   0xC6,0xE3,0x99,0xA5,0x39,0x47,0x7B,0x7C,
   0x03,0x4C,0xCE,0x24,0xC3,0xC9,0x3F,0xFC,
@@ -83,7 +99,7 @@ https://customersupport.septentrio.com/s/article/How-to-retrieve-keys-and-insert
 
 https://www.gsc-europa.eu/
 
-Signing up for developer access to OSNMA Public Key and Merkel Tree data
+Signing up for developer access to OSNMA Public Key and Merkle Tree data
 
 The compressed public key leads with a 2 or 3 byte
 
@@ -126,8 +142,8 @@ B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
 ```
 ![alt text](cfg_valset_cfg_gal_use_osnma_001.jpg?raw=true)
 
-###  SET MERKEL TABLE ROOT
-UBX-MGA-GAL-OSNMA MERKEL - CURRENT
+###  SET MERKLE TABLE ROOT
+UBX-MGA-GAL-OSNMA MERKLE - CURRENT
 ```
 83 2E 15 ED E5 56 55 EA C6 E3 99 A5 39 47 7B 7C 03 4C CE 24 C3 C9 3F FC 90 4A CD 9B F8 42 F0 4E
 ```
@@ -170,4 +186,3 @@ When you hit that time, click the SEND button to dispatch.
  * Amazon Gift Cards
  * Starbucks Gift Cards
  * Google Pay (Probably)
-
