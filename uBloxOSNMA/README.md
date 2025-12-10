@@ -14,6 +14,14 @@ Ramblings on uBlox OSNMA one ZED-F9P HPG 1.5x (L1/L2), Using UBX-MGA-GAL
   
    29-Jul-2024  sourcer32@gmail.com
 
+  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P_FW100HPG150_RN_UBXDOC-963802114-12826.pdf
+  *  https://content.u-blox.com/sites/default/files/2024-07/UBX_F9_100_HPG_150_ZED_F9P.82afa0b888dab694869a5098bf3a9f0b.bin
+
+  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P-FW100HPG151_RN_UBXDOC-963802114-13110.pdf
+  *  https://content.u-blox.com/sites/default/files/2024-11/UBX_F9_100_HPG151_ZED_F9P.6c43b30ccfed539322eccedfb96ad933.bin
+
+  22-Nov-2024  sourcer32@gmail.com
+  
 You can get the current values by signing up at GSC EUROPA, double checked today
 
   *  https://www.gsc-europa.eu/
@@ -29,7 +37,11 @@ Support added in uCenter 2.0
   Quick Configuration - OSNMA Configuration - Select XML files downloaded above
   
   25-Aug-2025  sourcer32@gmail.com
-  
+
+New Public Key Added (#2)
+
+  10-Dec-2025  sourcer32@gmail.com
+
 ENABLE OSNMA SUPPORT IN FIRMWARE
 ```
 UBX-CFG-VALSET, CFG-GAL-USE_OSNMA = 1 (RAM)
@@ -42,7 +54,7 @@ B5 62 06 8A 09 00 00 01 00 00 05 00 35 10 01 E5 0A
 ```
 // 0397EB43789AA0F6D052A638468ECF5278E6F6DF8465ECB8D8B84B8C7A3501F73B
 // 03 97 EB 43 78 9A A0 F6 D0 52 A6 38 46 8E CF 52 78 E6 F6 DF 84 65 EC B8 D8 B8 4B 8C 7A 35 01 F7 3B
-//  ID:1  TYPE:ECDSA P-256/SHA-256 (SHOULD BE VALID)
+//  ID:1  TYPE:ECDSA P-256/SHA-256 (SHOULD BE VALID, PRIOR TO 10-DEC-2025)
 
 uint8_t  ubx_mga_gal_osnma_pubkey[] = {
   0xB5,0x62,0x13,0x02,0x48,0x00,  // 0x13,0x02 = UBX-MGA-GAL (72-Bytes)
@@ -57,6 +69,25 @@ uint8_t  ubx_mga_gal_osnma_pubkey[] = {
   0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
   0x00,0x00,0x00,0x00,
   0xE3,0x08 }; // Fletcher Checksum
+```
+```
+// 02219204B5CA6C46B623EEED6CDD2CDDB1F7D6A7532767E5B8DA0DE1EBD695FC99
+// 02 21 92 04 B5 CA 6C 46 B6 23 EE ED 6C DD 2C DD B1 F7 D6 A7 53 27 67 E5 B8 DA 0D E1 EB D6 95 FC 99
+//  ID:2  TYPE:ECDSA P-256/SHA-256 (10-DEC-2025)
+
+uint8_t  ubx_mga_gal_osnma_pubkey[] = {
+  0xB5,0x62,0x13,0x02,0x48,0x00,  // 0x13,0x02 = UBX-MGA-GAL (72-Bytes)
+  0x07,0x00,0x12,0x00,            // 0x07 = PUBKEY, +2 Low Nibble Key#, High Nibble 1=ECDSA P-256,3=ECDSA P-521
+  0x02,0x21,0x92,0x04,0xB5,0xCA,0x6C,0x46, // KEY
+  0xB6,0x23,0xEE,0xED,0x6C,0xDD,0x2C,0xDD,
+  0xB1,0xF7,0xD6,0xA7,0x53,0x27,0x67,0xE5,
+  0xB8,0xDA,0x0D,0xE1,0xEB,0xD6,0x95,0xFC,
+  0x99,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+  0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+  0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+  0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
+  0x00,0x00,0x00,0x00,
+  0xBC,0x4C }; // Fletcher Checksum
 ```
 ```
 // 03007520540B6C1981A15A116BF1F312046413EBD802F751A2B8E4636F0504747BF52E06DED189E89327DF25FA61503E8A6B24C39F5BE0DB39AE676434323045ECB4DD
@@ -105,15 +136,6 @@ The compressed public key leads with a 2 or 3 byte
 
   30-Jul-2024  sourcer32@gmail.com
 
-  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P_FW100HPG150_RN_UBXDOC-963802114-12826.pdf
-  *  https://content.u-blox.com/sites/default/files/2024-07/UBX_F9_100_HPG_150_ZED_F9P.82afa0b888dab694869a5098bf3a9f0b.bin
-
-  *  https://content.u-blox.com/sites/default/files/documents/ZED-F9P-FW100HPG151_RN_UBXDOC-963802114-13110.pdf
-  *  https://content.u-blox.com/sites/default/files/2024-11/UBX_F9_100_HPG151_ZED_F9P.6c43b30ccfed539322eccedfb96ad933.bin
-
-  22-Nov-2024  sourcer32@gmail.com
-  
-  
 Ok, so the secret here is to make sure that Time Trusted is set, you get one shot at this, so awkward to do manually in uCenter. If you mess up you must cold start
 
 Go to UBX-MGA-INI-TIME_UTC in Message View
@@ -134,6 +156,11 @@ I'll perhaps add screen shots here later. But check  https://portal.u-blox.com/s
 
   31-Jul-2024  sourcer32@gmail.com
 
+New Public Key Added (#2)
+
+  10-Dec-2025  sourcer32@gmail.com
+
+ 
 ##  SETUP METHOD
 ###  ENABLE OSNMA SUPPORT IN FIRMWARE
 ```
@@ -155,6 +182,11 @@ UBX-MGA-GAL-OSNMA PUBKEY - ID:1  TYPE:ECDSA P-256/SHA-256
 03 97 EB 43 78 9A A0 F6 D0 52 A6 38 46 8E CF 52 78 E6 F6 DF 84 65 EC B8 D8 B8 4B 8C 7A 35 01 F7 3B
 ```
 ![alt text](ubx_mga_gal_osnma_pubkey_001.jpg?raw=true)
+
+UBX-MGA-GAL-OSNMA PUBKEY - ID:2  TYPE:ECDSA P-256/SHA-256 (10-DEC-2025)
+```
+02 21 92 04 B5 CA 6C 46 B6 23 EE ED 6C DD 2C DD B1 F7 D6 A7 53 27 67 E5 B8 DA 0D E1 EB D6 95 FC 99
+```
 
 ### SET TIME TRUSTED
 Set Accuracy to 5 seconds, Check "Time Trusted" box, must do both.
