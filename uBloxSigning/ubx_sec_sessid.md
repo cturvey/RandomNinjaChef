@@ -14,7 +14,7 @@ Read (Query - Zero payload) and Write (28-Byte payload)
 +2 W  0x00 Reserved#2
 +4 B[24] Session ID 24-bytes
 
-Operates on RAM copy of CFG-SEC-ECCFGSESSIONID[1,2,3] 3x QUAD-WORDS
+Operates on RAM copy of CFG-SEC-ECCFGSESSIONID[0,1,2] 3x QUAD-WORDS
 ```
 ```
 Configuration Keys for the ECSIGN Session ID (Default)
